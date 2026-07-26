@@ -1,0 +1,224 @@
+{
+    "actions": [],
+    "autoname": "naming_series:naming_series",
+    "creation": "2026-07-26 17:49:30.334622",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "identification_section",
+        "naming_series",
+        "location_name",
+        "location_code",
+        "arabic_name",
+        "column_break_wjpc",
+        "status",
+        "location_type",
+        "branch_relationship_section",
+        "branch",
+        "inside_branch_premises",
+        "address_and_contact_section",
+        "country",
+        "city",
+        "area",
+        "address",
+        "column_break_dcib",
+        "google_maps_link",
+        "contact_person",
+        "contact_number",
+        "capacity_and_operation_section",
+        "capacity",
+        "allow_halaqas",
+        "notes",
+        "column_break_wrlf",
+        "disabled",
+        "online_meeting_details"
+    ],
+    "fields": [
+        {
+            "fieldname": "identification_section",
+            "fieldtype": "Section Break",
+            "label": "Identification"
+        },
+        {
+            "default": "DQTL-.#####",
+            "fieldname": "naming_series",
+            "fieldtype": "Select",
+            "hidden": 1,
+            "label": "Naming Series",
+            "options": "DQTL-.#####",
+            "read_only": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "location_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Location Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "location_code",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Location Code",
+            "reqd": 1
+        },
+        {
+            "fieldname": "arabic_name",
+            "fieldtype": "Data",
+            "label": "Arabic Name"
+        },
+        {
+            "fieldname": "column_break_wjpc",
+            "fieldtype": "Column Break"
+        },
+        {
+            "default": "Active",
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Status",
+            "options": "Active\nInactive",
+            "reqd": 1
+        },
+        {
+            "fieldname": "location_type",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Location Type",
+            "options": "Branch\nClassroom\nMosque\nSchool\nCommunity Center\nPrivate Location\nOnline\nOther",
+            "reqd": 1
+        },
+        {
+            "fieldname": "branch_relationship_section",
+            "fieldtype": "Section Break",
+            "label": "Branch relationship"
+        },
+        {
+            "fieldname": "branch",
+            "fieldtype": "Link",
+            "label": "Dar Quraan Branch",
+            "options": "Dar Quraan Branch",
+            "reqd": 1
+        },
+        {
+            "default": "0",
+            "fieldname": "inside_branch_premises",
+            "fieldtype": "Check",
+            "label": "Inside Branch Premises"
+        },
+        {
+            "fieldname": "address_and_contact_section",
+            "fieldtype": "Section Break",
+            "label": "Address and contact"
+        },
+        {
+            "fieldname": "country",
+            "fieldtype": "Link",
+            "label": "Country",
+            "options": "Country"
+        },
+        {
+            "fieldname": "city",
+            "fieldtype": "Data",
+            "label": "City"
+        },
+        {
+            "fieldname": "area",
+            "fieldtype": "Data",
+            "label": "Area"
+        },
+        {
+            "fieldname": "address",
+            "fieldtype": "Small Text",
+            "label": "Address"
+        },
+        {
+            "fieldname": "column_break_dcib",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "google_maps_link",
+            "fieldtype": "Data",
+            "label": "Google Maps Link"
+        },
+        {
+            "fieldname": "contact_person",
+            "fieldtype": "Data",
+            "label": "Contact Person"
+        },
+        {
+            "fieldname": "contact_number",
+            "fieldtype": "Data",
+            "label": "Contact Number"
+        },
+        {
+            "fieldname": "capacity_and_operation_section",
+            "fieldtype": "Section Break",
+            "label": "Capacity and operation"
+        },
+        {
+            "default": "0",
+            "fieldname": "capacity",
+            "fieldtype": "Int",
+            "label": "Capacity"
+        },
+        {
+            "default": "1",
+            "fieldname": "allow_halaqas",
+            "fieldtype": "Check",
+            "label": "Allow Halaqas"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Text Editor",
+            "label": "Notes"
+        },
+        {
+            "fieldname": "column_break_wrlf",
+            "fieldtype": "Column Break"
+        },
+        {
+            "default": "0",
+            "fieldname": "disabled",
+            "fieldtype": "Check",
+            "label": "Disabled"
+        },
+        {
+            "fieldname": "online_meeting_details",
+            "fieldtype": "Small Text",
+            "label": "Online Meeting Details"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2026-07-26 18:00:03.068835",
+    "modified_by": "ibrahim.m.merhy@gmail.com",
+    "module": "Dar Quraan",
+    "name": "Dar Quraan Teaching Location",
+    "naming_rule": "By \"Naming Series\" field",
+    "owner": "ibrahim.m.merhy@gmail.com",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "rows_threshold_for_grid_search": 20,
+    "search_fields": "location_name,location_code,branch,city",
+    "sort_field": "location_name",
+    "sort_order": "ASC",
+    "states": [],
+    "title_field": "location_name",
+    "track_changes": 1
+}

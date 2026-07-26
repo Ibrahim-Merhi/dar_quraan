@@ -1,0 +1,281 @@
+{
+ "actions": [],
+ "autoname": "naming_series:naming_series",
+ "creation": "2026-07-26 19:02:25.869772",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "halaqa_code",
+  "halaqa_name",
+  "arabic_name",
+  "column_break_nkji",
+  "halaqa_category",
+  "status",
+  "organization_section",
+  "branch",
+  "teaching_location",
+  "column_break_zdom",
+  "academic_year",
+  "academic_term",
+  "section_break_yfci",
+  "mentor",
+  "column_break_hjzd",
+  "assistant_mentor",
+  "capacity_and_level_section",
+  "target_juz_level",
+  "maximum_students",
+  "column_break_vdgn",
+  "current_students",
+  "allow_new_enrollments",
+  "schedule_section",
+  "start_date",
+  "end_date",
+  "schedule_description",
+  "column_break_xuqh",
+  "start_time",
+  "end_time",
+  "section_break_dxkr",
+  "description",
+  "column_break_pjzd",
+  "notes",
+  "closed_on",
+  "closure_reason"
+ ],
+ "fields": [
+  {
+   "default": "DQH-.YYYY.-.#####",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "DQH-.YYYY.-.#####",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "halaqa_code",
+   "fieldtype": "Data",
+   "label": "Halaqa Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "halaqa_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Halaqa Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name"
+  },
+  {
+   "fieldname": "column_break_nkji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "halaqa_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Halaqa Category",
+   "options": "Kids\nYouth\nAdults\nWomen\nMen\nMixed\nOther",
+   "reqd": 1
+  },
+  {
+   "default": "Planning",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Planning\nActive\nSuspended\nClosed"
+  },
+  {
+   "fieldname": "organization_section",
+   "fieldtype": "Section Break",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Dar Quraan Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "teaching_location",
+   "fieldtype": "Link",
+   "label": "Teaching Location",
+   "options": "Dar Quraan Teaching Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zdom",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic Year",
+   "options": "Dar Quraan Academic Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "academic_term",
+   "fieldtype": "Link",
+   "label": "Academic Term",
+   "options": "Dar Quraan Academic Term",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_yfci",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mentor",
+   "fieldtype": "Link",
+   "label": "Mentor",
+   "options": "Dar Quraan Teacher"
+  },
+  {
+   "fieldname": "column_break_hjzd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assistant_mentor",
+   "fieldtype": "Link",
+   "label": "Assistant Mentor",
+   "options": "Dar Quraan Teacher"
+  },
+  {
+   "fieldname": "capacity_and_level_section",
+   "fieldtype": "Section Break",
+   "label": "Capacity and Level"
+  },
+  {
+   "fieldname": "target_juz_level",
+   "fieldtype": "Link",
+   "label": "Target Juz Level",
+   "options": "Dar Quraan Juz Level"
+  },
+  {
+   "default": "20",
+   "fieldname": "maximum_students",
+   "fieldtype": "Int",
+   "label": "Maximum Students",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vdgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "current_students",
+   "fieldtype": "Int",
+   "label": "Current Students",
+   "read_only": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "allow_new_enrollments",
+   "fieldtype": "Check",
+   "label": "Allow New Enrollments"
+  },
+  {
+   "fieldname": "schedule_section",
+   "fieldtype": "Section Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "schedule_description",
+   "fieldtype": "Small Text",
+   "label": "Schedule Description"
+  },
+  {
+   "fieldname": "column_break_xuqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "section_break_dxkr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_pjzd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "closed_on",
+   "fieldtype": "Date",
+   "label": "Closed On"
+  },
+  {
+   "fieldname": "closure_reason",
+   "fieldtype": "Small Text",
+   "label": "Closure Reason"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-26 22:04:04.645637",
+ "modified_by": "ibrahim.m.merhy@gmail.com",
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Halaqa",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "ibrahim.m.merhy@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "halaqa_name,halaqa_code,mentor",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "halaqa_name",
+ "track_changes": 1
+}

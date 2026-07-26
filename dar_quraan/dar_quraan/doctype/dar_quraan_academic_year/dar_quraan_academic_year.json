@@ -1,162 +1,161 @@
 {
- "actions": [],
- "allow_rename": 1,
- "autoname": "naming_series:naming_series",
- "creation": "2026-07-26 16:38:16.508900",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "identification_section",
-  "naming_series",
-  "academic_year_name",
-  "status",
-  "column_break_iwma",
-  "start_date",
-  "end_date",
-  "configuration_section",
-  "is_current",
-  "allow_attendance_entry",
-  "column_break_jrmj",
-  "allow_progress_entry",
-  "allow_new_enrollment",
-  "column_break_lrcn",
-  "disabled",
-  "description_section",
-  "notes"
- ],
- "fields": [
-  {
-   "fieldname": "identification_section",
-   "fieldtype": "Section Break",
-   "label": "Identification"
-  },
-  {
-   "default": "DQAY-.#####",
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "hidden": 1,
-   "label": "Naming Series",
-   "options": "DQAY-.#####",
-   "read_only": 1,
-   "reqd": 1
-  },
-  {
-   "fieldname": "academic_year_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Academic Year Name",
-   "reqd": 1
-  },
-  {
-   "default": "Draft",
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Status",
-   "options": "Draft\nOpen\nClosed\nArchived",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_iwma",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "start_date",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Start Date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "end_date",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "End Date",
-   "reqd": 1
-  },
-  {
-   "fieldname": "configuration_section",
-   "fieldtype": "Section Break",
-   "label": "Configuration"
-  },
-  {
-   "default": "0",
-   "fieldname": "is_current",
-   "fieldtype": "Check",
-   "label": "Is Current Academic Year"
-  },
-  {
-   "default": "1",
-   "fieldname": "allow_attendance_entry",
-   "fieldtype": "Check",
-   "label": "Allow Attendance Entry"
-  },
-  {
-   "fieldname": "column_break_jrmj",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "1",
-   "fieldname": "allow_progress_entry",
-   "fieldtype": "Check",
-   "label": "Allow Progress Entry"
-  },
-  {
-   "default": "1",
-   "fieldname": "allow_new_enrollment",
-   "fieldtype": "Check",
-   "label": "Allow New Enrollment"
-  },
-  {
-   "fieldname": "column_break_lrcn",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "disabled",
-   "fieldtype": "Check",
-   "label": "Disabled"
-  },
-  {
-   "fieldname": "description_section",
-   "fieldtype": "Section Break",
-   "label": "Description"
-  },
-  {
-   "fieldname": "notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
-  }
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2026-07-26 16:54:20.107432",
- "modified_by": "ibrahim.m.merhy@gmail.com",
- "module": "Dar Quraan",
- "name": "Dar Quraan Academic Year",
- "naming_rule": "By \"Naming Series\" field",
- "owner": "ibrahim.m.merhy@gmail.com",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
- "row_format": "Dynamic",
- "rows_threshold_for_grid_search": 20,
- "search_fields": "academic_year_name,start_date,end_date",
- "sort_field": "start_date",
- "sort_order": "DESC",
- "states": [],
- "title_field": "academic_year_name",
- "track_changes": 1
+    "actions": [],
+    "autoname": "naming_series:naming_series",
+    "creation": "2026-07-26 16:38:16.508900",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "identification_section",
+        "naming_series",
+        "academic_year_name",
+        "status",
+        "column_break_iwma",
+        "start_date",
+        "end_date",
+        "configuration_section",
+        "is_current",
+        "allow_attendance_entry",
+        "column_break_jrmj",
+        "allow_progress_entry",
+        "allow_new_enrollment",
+        "column_break_lrcn",
+        "disabled",
+        "description_section",
+        "notes"
+    ],
+    "fields": [
+        {
+            "fieldname": "identification_section",
+            "fieldtype": "Section Break",
+            "label": "Identification"
+        },
+        {
+            "default": "DQAY-.#####",
+            "fieldname": "naming_series",
+            "fieldtype": "Select",
+            "hidden": 1,
+            "label": "Naming Series",
+            "options": "DQAY-.#####",
+            "read_only": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "academic_year_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Academic Year Name",
+            "reqd": 1
+        },
+        {
+            "default": "Draft",
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Status",
+            "options": "Draft\nOpen\nClosed\nArchived",
+            "reqd": 1
+        },
+        {
+            "fieldname": "column_break_iwma",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "start_date",
+            "fieldtype": "Date",
+            "in_list_view": 1,
+            "label": "Start Date",
+            "reqd": 1
+        },
+        {
+            "fieldname": "end_date",
+            "fieldtype": "Date",
+            "in_list_view": 1,
+            "label": "End Date",
+            "reqd": 1
+        },
+        {
+            "fieldname": "configuration_section",
+            "fieldtype": "Section Break",
+            "label": "Configuration"
+        },
+        {
+            "default": "0",
+            "fieldname": "is_current",
+            "fieldtype": "Check",
+            "label": "Is Current Academic Year"
+        },
+        {
+            "default": "1",
+            "fieldname": "allow_attendance_entry",
+            "fieldtype": "Check",
+            "label": "Allow Attendance Entry"
+        },
+        {
+            "fieldname": "column_break_jrmj",
+            "fieldtype": "Column Break"
+        },
+        {
+            "default": "1",
+            "fieldname": "allow_progress_entry",
+            "fieldtype": "Check",
+            "label": "Allow Progress Entry"
+        },
+        {
+            "default": "1",
+            "fieldname": "allow_new_enrollment",
+            "fieldtype": "Check",
+            "label": "Allow New Enrollment"
+        },
+        {
+            "fieldname": "column_break_lrcn",
+            "fieldtype": "Column Break"
+        },
+        {
+            "default": "0",
+            "fieldname": "disabled",
+            "fieldtype": "Check",
+            "label": "Disabled"
+        },
+        {
+            "fieldname": "description_section",
+            "fieldtype": "Section Break",
+            "label": "Description"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Small Text",
+            "label": "Notes"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2026-07-26 18:22:28.639210",
+    "modified_by": "ibrahim.m.merhy@gmail.com",
+    "module": "Dar Quraan",
+    "name": "Dar Quraan Academic Year",
+    "naming_rule": "By \"Naming Series\" field",
+    "owner": "ibrahim.m.merhy@gmail.com",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "rows_threshold_for_grid_search": 20,
+    "search_fields": "academic_year_name,start_date,end_date",
+    "sort_field": "start_date",
+    "sort_order": "DESC",
+    "states": [],
+    "title_field": "academic_year_name",
+    "track_changes": 1
 }
