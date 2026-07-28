@@ -1,0 +1,445 @@
+{
+    "actions": [],
+    "autoname": "naming_series",
+    "creation": "2026-07-27 09:04:29.376795",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "identification_section",
+        "naming_series",
+        "student_code",
+        "legacy_student_id",
+        "student_name",
+        "status",
+        "identification_column",
+        "first_name",
+        "middle_name",
+        "last_name",
+        "mother_name",
+        "english_name",
+        "personal_information_section",
+        "gender",
+        "date_of_birth",
+        "place_of_birth",
+        "nationality",
+        "marital_status",
+        "personal_column",
+        "blood_group",
+        "address",
+        "profile_image",
+        "disabled",
+        "contact_information_section",
+        "mobile_number",
+        "home_number",
+        "work_number",
+        "email",
+        "column_break_jczq",
+        "father_number",
+        "mother_number",
+        "whatsapp_number",
+        "preferred_contact_number",
+        "education_and_employment_section",
+        "school_or_university",
+        "major_or_grade",
+        "current_occupation",
+        "skills",
+        "education_column",
+        "father_occupation",
+        "mother_occupation",
+        "quran_profile_section",
+        "study_track",
+        "qiraat_method",
+        "quran_status",
+        "current_riwayah",
+        "previous_sheikhs",
+        "quran_profile_column",
+        "initial_memorization_description",
+        "has_previous_ijazah",
+        "previous_ijazah_details",
+        "last_progress_date",
+        "administration_section",
+        "registration_date",
+        "default_branch",
+        "default_teacher",
+        "default_halaqa",
+        "administration_column",
+        "notes",
+        "legacy_file_path",
+        "legacy_created_at",
+        "legacy_updated_at"
+    ],
+    "fields": [
+        {
+            "fieldname": "identification_section",
+            "fieldtype": "Section Break",
+            "label": "Identification"
+        },
+        {
+            "default": "DQS-.YYYY.-.#####",
+            "fieldname": "naming_series",
+            "fieldtype": "Select",
+            "hidden": 1,
+            "label": "Naming Series",
+            "options": "DQS-.YYYY.-.#####",
+            "read_only": 1,
+            "reqd": 1
+        },
+        {
+            "fieldname": "student_code",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Student Code",
+            "reqd": 1,
+            "unique": 1
+        },
+        {
+            "fieldname": "legacy_student_id",
+            "fieldtype": "Int",
+            "label": "Legacy Student ID"
+        },
+        {
+            "fieldname": "student_name",
+            "fieldtype": "Data",
+            "in_global_search": 1,
+            "in_list_view": 1,
+            "label": "Student Name",
+            "read_only": 1
+        },
+        {
+            "default": "Active",
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Status",
+            "options": "Applicant\nActive\nInactive\nSuspended\nWithdrawn\nGraduated\nDeceased",
+            "reqd": 1
+        },
+        {
+            "fieldname": "identification_column",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "first_name",
+            "fieldtype": "Data",
+            "label": "First Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "middle_name",
+            "fieldtype": "Data",
+            "label": "Middle Name"
+        },
+        {
+            "fieldname": "last_name",
+            "fieldtype": "Data",
+            "label": "Last Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "mother_name",
+            "fieldtype": "Data",
+            "label": "Mother Name"
+        },
+        {
+            "fieldname": "english_name",
+            "fieldtype": "Data",
+            "label": "English Name"
+        },
+        {
+            "fieldname": "personal_information_section",
+            "fieldtype": "Section Break",
+            "label": "Personal Information"
+        },
+        {
+            "fieldname": "gender",
+            "fieldtype": "Select",
+            "label": "Gender",
+            "options": "Male\nFemale",
+            "reqd": 1
+        },
+        {
+            "fieldname": "date_of_birth",
+            "fieldtype": "Date",
+            "label": "Date of Birth"
+        },
+        {
+            "fieldname": "place_of_birth",
+            "fieldtype": "Data",
+            "label": "Place of Birth"
+        },
+        {
+            "fieldname": "nationality",
+            "fieldtype": "Link",
+            "label": "Nationality",
+            "options": "Country"
+        },
+        {
+            "fieldname": "marital_status",
+            "fieldtype": "Select",
+            "label": "Marital Status",
+            "options": "Single\nMarried\nDivorced\nWidowed"
+        },
+        {
+            "fieldname": "personal_column",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "blood_group",
+            "fieldtype": "Select",
+            "label": "Blood Group",
+            "options": "A+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-\nUnknown"
+        },
+        {
+            "fieldname": "address",
+            "fieldtype": "Small Text",
+            "label": "Address"
+        },
+        {
+            "fieldname": "profile_image",
+            "fieldtype": "Attach Image",
+            "label": "Profile Image"
+        },
+        {
+            "default": "0",
+            "fieldname": "disabled",
+            "fieldtype": "Check",
+            "label": "Disabled"
+        },
+        {
+            "fieldname": "contact_information_section",
+            "fieldtype": "Section Break",
+            "label": "Contact Information"
+        },
+        {
+            "fieldname": "mobile_number",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Mobile Number"
+        },
+        {
+            "fieldname": "home_number",
+            "fieldtype": "Data",
+            "label": "Home Number"
+        },
+        {
+            "fieldname": "work_number",
+            "fieldtype": "Data",
+            "label": "Work Number"
+        },
+        {
+            "fieldname": "email",
+            "fieldtype": "Data",
+            "label": "Email",
+            "options": "Email"
+        },
+        {
+            "fieldname": "column_break_jczq",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "father_number",
+            "fieldtype": "Data",
+            "label": "Father Number"
+        },
+        {
+            "fieldname": "mother_number",
+            "fieldtype": "Data",
+            "label": "Mother Number"
+        },
+        {
+            "fieldname": "whatsapp_number",
+            "fieldtype": "Data",
+            "label": "WhatsApp Number"
+        },
+        {
+            "fieldname": "preferred_contact_number",
+            "fieldtype": "Data",
+            "label": "Preferred Contact Number",
+            "read_only": 1
+        },
+        {
+            "fieldname": "education_and_employment_section",
+            "fieldtype": "Section Break",
+            "label": "Education and Employment"
+        },
+        {
+            "fieldname": "school_or_university",
+            "fieldtype": "Data",
+            "label": "School or University"
+        },
+        {
+            "fieldname": "major_or_grade",
+            "fieldtype": "Data",
+            "label": "Major or Grade"
+        },
+        {
+            "fieldname": "current_occupation",
+            "fieldtype": "Data",
+            "label": "Current Occupation"
+        },
+        {
+            "fieldname": "skills",
+            "fieldtype": "Small Text",
+            "label": "Skills"
+        },
+        {
+            "fieldname": "education_column",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "father_occupation",
+            "fieldtype": "Data",
+            "label": "Father Occupation"
+        },
+        {
+            "fieldname": "mother_occupation",
+            "fieldtype": "Data",
+            "label": "Mother Occupation"
+        },
+        {
+            "fieldname": "quran_profile_section",
+            "fieldtype": "Section Break",
+            "label": "Quran Profile"
+        },
+        {
+            "fieldname": "study_track",
+            "fieldtype": "Select",
+            "label": "Study Track",
+            "options": "Tilawah\nHifz\nQiraat\nMixed"
+        },
+        {
+            "fieldname": "qiraat_method",
+            "fieldtype": "Select",
+            "label": "Qiraat Method",
+            "options": "\nIfraad\nSughra\nKubra\nOther"
+        },
+        {
+            "fieldname": "quran_status",
+            "fieldtype": "Select",
+            "label": "Quran Status",
+            "options": "Beginner\nReader\nMemorizing\nHafiz\nMujaz"
+        },
+        {
+            "fieldname": "current_riwayah",
+            "fieldtype": "Data",
+            "label": "Current Riwayah"
+        },
+        {
+            "fieldname": "previous_sheikhs",
+            "fieldtype": "Data",
+            "label": "Previous Sheikhs"
+        },
+        {
+            "fieldname": "quran_profile_column",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "initial_memorization_description",
+            "fieldtype": "Small Text",
+            "label": "Initial Memorization Description"
+        },
+        {
+            "default": "0",
+            "fieldname": "has_previous_ijazah",
+            "fieldtype": "Check",
+            "label": "Has Previous Ijazah"
+        },
+        {
+            "depends_on": "eval:doc.has_previous_ijazah",
+            "fieldname": "previous_ijazah_details",
+            "fieldtype": "Small Text",
+            "label": "Previous Ijazah Details"
+        },
+        {
+            "fieldname": "last_progress_date",
+            "fieldtype": "Date",
+            "label": "Last Progress Date",
+            "read_only": 1
+        },
+        {
+            "fieldname": "administration_section",
+            "fieldtype": "Section Break",
+            "label": "Administration"
+        },
+        {
+            "default": "Today",
+            "fieldname": "registration_date",
+            "fieldtype": "Date",
+            "label": "Registration Date",
+            "reqd": 1
+        },
+        {
+            "fieldname": "default_branch",
+            "fieldtype": "Link",
+            "label": "Default Branch",
+            "options": "Dar Quraan Branch"
+        },
+        {
+            "fieldname": "default_teacher",
+            "fieldtype": "Link",
+            "label": "Default Teacher",
+            "options": "Dar Quraan Teacher"
+        },
+        {
+            "fieldname": "default_halaqa",
+            "fieldtype": "Link",
+            "label": "Default Halaqa",
+            "options": "Dar Quraan Halaqa"
+        },
+        {
+            "fieldname": "administration_column",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Text Editor",
+            "label": "Notes"
+        },
+        {
+            "fieldname": "legacy_file_path",
+            "fieldtype": "Data",
+            "label": "Legacy File Path"
+        },
+        {
+            "fieldname": "legacy_created_at",
+            "fieldtype": "Datetime",
+            "label": "Legacy Created At"
+        },
+        {
+            "fieldname": "legacy_updated_at",
+            "fieldtype": "Datetime",
+            "label": "Legacy Updated At"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2026-07-27 09:31:12.992004",
+    "modified_by": "ibrahim.m.merhy@gmail.com",
+    "module": "Dar Quraan",
+    "name": "Dar Quraan Student",
+    "naming_rule": "By \"Naming Series\" field",
+    "owner": "ibrahim.m.merhy@gmail.com",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "rows_threshold_for_grid_search": 20,
+    "search_fields": "student_code, student_name, mobile_number",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "title_field": "student_name",
+    "track_changes": 1
+}
