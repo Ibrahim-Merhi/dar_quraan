@@ -1,0 +1,164 @@
+{
+ "actions": [],
+ "autoname": "field:surah_number",
+ "creation": "2026-08-09 13:52:16.675961",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "surah_number",
+  "arabic_name",
+  "english_name",
+  "column_break_gkfl",
+  "transliterated_name",
+  "ayah_count",
+  "section_break_wkfb",
+  "start_global_ayah",
+  "end_global_ayah",
+  "column_break_pkkc",
+  "start_page",
+  "end_page",
+  "column_break_nkev",
+  "start_juz",
+  "end_juz",
+  "section_break_syfo",
+  "revelation_place",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "surah_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Surah Number",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Arabic Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "english_name",
+   "fieldtype": "Data",
+   "label": "English Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_gkfl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transliterated_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transliterated Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ayah_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Ayah Count",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_wkfb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "start_global_ayah",
+   "fieldtype": "Int",
+   "label": "Start Global Ayah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_global_ayah",
+   "fieldtype": "Int",
+   "label": "End Global Ayah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pkkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_page",
+   "fieldtype": "Int",
+   "label": "Start Page",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_page",
+   "fieldtype": "Int",
+   "label": "End Page",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nkev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_juz",
+   "fieldtype": "Int",
+   "label": "Start Juz",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_juz",
+   "fieldtype": "Int",
+   "label": "End Juz",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_syfo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "revelation_place",
+   "fieldtype": "Select",
+   "label": "Revelation Place",
+   "options": "\nMakkah\nMadinah",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Active"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-09 14:00:43.843627",
+ "modified_by": "ibrahim.m.merhy@gmail.com",
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Surah",
+ "naming_rule": "By fieldname",
+ "owner": "ibrahim.m.merhy@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "surah_number,arabic_name,english_name,transliterated_name",
+ "sort_field": "surah_number",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "transliterated_name",
+ "track_changes": 1
+}
