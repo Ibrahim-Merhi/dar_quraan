@@ -1,6 +1,7 @@
 import frappe
 from frappe import _
 from frappe.model.document import Document
+from frappe.utils import cint
 
 
 class DarQuraanStudentProgress(Document):
@@ -9,6 +10,7 @@ class DarQuraanStudentProgress(Document):
         self.fetch_assignment_context()
         self.validate_progress_date()
         self.validate_quran_progress()
+        self.validate_progress_items()
         self.validate_status()
 
     def validate_student_assignment(self):
@@ -37,15 +39,6 @@ class DarQuraanStudentProgress(Document):
         )
 
     def fetch_assignment_context(self):
-        """
-        Student Progress must always inherit its academic context
-        from Student Assignment.
-
-        We deliberately overwrite values supplied manually or through
-        an API so that progress can never become disconnected from the
-        student's real assignment.
-        """
-
         assignment = self.get_student_assignment()
 
         self.student = assignment.student
@@ -120,11 +113,6 @@ class DarQuraanStudentProgress(Document):
         assignment,
         fieldname,
     ):
-        """
-        Helper kept separate so the academic-context mapping remains
-        easy to extend later.
-        """
-
         if not assignment.meta.has_field(fieldname):
             return None
 
@@ -137,13 +125,6 @@ class DarQuraanStudentProgress(Document):
             )
 
     def validate_quran_progress(self):
-        """
-        At least one Quran Range is required.
-
-        Child-table validation is also called explicitly here so these
-        rules are enforced by the parent progress document.
-        """
-
         new_memorization = self.get(
             "new_memorization"
         ) or []
@@ -175,7 +156,15 @@ class DarQuraanStudentProgress(Document):
         rows,
         table_label,
     ):
-        for row in rows:
+        for index, row in enumerate(
+            rows,
+            start=1,
+        ):
+            row = self.get_quran_range_document(
+                row,
+                index,
+            )
+
             try:
                 row.validate()
 
@@ -185,10 +174,259 @@ class DarQuraanStudentProgress(Document):
                         "{0}, row {1}: {2}"
                     ).format(
                         table_label,
-                        row.idx or 1,
+                        row.idx or index,
                         str(exc),
                     )
                 )
+
+    def get_quran_range_document(
+        self,
+        row,
+        index,
+    ):
+        if not isinstance(row, dict):
+            return row
+
+        row_data = dict(row)
+
+        row_data.setdefault(
+            "doctype",
+            "Dar Quraan Quran Range",
+        )
+
+        child = frappe.get_doc(
+            row_data
+        )
+
+        child.idx = index
+
+        return child
+
+    def validate_progress_items(self):
+        progress_items = self.get(
+            "progress_items"
+        ) or []
+
+        if not progress_items:
+            return
+
+        normalized_items = []
+
+        for index, row in enumerate(
+            progress_items,
+            start=1,
+        ):
+            row = self.get_progress_item_document(
+                row,
+                index,
+            )
+
+            try:
+                row.validate()
+
+            except frappe.ValidationError as exc:
+                frappe.throw(
+                    _(
+                        "Progress Item, row {0}: {1}"
+                    ).format(
+                        row.idx or index,
+                        str(exc),
+                    )
+                )
+
+            self.validate_progress_item_against_assignment(
+                row
+            )
+
+            normalized_items.append(row)
+
+        self.set(
+            "progress_items",
+            normalized_items,
+        )
+
+    def get_progress_item_document(
+        self,
+        row,
+        index,
+    ):
+        if not isinstance(row, dict):
+            return row
+
+        row_data = dict(row)
+
+        row_data.setdefault(
+            "doctype",
+            "Dar Quraan Progress Item",
+        )
+
+        child = frappe.get_doc(
+            row_data
+        )
+
+        child.idx = index
+
+        return child
+
+    def validate_progress_item_against_assignment(
+        self,
+        item,
+    ):
+        progress_type = self.get_row_value(
+            item,
+            "progress_type",
+        )
+
+        if progress_type == "New Memorization":
+            assigned_ranges = self.get(
+                "new_memorization"
+            ) or []
+
+        elif progress_type == "Revision":
+            assigned_ranges = self.get(
+                "revision"
+            ) or []
+
+        else:
+            frappe.throw(
+                _(
+                    "Invalid Progress Type in Progress Item "
+                    "row {0}."
+                ).format(
+                    self.get_row_value(
+                        item,
+                        "idx",
+                    ) or 1
+                )
+            )
+
+        if not assigned_ranges:
+            frappe.throw(
+                _(
+                    "Progress Item row {0} is marked as {1}, "
+                    "but no {1} range exists in this progress "
+                    "record."
+                ).format(
+                    self.get_row_value(
+                        item,
+                        "idx",
+                    ) or 1,
+                    progress_type,
+                )
+            )
+
+        for assigned in assigned_ranges:
+            if self.progress_item_fits_range(
+                item,
+                assigned,
+            ):
+                return
+
+        frappe.throw(
+            _(
+                "Progress Item row {0} does not fall inside "
+                "any assigned {1} Quran range."
+            ).format(
+                self.get_row_value(
+                    item,
+                    "idx",
+                ) or 1,
+                progress_type,
+            )
+        )
+
+    def progress_item_fits_range(
+        self,
+        item,
+        assigned,
+    ):
+        if (
+            self.get_row_value(
+                item,
+                "surah",
+            )
+            != self.get_row_value(
+                assigned,
+                "surah",
+            )
+        ):
+            return False
+
+        if (
+            cint(
+                self.get_row_value(
+                    item,
+                    "from_ayah",
+                )
+            )
+            < cint(
+                self.get_row_value(
+                    assigned,
+                    "from_ayah",
+                )
+            )
+        ):
+            return False
+
+        if (
+            cint(
+                self.get_row_value(
+                    item,
+                    "to_ayah",
+                )
+            )
+            > cint(
+                self.get_row_value(
+                    assigned,
+                    "to_ayah",
+                )
+            )
+        ):
+            return False
+
+        if (
+            cint(
+                self.get_row_value(
+                    item,
+                    "from_page",
+                )
+            )
+            < cint(
+                self.get_row_value(
+                    assigned,
+                    "from_page",
+                )
+            )
+        ):
+            return False
+
+        if (
+            cint(
+                self.get_row_value(
+                    item,
+                    "to_page",
+                )
+            )
+            > cint(
+                self.get_row_value(
+                    assigned,
+                    "to_page",
+                )
+            )
+        ):
+            return False
+
+        return True
+
+    def get_row_value(
+        self,
+        row,
+        fieldname,
+    ):
+        if isinstance(row, dict):
+            return row.get(fieldname)
+
+        return row.get(fieldname)
 
     def validate_status(self):
         allowed_statuses = {

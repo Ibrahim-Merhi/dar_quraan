@@ -597,3 +597,243 @@ class TestDarQuraanStudentProgress(FrappeTestCase):
             frappe.ValidationError
         ):
             self.validate_progress(progress)
+
+    # ---------------------------------------------------------
+    # Progress Item integration
+    # ---------------------------------------------------------
+
+    def test_progress_item_inside_memorization_range_is_valid(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 20,
+                    "to_ayah": 29,
+                    "from_page": 4,
+                    "to_page": 5,
+                    "result": "Very Good",
+                    "mistakes_count": 2,
+                    "prompt_count": 1,
+                    "memorization_quality": 4,
+                    "tajweed": 4,
+                    "fluency": 5,
+                }
+            ],
+        )
+
+        self.validate_progress(progress)
+
+        self.assertEqual(
+            len(progress.progress_items),
+            1,
+        )
+
+    def test_progress_item_can_equal_full_memorization_range(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 20,
+                    "to_ayah": 35,
+                    "from_page": 4,
+                    "to_page": 6,
+                    "result": "Excellent",
+                }
+            ],
+        )
+
+        self.validate_progress(progress)
+
+        self.assertEqual(
+            progress.progress_items[0].result,
+            "Excellent",
+        )
+
+    def test_progress_item_cannot_exceed_assigned_ayah_range(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 20,
+                    "to_ayah": 40,
+                    "from_page": 4,
+                    "to_page": 6,
+                    "result": "Good",
+                }
+            ],
+        )
+
+        with self.assertRaises(
+            frappe.ValidationError
+        ):
+            self.validate_progress(progress)
+
+    def test_progress_item_cannot_start_before_assigned_ayah(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 19,
+                    "to_ayah": 30,
+                    "from_page": 4,
+                    "to_page": 5,
+                    "result": "Good",
+                }
+            ],
+        )
+
+        with self.assertRaises(
+            frappe.ValidationError
+        ):
+            self.validate_progress(progress)
+
+    def test_progress_item_cannot_exceed_assigned_page_range(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 20,
+                    "to_ayah": 35,
+                    "from_page": 4,
+                    "to_page": 7,
+                    "result": "Good",
+                }
+            ],
+        )
+
+        with self.assertRaises(
+            frappe.ValidationError
+        ):
+            self.validate_progress(progress)
+
+    def test_progress_item_wrong_surah_is_rejected(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "1",
+                    "from_ayah": 1,
+                    "to_ayah": 7,
+                    "from_page": 1,
+                    "to_page": 1,
+                    "result": "Good",
+                }
+            ],
+        )
+
+        with self.assertRaises(
+            frappe.ValidationError
+        ):
+            self.validate_progress(progress)
+
+    def test_revision_progress_item_requires_revision_range(self):
+        progress = self.make_progress(
+            revision=[],
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "Revision",
+                    "surah": "2",
+                    "from_ayah": 1,
+                    "to_ayah": 10,
+                    "from_page": 2,
+                    "to_page": 3,
+                    "result": "Good",
+                }
+            ],
+        )
+
+        with self.assertRaises(
+            frappe.ValidationError
+        ):
+            self.validate_progress(progress)
+
+    def test_revision_progress_item_inside_revision_range_is_valid(self):
+        progress = self.make_progress(
+            revision=[
+                {
+                    "doctype": "Dar Quraan Quran Range",
+                    "surah": "2",
+                    "from_ayah": 1,
+                    "to_ayah": 19,
+                    "from_page": 2,
+                    "to_page": 3,
+                }
+            ],
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "Revision",
+                    "surah": "2",
+                    "from_ayah": 1,
+                    "to_ayah": 10,
+                    "from_page": 2,
+                    "to_page": 3,
+                    "result": "Very Good",
+                }
+            ],
+        )
+
+        self.validate_progress(progress)
+
+        self.assertEqual(
+            progress.progress_items[0].progress_type,
+            "Revision",
+        )
+
+    def test_multiple_progress_items_can_fit_same_range(self):
+        progress = self.make_progress(
+            progress_items=[
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 20,
+                    "to_ayah": 25,
+                    "from_page": 4,
+                    "to_page": 5,
+                    "result": "Excellent",
+                },
+                {
+                    "doctype": "Dar Quraan Progress Item",
+                    "progress_type": "New Memorization",
+                    "surah": "2",
+                    "from_ayah": 26,
+                    "to_ayah": 35,
+                    "from_page": 5,
+                    "to_page": 6,
+                    "result": "Good",
+                },
+            ],
+        )
+
+        self.validate_progress(progress)
+
+        self.assertEqual(
+            len(progress.progress_items),
+            2,
+        )
+
+    def test_progress_items_are_optional_while_record_is_draft(self):
+        progress = self.make_progress(
+            progress_items=[],
+            status="Draft",
+        )
+
+        self.validate_progress(progress)
+
+        self.assertEqual(
+            len(progress.progress_items),
+            0,
+        )

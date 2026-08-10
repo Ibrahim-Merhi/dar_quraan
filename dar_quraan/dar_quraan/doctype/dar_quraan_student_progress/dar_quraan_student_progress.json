@@ -137,6 +137,12 @@
    "options": "Dar Quraan Quran Range"
   },
   {
+  "fieldname": "progress_items",
+  "fieldtype": "Table",
+  "label": "Progress Items",
+  "options": "Dar Quraan Progress Item"
+},
+  {
    "fieldname": "notes_section",
    "fieldtype": "Section Break",
    "label": "Notes"
