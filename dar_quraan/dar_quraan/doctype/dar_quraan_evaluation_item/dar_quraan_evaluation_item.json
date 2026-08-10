@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-10 23:12:57.129435",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "surah",
+  "from_ayah",
+  "to_ayah",
+  "from_page",
+  "to_page",
+  "memorization_quality",
+  "tajweed",
+  "fluency",
+  "mistakes_count",
+  "prompt_count",
+  "result",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "surah",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Surah",
+   "options": "Dar Quraan Surah"
+  },
+  {
+   "fieldname": "from_ayah",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "From Ayah"
+  },
+  {
+   "fieldname": "to_ayah",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "To Ayah"
+  },
+  {
+   "fieldname": "from_page",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "From Page"
+  },
+  {
+   "fieldname": "to_page",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "To Page"
+  },
+  {
+   "fieldname": "memorization_quality",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Memorization Quality"
+  },
+  {
+   "fieldname": "tajweed",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Tajweed"
+  },
+  {
+   "fieldname": "fluency",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Fluency"
+  },
+  {
+   "fieldname": "mistakes_count",
+   "fieldtype": "Int",
+   "label": "Mistakes Count"
+  },
+  {
+   "fieldname": "prompt_count",
+   "fieldtype": "Int",
+   "label": "Prompt Count"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Result",
+   "options": "\nExcellent\nVery Good\nGood\nNeeds Revision\nRepeat"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-08-10 23:29:37.491872",
+ "modified_by": "ibrahim.m.merhy@gmail.com",
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Evaluation Item",
+ "owner": "ibrahim.m.merhy@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
