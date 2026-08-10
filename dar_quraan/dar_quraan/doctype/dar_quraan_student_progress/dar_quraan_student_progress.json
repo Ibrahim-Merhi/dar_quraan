@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "autoname": "DQ-PROG-{YYYY}-{#####}",
+ "creation": "2026-08-10 08:59:47.119377",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_assignment",
+  "student",
+  "student_name",
+  "column_break_letm",
+  "progress_date",
+  "academic_context_section",
+  "branch",
+  "teaching_location",
+  "column_break_ivfh",
+  "halaqa",
+  "teacher",
+  "track_section",
+  "study_track",
+  "column_break_wflj",
+  "riwayah",
+  "quran_progress_section",
+  "new_memorization",
+  "revision",
+  "notes_section",
+  "teacher_notes",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_assignment",
+   "fieldtype": "Link",
+   "label": "Student Assignment",
+   "options": "Dar Quraan Student Assignment"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Dar Quraan Student",
+   "read_only": 1
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_letm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "progress_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Progress Date"
+  },
+  {
+   "fieldname": "academic_context_section",
+   "fieldtype": "Section Break",
+   "label": "Academic Context"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Dar Quraan Branch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "teaching_location",
+   "fieldtype": "Link",
+   "label": "Teaching Location",
+   "options": "Dar Quraan Teaching Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ivfh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "halaqa",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Halaqa",
+   "options": "Dar Quraan Halaqa",
+   "read_only": 1
+  },
+  {
+   "fieldname": "teacher",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Teacher",
+   "options": "Dar Quraan Teacher",
+   "read_only": 1
+  },
+  {
+   "fieldname": "track_section",
+   "fieldtype": "Section Break",
+   "label": "Track / Riwayah"
+  },
+  {
+   "fieldname": "study_track",
+   "fieldtype": "Data",
+   "label": "Study Track",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_wflj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "riwayah",
+   "fieldtype": "Data",
+   "label": "Riwayah",
+   "read_only": 1
+  },
+  {
+   "fieldname": "quran_progress_section",
+   "fieldtype": "Section Break",
+   "label": "Quran Progress"
+  },
+  {
+   "fieldname": "new_memorization",
+   "fieldtype": "Table",
+   "label": "New Memorization",
+   "options": "Dar Quraan Quran Range"
+  },
+  {
+   "fieldname": "revision",
+   "fieldtype": "Table",
+   "label": "Revision",
+   "options": "Dar Quraan Quran Range"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "teacher_notes",
+   "fieldtype": "Small Text",
+   "label": "Teacher Notes"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nDraft\nCompleted\nCancelled"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-10 09:13:02.558597",
+ "modified_by": "ibrahim.m.merhy@gmail.com",
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Student Progress",
+ "naming_rule": "Expression",
+ "owner": "ibrahim.m.merhy@gmail.com",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "student,student_name,student_assignment,teacher,halaqa",
+ "sort_field": "progress_date",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "student_name",
+ "track_changes": 1
+}
