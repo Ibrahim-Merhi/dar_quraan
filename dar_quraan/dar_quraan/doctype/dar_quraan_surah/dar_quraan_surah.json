@@ -12,12 +12,9 @@
   "transliterated_name",
   "ayah_count",
   "section_break_wkfb",
-  "start_global_ayah",
-  "end_global_ayah",
-  "column_break_pkkc",
   "start_page",
   "end_page",
-  "column_break_nkev",
+  "column_break_pkkc",
   "start_juz",
   "end_juz",
   "section_break_syfo",
@@ -69,18 +66,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "start_global_ayah",
-   "fieldtype": "Int",
-   "label": "Start Global Ayah",
-   "reqd": 1
-  },
-  {
-   "fieldname": "end_global_ayah",
-   "fieldtype": "Int",
-   "label": "End Global Ayah",
-   "reqd": 1
-  },
-  {
    "fieldname": "column_break_pkkc",
    "fieldtype": "Column Break"
   },
@@ -95,10 +80,6 @@
    "fieldtype": "Int",
    "label": "End Page",
    "reqd": 1
-  },
-  {
-   "fieldname": "column_break_nkev",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "start_juz",
@@ -133,7 +114,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-09 14:00:43.843627",
+ "modified": "2026-08-10 08:44:49.674896",
  "modified_by": "ibrahim.m.merhy@gmail.com",
  "module": "Dar Quraan",
  "name": "Dar Quraan Surah",
