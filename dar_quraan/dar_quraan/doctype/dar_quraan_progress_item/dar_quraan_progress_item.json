@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-08-10 09:18:30.930292",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "progress_type",
+  "surah",
+  "from_ayah",
+  "to_ayah",
+  "from_page",
+  "to_page",
+  "result",
+  "mistakes_count",
+  "prompt_count",
+  "performance_section",
+  "memorization_quality",
+  "tajweed",
+  "fluency",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "progress_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Progress Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "surah",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Surah",
+   "options": "Dar Quraan Surah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_ayah",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "From Ayah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_ayah",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "To Ayah",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_page",
+   "fieldtype": "Int",
+   "label": "From Page",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_page",
+   "fieldtype": "Int",
+   "label": "To Page",
+   "reqd": 1
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "label": "Result",
+   "options": "\nExcellent\nVery Good\nGood\nNeeds Revision\nRepeat",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "mistakes_count",
+   "fieldtype": "Int",
+   "label": "Mistakes Count"
+  },
+  {
+   "default": "0",
+   "fieldname": "prompt_count",
+   "fieldtype": "Int",
+   "label": "Prompt Count"
+  },
+  {
+   "fieldname": "performance_section",
+   "fieldtype": "Section Break",
+   "label": "Performance"
+  },
+  {
+   "fieldname": "memorization_quality",
+   "fieldtype": "Int",
+   "label": "Memorization Quality"
+  },
+  {
+   "fieldname": "tajweed",
+   "fieldtype": "Int",
+   "label": "Tajweed"
+  },
+  {
+   "fieldname": "fluency",
+   "fieldtype": "Int",
+   "label": "Fluency"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-08-10 09:25:28.623683",
+ "modified_by": "ibrahim.m.merhy@gmail.com",
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Progress Item",
+ "owner": "ibrahim.m.merhy@gmail.com",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
