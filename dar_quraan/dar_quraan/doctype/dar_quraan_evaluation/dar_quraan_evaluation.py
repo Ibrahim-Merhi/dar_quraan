@@ -3,6 +3,10 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.utils import flt
 
+from dar_quraan.dar_quraan.services.quran_state import (
+    update_state_from_evaluation,
+)
+
 
 class DarQuraanEvaluation(Document):
     def validate(self):
@@ -14,6 +18,15 @@ class DarQuraanEvaluation(Document):
         self.calculate_overall_score()
         self.set_overall_result()
         self.validate_status()
+
+    def on_update(self):
+        """
+        Update Student Quran State when this evaluation
+        reaches Completed status.
+
+        The service itself ignores Draft and Cancelled records.
+        """
+        update_state_from_evaluation(self)
 
     def validate_student_assignment(self):
         if not self.student_assignment:
@@ -153,10 +166,17 @@ class DarQuraanEvaluation(Document):
                 )
             )
 
+        normalized_items = []
+
         for index, item in enumerate(
             items,
             start=1,
         ):
+            item = self.get_evaluation_item_document(
+                item,
+                index,
+            )
+
             try:
                 item.validate()
 
@@ -169,6 +189,40 @@ class DarQuraanEvaluation(Document):
                         str(exc),
                     )
                 )
+
+            normalized_items.append(
+                item
+            )
+
+        self.set(
+            "evaluation_items",
+            normalized_items,
+        )
+
+    def get_evaluation_item_document(
+        self,
+        item,
+        index,
+    ):
+        if not isinstance(item, dict):
+            return item
+
+        item_data = dict(
+            item
+        )
+
+        item_data.setdefault(
+            "doctype",
+            "Dar Quraan Evaluation Item",
+        )
+
+        child = frappe.get_doc(
+            item_data
+        )
+
+        child.idx = index
+
+        return child
 
     def calculate_overall_score(self):
         items = self.get(
@@ -197,19 +251,29 @@ class DarQuraanEvaluation(Document):
         )
 
         if score >= 90:
-            self.overall_result = "Excellent"
+            self.overall_result = (
+                "Excellent"
+            )
 
         elif score >= 80:
-            self.overall_result = "Very Good"
+            self.overall_result = (
+                "Very Good"
+            )
 
         elif score >= 70:
-            self.overall_result = "Good"
+            self.overall_result = (
+                "Good"
+            )
 
         elif score >= 50:
-            self.overall_result = "Needs Revision"
+            self.overall_result = (
+                "Needs Revision"
+            )
 
         else:
-            self.overall_result = "Repeat"
+            self.overall_result = (
+                "Repeat"
+            )
 
     def validate_status(self):
         allowed_statuses = {
@@ -219,7 +283,9 @@ class DarQuraanEvaluation(Document):
         }
 
         if not self.status:
-            self.status = "Draft"
+            self.status = (
+                "Draft"
+            )
 
         if self.status not in allowed_statuses:
             frappe.throw(

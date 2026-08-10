@@ -2,6 +2,10 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 
+from dar_quraan.dar_quraan.services.quran_state import (
+    update_state_from_next_assignment,
+)
+
 
 class DarQuraanNextAssignment(Document):
     def validate(self):
@@ -11,6 +15,16 @@ class DarQuraanNextAssignment(Document):
         self.validate_quran_work()
         self.validate_sources()
         self.validate_status()
+
+    def on_update(self):
+        """
+        Update Student Quran State when this Next Assignment
+        reaches Assigned status.
+
+        The service itself ignores Draft, Ready, Completed,
+        and Cancelled records.
+        """
+        update_state_from_next_assignment(self)
 
     def validate_student_assignment(self):
         if not self.student_assignment:
@@ -147,18 +161,16 @@ class DarQuraanNextAssignment(Document):
         rows,
         table_label,
     ):
+        normalized_rows = []
+
         for index, row in enumerate(
             rows,
             start=1,
         ):
-            if isinstance(row, dict):
-                row = frappe.get_doc(
-                    {
-                        "doctype": "Dar Quraan Quran Range",
-                        **row,
-                    }
-                )
-                row.idx = index
+            row = self.get_quran_range_document(
+                row,
+                index,
+            )
 
             try:
                 row.validate()
@@ -173,6 +185,37 @@ class DarQuraanNextAssignment(Document):
                         str(exc),
                     )
                 )
+
+            normalized_rows.append(
+                row
+            )
+
+        return normalized_rows
+
+    def get_quran_range_document(
+        self,
+        row,
+        index,
+    ):
+        if not isinstance(row, dict):
+            return row
+
+        row_data = dict(
+            row
+        )
+
+        row_data.setdefault(
+            "doctype",
+            "Dar Quraan Quran Range",
+        )
+
+        child = frappe.get_doc(
+            row_data
+        )
+
+        child.idx = index
+
+        return child
 
     def validate_sources(self):
         if self.source_progress:
@@ -288,7 +331,6 @@ class DarQuraanNextAssignment(Document):
                 )
             )
 
-        # Clear existing generated Quran work before rebuilding it.
         self.set(
             "new_memorization",
             [],
@@ -380,7 +422,6 @@ class DarQuraanNextAssignment(Document):
                 )
             )
 
-        # Validate the generated ranges immediately.
         self.validate_quran_work()
 
         return {
@@ -397,9 +438,13 @@ class DarQuraanNextAssignment(Document):
         fieldname,
     ):
         if isinstance(row, dict):
-            return row.get(fieldname)
+            return row.get(
+                fieldname
+            )
 
-        return row.get(fieldname)
+        return row.get(
+            fieldname
+        )
 
     def validate_status(self):
         allowed_statuses = {

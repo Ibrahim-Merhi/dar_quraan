@@ -3,6 +3,10 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.utils import cint
 
+from dar_quraan.dar_quraan.services.quran_state import (
+    update_state_from_progress,
+)
+
 
 class DarQuraanStudentProgress(Document):
     def validate(self):
@@ -12,6 +16,16 @@ class DarQuraanStudentProgress(Document):
         self.validate_quran_progress()
         self.validate_progress_items()
         self.validate_status()
+
+    def on_update(self):
+        """
+        Update the student's Quran State only when this
+        progress record reaches Completed status.
+
+        The service itself checks the status, so calling it
+        from on_update is safe for Draft and Cancelled records.
+        """
+        update_state_from_progress(self)
 
     def validate_student_assignment(self):
         if not self.student_assignment:
@@ -238,7 +252,9 @@ class DarQuraanStudentProgress(Document):
                 row
             )
 
-            normalized_items.append(row)
+            normalized_items.append(
+                row
+            )
 
         self.set(
             "progress_items",
@@ -424,9 +440,13 @@ class DarQuraanStudentProgress(Document):
         fieldname,
     ):
         if isinstance(row, dict):
-            return row.get(fieldname)
+            return row.get(
+                fieldname
+            )
 
-        return row.get(fieldname)
+        return row.get(
+            fieldname
+        )
 
     def validate_status(self):
         allowed_statuses = {
