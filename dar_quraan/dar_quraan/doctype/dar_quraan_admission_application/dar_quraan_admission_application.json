@@ -1,0 +1,550 @@
+{
+  "name": "Dar Quraan Admission Application",
+  "module": "Dar Quraan",
+  "actions": [],
+  "autoname": "DQ-ADM-.YYYY.-.#####",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "title_field": "applicant_name",
+  "search_fields": "applicant_name,mobile_number,email,national_id",
+  "field_order": [
+    "application_section",
+    "application_date",
+    "status",
+    "applicant_name",
+    "photo",
+    "identity_section",
+    "first_name",
+    "middle_name",
+    "last_name",
+    "mother_name",
+    "gender",
+    "date_of_birth",
+    "nationality",
+    "national_id",
+    "marital_status",
+    "contact_section",
+    "mobile_number",
+    "whatsapp_number",
+    "email",
+    "home_number",
+    "address",
+    "city",
+    "emergency_contact_name",
+    "emergency_contact_relationship",
+    "emergency_contact_number",
+    "education_section",
+    "education_level",
+    "school_or_university",
+    "major_or_grade",
+    "current_occupation",
+    "employer",
+    "skills",
+    "quran_section",
+    "admission_goal",
+    "study_track",
+    "current_riwayah",
+    "qiraat_method",
+    "quran_status",
+    "memorized_juz",
+    "current_level_description",
+    "previous_sheikhs",
+    "has_previous_ijazah",
+    "previous_ijazah_details",
+    "jazariyyah_level",
+    "availability_section",
+    "preferred_branch",
+    "preferred_days",
+    "preferred_time_from",
+    "preferred_time_to",
+    "can_attend_weekly",
+    "notes",
+    "documents_section",
+    "identity_document",
+    "supporting_document",
+    "review_section",
+    "assigned_reviewer",
+    "review_started_on",
+    "placement_evaluation",
+    "proposed_program",
+    "proposed_level",
+    "proposed_teacher",
+    "proposed_halaqa",
+    "provisional_approval_date",
+    "expected_start_date",
+    "decision_date",
+    "rejection_reason",
+    "final_section",
+    "student",
+    "student_assignment",
+    "final_approval_date",
+    "notify_by_email",
+    "notify_by_sms",
+    "last_notification_status"
+  ],
+  "fields": [
+    {
+      "fieldname": "application_section",
+      "fieldtype": "Section Break",
+      "label": "Application"
+    },
+    {
+      "fieldname": "application_date",
+      "fieldtype": "Date",
+      "label": "Application Date",
+      "default": "Today",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "Pending\nIn Process\nProvisionally Approved\nFinal Approved\nRejected\nWithdrawn",
+      "default": "Pending",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "applicant_name",
+      "fieldtype": "Data",
+      "label": "Applicant Name",
+      "read_only": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "photo",
+      "fieldtype": "Attach Image",
+      "label": "Photo"
+    },
+    {
+      "fieldname": "identity_section",
+      "fieldtype": "Section Break",
+      "label": "Identity and Personal Information"
+    },
+    {
+      "fieldname": "first_name",
+      "fieldtype": "Data",
+      "label": "First Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "middle_name",
+      "fieldtype": "Data",
+      "label": "Middle Name"
+    },
+    {
+      "fieldname": "last_name",
+      "fieldtype": "Data",
+      "label": "Last Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "mother_name",
+      "fieldtype": "Data",
+      "label": "Mother Name"
+    },
+    {
+      "fieldname": "gender",
+      "fieldtype": "Select",
+      "label": "Gender",
+      "options": "Male\nFemale",
+      "reqd": 1
+    },
+    {
+      "fieldname": "date_of_birth",
+      "fieldtype": "Date",
+      "label": "Date of Birth",
+      "reqd": 1
+    },
+    {
+      "fieldname": "nationality",
+      "fieldtype": "Link",
+      "label": "Nationality",
+      "options": "Country"
+    },
+    {
+      "fieldname": "national_id",
+      "fieldtype": "Data",
+      "label": "National ID"
+    },
+    {
+      "fieldname": "marital_status",
+      "fieldtype": "Select",
+      "label": "Marital Status",
+      "options": "Single\nMarried\nDivorced\nWidowed"
+    },
+    {
+      "fieldname": "contact_section",
+      "fieldtype": "Section Break",
+      "label": "Contact and Family"
+    },
+    {
+      "fieldname": "mobile_number",
+      "fieldtype": "Data",
+      "label": "Mobile Number",
+      "reqd": 1,
+      "options": "Phone"
+    },
+    {
+      "fieldname": "whatsapp_number",
+      "fieldtype": "Data",
+      "label": "WhatsApp Number",
+      "options": "Phone"
+    },
+    {
+      "fieldname": "email",
+      "fieldtype": "Data",
+      "label": "Email",
+      "options": "Email"
+    },
+    {
+      "fieldname": "home_number",
+      "fieldtype": "Data",
+      "label": "Home Number",
+      "options": "Phone"
+    },
+    {
+      "fieldname": "address",
+      "fieldtype": "Small Text",
+      "label": "Address"
+    },
+    {
+      "fieldname": "city",
+      "fieldtype": "Data",
+      "label": "City"
+    },
+    {
+      "fieldname": "emergency_contact_name",
+      "fieldtype": "Data",
+      "label": "Emergency Contact Name"
+    },
+    {
+      "fieldname": "emergency_contact_relationship",
+      "fieldtype": "Data",
+      "label": "Relationship"
+    },
+    {
+      "fieldname": "emergency_contact_number",
+      "fieldtype": "Data",
+      "label": "Emergency Contact Number",
+      "options": "Phone"
+    },
+    {
+      "fieldname": "education_section",
+      "fieldtype": "Section Break",
+      "label": "Education and Employment"
+    },
+    {
+      "fieldname": "education_level",
+      "fieldtype": "Data",
+      "label": "Education Level"
+    },
+    {
+      "fieldname": "school_or_university",
+      "fieldtype": "Data",
+      "label": "School or University"
+    },
+    {
+      "fieldname": "major_or_grade",
+      "fieldtype": "Data",
+      "label": "Major or Grade"
+    },
+    {
+      "fieldname": "current_occupation",
+      "fieldtype": "Data",
+      "label": "Current Occupation"
+    },
+    {
+      "fieldname": "employer",
+      "fieldtype": "Data",
+      "label": "Employer"
+    },
+    {
+      "fieldname": "skills",
+      "fieldtype": "Small Text",
+      "label": "Skills"
+    },
+    {
+      "fieldname": "quran_section",
+      "fieldtype": "Section Break",
+      "label": "Quran Profile and Admission Goal"
+    },
+    {
+      "fieldname": "admission_goal",
+      "fieldtype": "Select",
+      "label": "Admission Goal",
+      "options": "Ijazah\nHifz\nTilawah\nTajweed Rules\nQiraat\nJazariyyah\nOther",
+      "reqd": 1
+    },
+    {
+      "fieldname": "study_track",
+      "fieldtype": "Select",
+      "label": "Study Track",
+      "options": "Tilawah\nHifz\nQiraat\nMixed",
+      "reqd": 1
+    },
+    {
+      "fieldname": "current_riwayah",
+      "fieldtype": "Data",
+      "label": "Current Riwayah"
+    },
+    {
+      "fieldname": "qiraat_method",
+      "fieldtype": "Select",
+      "label": "Qiraat Method",
+      "options": "\nIfraad\nJam\nSughra\nKubra\nOther"
+    },
+    {
+      "fieldname": "quran_status",
+      "fieldtype": "Select",
+      "label": "Current Quran Status",
+      "options": "Beginner\nReader\nMemorizing\nHafiz\nMujaz",
+      "reqd": 1
+    },
+    {
+      "fieldname": "memorized_juz",
+      "fieldtype": "Int",
+      "label": "Memorized Juz",
+      "default": "0"
+    },
+    {
+      "fieldname": "current_level_description",
+      "fieldtype": "Text",
+      "label": "Current and Previous Quran Level"
+    },
+    {
+      "fieldname": "previous_sheikhs",
+      "fieldtype": "Small Text",
+      "label": "Previous Sheikhs"
+    },
+    {
+      "fieldname": "has_previous_ijazah",
+      "fieldtype": "Check",
+      "label": "Has Previous Ijazah",
+      "default": "0"
+    },
+    {
+      "fieldname": "previous_ijazah_details",
+      "fieldtype": "Text",
+      "label": "Previous Ijazah Details",
+      "depends_on": "eval:doc.has_previous_ijazah"
+    },
+    {
+      "fieldname": "jazariyyah_level",
+      "fieldtype": "Select",
+      "label": "Jazariyyah Level",
+      "options": "Not Started\nLearning\nMemorized\nMemorized and Explained"
+    },
+    {
+      "fieldname": "availability_section",
+      "fieldtype": "Section Break",
+      "label": "Availability and Preferences"
+    },
+    {
+      "fieldname": "preferred_branch",
+      "fieldtype": "Link",
+      "label": "Preferred Branch",
+      "options": "Dar Quraan Branch"
+    },
+    {
+      "fieldname": "preferred_days",
+      "fieldtype": "Data",
+      "label": "Preferred Days"
+    },
+    {
+      "fieldname": "preferred_time_from",
+      "fieldtype": "Time",
+      "label": "Preferred Time From"
+    },
+    {
+      "fieldname": "preferred_time_to",
+      "fieldtype": "Time",
+      "label": "Preferred Time To"
+    },
+    {
+      "fieldname": "can_attend_weekly",
+      "fieldtype": "Check",
+      "label": "Can Attend Weekly",
+      "default": "1"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Text",
+      "label": "Additional Notes"
+    },
+    {
+      "fieldname": "documents_section",
+      "fieldtype": "Section Break",
+      "label": "Documents"
+    },
+    {
+      "fieldname": "identity_document",
+      "fieldtype": "Attach",
+      "label": "Identity Document"
+    },
+    {
+      "fieldname": "supporting_document",
+      "fieldtype": "Attach",
+      "label": "Supporting Document"
+    },
+    {
+      "fieldname": "review_section",
+      "fieldtype": "Section Break",
+      "label": "Administrative Review",
+      "collapsible": 1
+    },
+    {
+      "fieldname": "assigned_reviewer",
+      "fieldtype": "Link",
+      "label": "Assigned Reviewer",
+      "options": "User"
+    },
+    {
+      "fieldname": "review_started_on",
+      "fieldtype": "Datetime",
+      "label": "Review Started On",
+      "read_only": 1
+    },
+    {
+      "fieldname": "placement_evaluation",
+      "fieldtype": "Link",
+      "label": "Placement Evaluation",
+      "options": "Dar Quraan Evaluation"
+    },
+    {
+      "fieldname": "proposed_program",
+      "fieldtype": "Link",
+      "label": "Proposed Program",
+      "options": "Dar Quraan Program"
+    },
+    {
+      "fieldname": "proposed_level",
+      "fieldtype": "Link",
+      "label": "Proposed Level",
+      "options": "Dar Quraan Juz Level"
+    },
+    {
+      "fieldname": "proposed_teacher",
+      "fieldtype": "Link",
+      "label": "Proposed Teacher",
+      "options": "Dar Quraan Teacher"
+    },
+    {
+      "fieldname": "proposed_halaqa",
+      "fieldtype": "Link",
+      "label": "Proposed Halaqa",
+      "options": "Dar Quraan Halaqa"
+    },
+    {
+      "fieldname": "provisional_approval_date",
+      "fieldtype": "Date",
+      "label": "Provisional Approval Date",
+      "read_only": 1
+    },
+    {
+      "fieldname": "expected_start_date",
+      "fieldtype": "Date",
+      "label": "Expected Start Date"
+    },
+    {
+      "fieldname": "decision_date",
+      "fieldtype": "Date",
+      "label": "Decision Date",
+      "read_only": 1
+    },
+    {
+      "fieldname": "rejection_reason",
+      "fieldtype": "Text",
+      "label": "Rejection Reason",
+      "depends_on": "eval:doc.status=='Rejected'"
+    },
+    {
+      "fieldname": "final_section",
+      "fieldtype": "Section Break",
+      "label": "Final Admission",
+      "collapsible": 1
+    },
+    {
+      "fieldname": "student",
+      "fieldtype": "Link",
+      "label": "Student",
+      "options": "Dar Quraan Student",
+      "read_only": 1
+    },
+    {
+      "fieldname": "student_assignment",
+      "fieldtype": "Link",
+      "label": "Student Assignment",
+      "options": "Dar Quraan Student Assignment",
+      "read_only": 1
+    },
+    {
+      "fieldname": "final_approval_date",
+      "fieldtype": "Date",
+      "label": "Final Approval Date",
+      "read_only": 1
+    },
+    {
+      "fieldname": "notify_by_email",
+      "fieldtype": "Check",
+      "label": "Notify by Email",
+      "default": "1"
+    },
+    {
+      "fieldname": "notify_by_sms",
+      "fieldtype": "Check",
+      "label": "Notify by SMS",
+      "default": "0"
+    },
+    {
+      "fieldname": "last_notification_status",
+      "fieldtype": "Small Text",
+      "label": "Last Notification Status",
+      "read_only": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    },
+    {
+      "role": "Dar Quraan Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    },
+    {
+      "role": "Dar Quraan Supervisor",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "report": 1,
+      "export": 1
+    },
+    {
+      "role": "Dar Quraan Data Entry",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "report": 1
+    },
+    {
+      "role": "Dar Quraan Viewer",
+      "read": 1,
+      "report": 1
+    }
+  ],
+  "sort_field": "application_date",
+  "sort_order": "DESC",
+  "track_changes": 1
+}
