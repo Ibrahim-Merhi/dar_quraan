@@ -1,0 +1,301 @@
+{
+ "actions": [],
+ "autoname": "DQ-FUP-{YYYY}-{#####}",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "assignment_section",
+  "student_assignment",
+  "student",
+  "student_name",
+  "column_break_context",
+  "follow_up_date",
+  "follow_up_type",
+  "priority",
+  "context_section",
+  "branch",
+  "teaching_location",
+  "halaqa",
+  "column_break_assignment",
+  "teacher",
+  "study_track",
+  "riwayah",
+  "source_section",
+  "source_attendance",
+  "source_progress",
+  "source_evaluation",
+  "follow_up_section",
+  "issue_description",
+  "action_required",
+  "column_break_follow_up",
+  "parent_contact_required",
+  "follow_up_required",
+  "next_follow_up_date",
+  "resolution_section",
+  "resolution_notes",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "assignment_section",
+   "fieldtype": "Section Break",
+   "label": "Follow-up Details"
+  },
+  {
+   "fieldname": "student_assignment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Assignment",
+   "options": "Dar Quraan Student Assignment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "Dar Quraan Student",
+   "read_only": 1
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_context",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "follow_up_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Follow-up Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "follow_up_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Follow-up Type",
+   "options": "Attendance\nMemorization\nRevision\nTajweed\nFluency\nEvaluation\nBehavior\nParent Contact\nGeneral Academic\nOther",
+   "reqd": 1
+  },
+  {
+   "default": "Medium",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nUrgent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "context_section",
+   "fieldtype": "Section Break",
+   "label": "Assignment Context"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Dar Quraan Branch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "teaching_location",
+   "fieldtype": "Link",
+   "label": "Teaching Location",
+   "options": "Dar Quraan Teaching Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "halaqa",
+   "fieldtype": "Link",
+   "label": "Halaqa",
+   "options": "Dar Quraan Halaqa",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_assignment",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "teacher",
+   "fieldtype": "Link",
+   "label": "Teacher",
+   "options": "Dar Quraan Teacher",
+   "read_only": 1
+  },
+  {
+   "fieldname": "study_track",
+   "fieldtype": "Data",
+   "label": "Study Track",
+   "read_only": 1
+  },
+  {
+   "fieldname": "riwayah",
+   "fieldtype": "Data",
+   "label": "Riwayah",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_section",
+   "fieldtype": "Section Break",
+   "label": "Source Records"
+  },
+  {
+   "fieldname": "source_attendance",
+   "fieldtype": "Link",
+   "label": "Source Attendance",
+   "options": "Dar Quraan Attendance"
+  },
+  {
+   "fieldname": "source_progress",
+   "fieldtype": "Link",
+   "label": "Source Progress",
+   "options": "Dar Quraan Student Progress"
+  },
+  {
+   "fieldname": "source_evaluation",
+   "fieldtype": "Link",
+   "label": "Source Evaluation",
+   "options": "Dar Quraan Evaluation"
+  },
+  {
+   "fieldname": "follow_up_section",
+   "fieldtype": "Section Break",
+   "label": "Intervention"
+  },
+  {
+   "fieldname": "issue_description",
+   "fieldtype": "Text",
+   "label": "Issue Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "action_required",
+   "fieldtype": "Text",
+   "label": "Action Required"
+  },
+  {
+   "fieldname": "column_break_follow_up",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "parent_contact_required",
+   "fieldtype": "Check",
+   "label": "Parent Contact Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "follow_up_required",
+   "fieldtype": "Check",
+   "label": "Follow-up Required"
+  },
+  {
+   "fieldname": "next_follow_up_date",
+   "fieldtype": "Date",
+   "label": "Next Follow-up Date"
+  },
+  {
+   "fieldname": "resolution_section",
+   "fieldtype": "Section Break",
+   "label": "Resolution"
+  },
+  {
+   "fieldname": "resolution_notes",
+   "fieldtype": "Text",
+   "label": "Resolution Notes"
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nIn Progress\nResolved\nCancelled",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Teacher Follow Up",
+ "naming_rule": "Expression",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "role": "Dar Quraan Manager",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Dar Quraan Supervisor",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1
+  },
+  {
+   "role": "Dar Quraan Teacher",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1
+  },
+  {
+   "role": "Dar Quraan Data Entry",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1
+  },
+  {
+   "role": "Dar Quraan Viewer",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  }
+ ],
+ "search_fields": "student,student_name,student_assignment,teacher,halaqa,follow_up_type",
+ "sort_field": "follow_up_date",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "student_name",
+ "track_changes": 1
+}

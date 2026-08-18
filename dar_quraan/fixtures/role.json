@@ -1,0 +1,52 @@
+[
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "home_page": "",
+  "is_custom": 1,
+  "name": "Dar Quraan Manager",
+  "role_name": "Dar Quraan Manager",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "home_page": "",
+  "is_custom": 1,
+  "name": "Dar Quraan Supervisor",
+  "role_name": "Dar Quraan Supervisor",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "home_page": "",
+  "is_custom": 1,
+  "name": "Dar Quraan Teacher",
+  "role_name": "Dar Quraan Teacher",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "home_page": "",
+  "is_custom": 1,
+  "name": "Dar Quraan Data Entry",
+  "role_name": "Dar Quraan Data Entry",
+  "two_factor_auth": 0
+ },
+ {
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "home_page": "",
+  "is_custom": 1,
+  "name": "Dar Quraan Viewer",
+  "role_name": "Dar Quraan Viewer",
+  "two_factor_auth": 0
+ }
+]

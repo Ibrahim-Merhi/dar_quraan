@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "issingle": 1,
+ "field_order": [
+  "enable_exception_detection",
+  "absence_threshold",
+  "lateness_threshold",
+  "weak_result_threshold",
+  "no_progress_days",
+  "evaluation_overdue_days",
+  "follow_up_reminder_days",
+  "attendance_grace_days",
+  "enable_email_notifications",
+  "notification_recipients"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enable_exception_detection",
+   "fieldtype": "Check",
+   "label": "Enable Exception Detection"
+  },
+  {
+   "default": "3",
+   "fieldname": "absence_threshold",
+   "fieldtype": "Int",
+   "label": "Repeated Absence Threshold",
+   "reqd": 1
+  },
+  {
+   "default": "3",
+   "fieldname": "lateness_threshold",
+   "fieldtype": "Int",
+   "label": "Repeated Lateness Threshold",
+   "reqd": 1
+  },
+  {
+   "default": "3",
+   "fieldname": "weak_result_threshold",
+   "fieldtype": "Int",
+   "label": "Weak Result Threshold",
+   "reqd": 1
+  },
+  {
+   "default": "7",
+   "fieldname": "no_progress_days",
+   "fieldtype": "Int",
+   "label": "No Progress Days",
+   "reqd": 1
+  },
+  {
+   "default": "30",
+   "fieldname": "evaluation_overdue_days",
+   "fieldtype": "Int",
+   "label": "Evaluation Overdue Days",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "follow_up_reminder_days",
+   "fieldtype": "Int",
+   "label": "Follow-up Reminder Days",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "attendance_grace_days",
+   "fieldtype": "Int",
+   "label": "Attendance Grace Days",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_email_notifications",
+   "fieldtype": "Check",
+   "label": "Enable Email Notifications"
+  },
+  {
+   "fieldname": "notification_recipients",
+   "fieldtype": "Small Text",
+   "label": "Notification Recipients"
+  }
+ ],
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Settings",
+ "permissions": [
+  {
+   "read": 1,
+   "role": "System Manager",
+   "write": 1
+  },
+  {
+   "role": "Dar Quraan Manager",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ],
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "autoname": "DQ-EXC-{YYYY}-{#####}",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "exception_type",
+  "severity",
+  "detected_on",
+  "status",
+  "student_assignment",
+  "student",
+  "student_name",
+  "branch",
+  "teaching_location",
+  "halaqa",
+  "teacher",
+  "source_doctype",
+  "source_document",
+  "duplicate_key",
+  "occurrence_count",
+  "message",
+  "resolution_notes",
+  "resolved_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "exception_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Exception Type",
+   "options": "Repeated Absence\nRepeated Lateness\nRepeated Weak Result\nNo Recent Progress\nMissing Attendance\nOverdue Follow-up\nOverdue Evaluation\nHalaqa Over Capacity\nStudent Without Active Assignment\nAssignment Without Teacher",
+   "reqd": 1
+  },
+  {
+   "default": "Medium",
+   "fieldname": "severity",
+   "fieldtype": "Select",
+   "label": "Severity",
+   "options": "Low\nMedium\nHigh\nUrgent",
+   "reqd": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "detected_on",
+   "fieldtype": "Datetime",
+   "label": "Detected On",
+   "reqd": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Open\nAcknowledged\nResolved\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_assignment",
+   "fieldtype": "Link",
+   "label": "Student Assignment",
+   "options": "Dar Quraan Student Assignment"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Dar Quraan Student",
+   "read_only": 1
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Dar Quraan Branch",
+   "read_only": 1
+  },
+  {
+   "fieldname": "teaching_location",
+   "fieldtype": "Link",
+   "label": "Teaching Location",
+   "options": "Dar Quraan Teaching Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "halaqa",
+   "fieldtype": "Link",
+   "label": "Halaqa",
+   "options": "Dar Quraan Halaqa",
+   "read_only": 1
+  },
+  {
+   "fieldname": "teacher",
+   "fieldtype": "Link",
+   "label": "Teacher",
+   "options": "Dar Quraan Teacher",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_doctype",
+   "fieldtype": "Link",
+   "label": "Source DocType",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "source_document",
+   "fieldtype": "Dynamic Link",
+   "label": "Source Document",
+   "options": "source_doctype"
+  },
+  {
+   "fieldname": "duplicate_key",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Duplicate Key",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "occurrence_count",
+   "fieldtype": "Int",
+   "label": "Occurrence Count",
+   "read_only": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Text",
+   "label": "Message",
+   "reqd": 1
+  },
+  {
+   "fieldname": "resolution_notes",
+   "fieldtype": "Text",
+   "label": "Resolution Notes"
+  },
+  {
+   "fieldname": "resolved_on",
+   "fieldtype": "Datetime",
+   "label": "Resolved On",
+   "read_only": 1
+  }
+ ],
+ "module": "Dar Quraan",
+ "name": "Dar Quraan Exception",
+ "naming_rule": "Expression",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "role": "Dar Quraan Manager",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Dar Quraan Supervisor",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1
+  },
+  {
+   "role": "Dar Quraan Teacher",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  },
+  {
+   "role": "Dar Quraan Data Entry",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  },
+  {
+   "role": "Dar Quraan Viewer",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  }
+ ],
+ "search_fields": "exception_type,student,student_name,student_assignment,halaqa,teacher",
+ "sort_field": "detected_on",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "message",
+ "track_changes": 1
+}

@@ -1,0 +1,16 @@
+{
+ "actions": [], "doctype": "DocType", "editable_grid": 1, "engine": "InnoDB", "istable": 1,
+ "field_order": ["review_area", "rating", "finding", "column_break_action", "requires_follow_up", "corrective_action", "due_date", "status", "resolution_notes"],
+ "fields": [
+  {"fieldname":"review_area","fieldtype":"Select","in_list_view":1,"label":"Review Area","options":"Session Management\nAttendance\nStudent Progress\nQuran Performance\nTeacher Adherence\nLearning Environment\nOther","reqd":1},
+  {"fieldname":"rating","fieldtype":"Int","in_list_view":1,"label":"Rating","reqd":1},
+  {"fieldname":"finding","fieldtype":"Text","in_list_view":1,"label":"Finding","reqd":1},
+  {"fieldname":"column_break_action","fieldtype":"Column Break"},
+  {"default":"0","fieldname":"requires_follow_up","fieldtype":"Check","label":"Requires Follow-up"},
+  {"fieldname":"corrective_action","fieldtype":"Text","label":"Corrective Action"},
+  {"fieldname":"due_date","fieldtype":"Date","label":"Due Date"},
+  {"default":"Open","fieldname":"status","fieldtype":"Select","in_list_view":1,"label":"Status","options":"Open\nIn Progress\nResolved\nNot Applicable","reqd":1},
+  {"fieldname":"resolution_notes","fieldtype":"Text","label":"Resolution Notes"}
+ ],
+ "module": "Dar Quraan", "name": "Dar Quraan Supervision Item", "permissions": [], "states": []
+}

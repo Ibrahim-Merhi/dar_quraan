@@ -182,6 +182,50 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "role": "Dar Quraan Manager",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Dar Quraan Supervisor",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1,
+   "write": 1,
+   "email": 1,
+   "share": 1,
+   "create": 1
+  },
+  {
+   "role": "Dar Quraan Teacher",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  },
+  {
+   "role": "Dar Quraan Data Entry",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
+  },
+  {
+   "role": "Dar Quraan Viewer",
+   "read": 1,
+   "export": 1,
+   "print": 1,
+   "report": 1
   }
  ],
  "row_format": "Dynamic",

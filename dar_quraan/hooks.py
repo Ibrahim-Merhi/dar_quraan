@@ -5,6 +5,25 @@ app_description = "Quraan Institute Managment System"
 app_email = "ibrahim.m.merhy@gmail.com"
 app_license = "mit"
 
+fixtures = [
+	{
+		"dt": "Role",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Dar Quraan Manager",
+					"Dar Quraan Supervisor",
+					"Dar Quraan Teacher",
+					"Dar Quraan Data Entry",
+					"Dar Quraan Viewer",
+				],
+			]
+		],
+	}
+]
+
 # Apps
 # ------------------
 
@@ -125,6 +144,27 @@ app_license = "mit"
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
+permission_query_conditions = {
+	"Dar Quraan Teacher": "dar_quraan.dar_quraan.services.permissions.get_teacher_query_condition",
+	"Dar Quraan Halaqa": "dar_quraan.dar_quraan.services.permissions.get_halaqa_query_condition",
+	"Dar Quraan Student": "dar_quraan.dar_quraan.services.permissions.get_student_query_condition",
+	"Dar Quraan Student Assignment": "dar_quraan.dar_quraan.services.permissions.get_assignment_query_condition",
+	"Dar Quraan Attendance": "dar_quraan.dar_quraan.services.permissions.get_attendance_query_condition",
+	"Dar Quraan Evaluation": "dar_quraan.dar_quraan.services.permissions.get_evaluation_query_condition",
+	"Dar Quraan Exception": "dar_quraan.dar_quraan.services.permissions.get_exception_query_condition",
+	"Dar Quraan Next Assignment": "dar_quraan.dar_quraan.services.permissions.get_next_assignment_query_condition",
+	"Dar Quraan Session": "dar_quraan.dar_quraan.services.permissions.get_session_query_condition",
+	"Dar Quraan Student Progress": "dar_quraan.dar_quraan.services.permissions.get_progress_query_condition",
+	"Dar Quraan Student Quran State": "dar_quraan.dar_quraan.services.permissions.get_quran_state_query_condition",
+	"Dar Quraan Supervision Visit": "dar_quraan.dar_quraan.services.permissions.get_supervision_query_condition",
+	"Dar Quraan Teacher Follow Up": "dar_quraan.dar_quraan.services.permissions.get_follow_up_query_condition",
+}
+
+has_permission = {
+	doctype: "dar_quraan.dar_quraan.services.permissions.has_teacher_permission"
+	for doctype in permission_query_conditions
+}
+
 # DocType Class
 # ---------------
 # Override standard doctype classes
@@ -148,23 +188,9 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"dar_quraan.tasks.all"
-# 	],
-# 	"daily": [
-# 		"dar_quraan.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"dar_quraan.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"dar_quraan.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"dar_quraan.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"daily": ["dar_quraan.dar_quraan.services.exceptions.detect_daily_exceptions"],
+}
 
 # Testing
 # -------
@@ -246,4 +272,3 @@ app_license = "mit"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
