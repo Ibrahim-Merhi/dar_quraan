@@ -158,6 +158,11 @@ permission_query_conditions = {
 	"Dar Quraan Student Quran State": "dar_quraan.dar_quraan.services.permissions.get_quran_state_query_condition",
 	"Dar Quraan Supervision Visit": "dar_quraan.dar_quraan.services.permissions.get_supervision_query_condition",
 	"Dar Quraan Teacher Follow Up": "dar_quraan.dar_quraan.services.permissions.get_follow_up_query_condition",
+	"Dar Quraan Student Weekly Slot": "dar_quraan.dar_quraan.services.permissions.get_weekly_slot_query_condition",
+	"Dar Quraan Text Progress": "dar_quraan.dar_quraan.services.permissions.get_text_progress_query_condition",
+	"Dar Quraan Exam": "dar_quraan.dar_quraan.services.permissions.get_exam_query_condition",
+	"Dar Quraan Ijazah": "dar_quraan.dar_quraan.services.permissions.get_ijazah_query_condition",
+	"Dar Quraan Discipline Incident": "dar_quraan.dar_quraan.services.permissions.get_discipline_query_condition",
 }
 
 has_permission = {

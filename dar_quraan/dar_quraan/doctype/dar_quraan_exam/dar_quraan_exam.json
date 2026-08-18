@@ -1,0 +1,194 @@
+{
+  "name": "Dar Quraan Exam",
+  "module": "Dar Quraan",
+  "doctype": "DocType",
+  "autoname": "DQ-EXAM-.YYYY.-.#####",
+  "engine": "InnoDB",
+  "title_field": "student_name",
+  "field_order": [
+    "student_assignment",
+    "student",
+    "student_name",
+    "exam_date",
+    "exam_type",
+    "riwayah",
+    "completed_juz_at_exam",
+    "prior_twenty_juz_verified",
+    "examiner_teacher",
+    "committee",
+    "questions",
+    "errors",
+    "memorization_score",
+    "tajweed_score",
+    "final_score",
+    "passing_score",
+    "result",
+    "status",
+    "committee_notes"
+  ],
+  "fields": [
+    {
+      "fieldname": "student_assignment",
+      "fieldtype": "Link",
+      "label": "Student Assignment",
+      "options": "Dar Quraan Student Assignment",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "student",
+      "fieldtype": "Link",
+      "label": "Student",
+      "options": "Dar Quraan Student",
+      "read_only": 1
+    },
+    {
+      "fieldname": "student_name",
+      "fieldtype": "Data",
+      "label": "Student Name",
+      "read_only": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "exam_date",
+      "fieldtype": "Date",
+      "label": "Exam Date",
+      "default": "Today",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "exam_type",
+      "fieldtype": "Select",
+      "label": "Exam Type",
+      "options": "Five Juz\nFifteen Juz Committee\nFinal 30 Juz\nFinal 10 Juz\nIjazah Retest\nSpecial",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "riwayah",
+      "fieldtype": "Data",
+      "label": "Riwayah"
+    },
+    {
+      "fieldname": "examiner_teacher",
+      "fieldtype": "Link",
+      "label": "Examiner Teacher",
+      "options": "Dar Quraan Teacher"
+    },
+    {
+      "fieldname": "committee",
+      "fieldtype": "Table",
+      "label": "Scientific Committee",
+      "options": "Dar Quraan Exam Committee Member"
+    },
+    {
+      "fieldname": "questions",
+      "fieldtype": "Table",
+      "label": "Exam Questions",
+      "options": "Dar Quraan Exam Question",
+      "reqd": 1
+    },
+    {
+      "fieldname": "errors",
+      "fieldtype": "Table",
+      "label": "Recorded Errors",
+      "options": "Dar Quraan Exam Error"
+    },
+    {
+      "fieldname": "memorization_score",
+      "fieldtype": "Float",
+      "label": "Memorization, Performance, Waqf and Ibtida Score",
+      "read_only": 1
+    },
+    {
+      "fieldname": "tajweed_score",
+      "fieldtype": "Float",
+      "label": "Tajweed Theory Score",
+      "read_only": 1
+    },
+    {
+      "fieldname": "final_score",
+      "fieldtype": "Float",
+      "label": "Final Score",
+      "read_only": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "passing_score",
+      "fieldtype": "Float",
+      "label": "Passing Score",
+      "default": "80",
+      "reqd": 1
+    },
+    {
+      "fieldname": "result",
+      "fieldtype": "Select",
+      "label": "Result",
+      "options": "Pending\nPassed\nFailed",
+      "default": "Pending",
+      "read_only": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "Draft\nCompleted\nCancelled",
+      "default": "Draft",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "committee_notes",
+      "fieldtype": "Text",
+      "label": "Committee Notes"
+    },
+    {
+      "fieldname": "completed_juz_at_exam",
+      "fieldtype": "Int",
+      "label": "Verified Completed Juz at Exam",
+      "reqd": 1
+    },
+    {
+      "fieldname": "prior_twenty_juz_verified",
+      "fieldtype": "Check",
+      "label": "Prior 20 Juz Verified by Sheikh",
+      "default": "0",
+      "depends_on": "eval:doc.exam_type==\"Final 10 Juz\""
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Dar Quraan Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Dar Quraan Supervisor",
+      "read": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "Dar Quraan Teacher",
+      "read": 1,
+      "write": 1,
+      "create": 1
+    },
+    {
+      "role": "Dar Quraan Viewer",
+      "read": 1
+    }
+  ],
+  "track_changes": 1
+}

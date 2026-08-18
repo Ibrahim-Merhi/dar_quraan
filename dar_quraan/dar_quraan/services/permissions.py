@@ -11,6 +11,8 @@ TEACHER_SCOPED_DOCTYPES = {
 	"Dar Quraan Student Quran State",
 	"Dar Quraan Supervision Visit",
 	"Dar Quraan Teacher Follow Up",
+	"Dar Quraan Student Weekly Slot",
+	"Dar Quraan Text Progress",
 }
 
 
@@ -96,6 +98,33 @@ def get_follow_up_query_condition(user=None):
 	return get_scoped_query_condition("Dar Quraan Teacher Follow Up", user)
 
 
+def get_weekly_slot_query_condition(user=None):
+	return get_scoped_query_condition("Dar Quraan Student Weekly Slot", user)
+
+
+def get_text_progress_query_condition(user=None):
+	return get_scoped_query_condition("Dar Quraan Text Progress", user)
+
+
+def get_exam_query_condition(user=None):
+	return get_scoped_query_condition("Dar Quraan Exam", user).replace(".`teacher`", ".`examiner_teacher`")
+
+
+def get_assignment_related_query_condition(doctype, user=None):
+	if not is_restricted_teacher(user):
+		return ""
+	teachers = _teacher_sql(user)
+	return f"exists (select 1 from `tabDar Quraan Student Assignment` dqsa where dqsa.name = `tab{doctype}`.`student_assignment` and dqsa.teacher in ({teachers}))"
+
+
+def get_ijazah_query_condition(user=None):
+	return get_assignment_related_query_condition("Dar Quraan Ijazah", user)
+
+
+def get_discipline_query_condition(user=None):
+	return get_assignment_related_query_condition("Dar Quraan Discipline Incident", user)
+
+
 def has_teacher_permission(doc, user=None, permission_type=None):
 	user = user or frappe.session.user
 	if not is_restricted_teacher(user):
@@ -109,6 +138,15 @@ def has_teacher_permission(doc, user=None, permission_type=None):
 		return bool(
 			frappe.db.exists(
 				"Dar Quraan Student Assignment", {"student": doc.name, "teacher": ["in", list(teachers)]}
+			)
+		)
+	if doc.doctype == "Dar Quraan Exam":
+		return doc.get("examiner_teacher") in teachers
+	if doc.doctype in {"Dar Quraan Ijazah", "Dar Quraan Discipline Incident"}:
+		return bool(
+			frappe.db.exists(
+				"Dar Quraan Student Assignment",
+				{"name": doc.get("student_assignment"), "teacher": ["in", list(teachers)]},
 			)
 		)
 	if doc.doctype == "Dar Quraan Student Assignment" or doc.doctype in TEACHER_SCOPED_DOCTYPES:

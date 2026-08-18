@@ -1,342 +1,458 @@
 {
- "charts": [],
- "content": "[{\"id\":\"dq-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dar Quraan Operations</b></span>\",\"col\":12}},{\"id\":\"dq-shortcut-0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Session\",\"col\":4}},{\"id\":\"dq-shortcut-1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Attendance\",\"col\":4}},{\"id\":\"dq-shortcut-2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Student Progress\",\"col\":4}},{\"id\":\"dq-shortcut-3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Evaluation\",\"col\":4}},{\"id\":\"dq-shortcut-4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Student\",\"col\":4}},{\"id\":\"dq-shortcut-5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Exception\",\"col\":4}},{\"id\":\"dq-spacer\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dq-links-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Modules and Reports</b></span>\",\"col\":12}},{\"id\":\"dq-card-0\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Operations\",\"col\":4}},{\"id\":\"dq-card-1\",\"type\":\"card\",\"data\":{\"card_name\":\"Students and Teaching\",\"col\":4}},{\"id\":\"dq-card-2\",\"type\":\"card\",\"data\":{\"card_name\":\"Structure and Setup\",\"col\":4}},{\"id\":\"dq-card-3\",\"type\":\"card\",\"data\":{\"card_name\":\"Quality and Reports\",\"col\":4}}]",
- "creation": "2026-07-26 13:51:28.433216",
- "custom_blocks": [],
- "docstatus": 0,
- "doctype": "Workspace",
- "hide_custom": 0,
- "icon": "education",
- "idx": 0,
- "indicator_color": "green",
- "is_hidden": 0,
- "label": "Dar Quraan",
- "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Daily Operations",
-   "link_count": 4,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Session",
-   "link_count": 0,
-   "link_to": "Dar Quraan Session",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Attendance",
-   "link_count": 0,
-   "link_to": "Dar Quraan Attendance",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Student Progress",
-   "link_count": 0,
-   "link_to": "Dar Quraan Student Progress",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Evaluation",
-   "link_count": 0,
-   "link_to": "Dar Quraan Evaluation",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Students and Teaching",
-   "link_count": 5,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Student",
-   "link_count": 0,
-   "link_to": "Dar Quraan Student",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Student Assignment",
-   "link_count": 0,
-   "link_to": "Dar Quraan Student Assignment",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Teacher",
-   "link_count": 0,
-   "link_to": "Dar Quraan Teacher",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Halaqa",
-   "link_count": 0,
-   "link_to": "Dar Quraan Halaqa",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Teacher Follow Up",
-   "link_count": 0,
-   "link_to": "Dar Quraan Teacher Follow Up",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Structure and Setup",
-   "link_count": 7,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Branch",
-   "link_count": 0,
-   "link_to": "Dar Quraan Branch",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Teaching Location",
-   "link_count": 0,
-   "link_to": "Dar Quraan Teaching Location",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Academic Year",
-   "link_count": 0,
-   "link_to": "Dar Quraan Academic Year",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Academic Term",
-   "link_count": 0,
-   "link_to": "Dar Quraan Academic Term",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Surah",
-   "link_count": 0,
-   "link_to": "Dar Quraan Surah",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Juz Level",
-   "link_count": 0,
-   "link_to": "Dar Quraan Juz Level",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Settings",
-   "link_count": 0,
-   "link_to": "Dar Quraan Settings",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Quality and Reports",
-   "link_count": 6,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Exception",
-   "link_count": 0,
-   "link_to": "Dar Quraan Exception",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Dar Quraan Supervision Visit",
-   "link_count": 0,
-   "link_to": "Dar Quraan Supervision Visit",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Dar Quraan Student Analytics",
-   "link_count": 0,
-   "link_to": "Dar Quraan Student Analytics",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Dar Quraan Teacher Analytics",
-   "link_count": 0,
-   "link_to": "Dar Quraan Teacher Analytics",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Dar Quraan Halaqa Analytics",
-   "link_count": 0,
-   "link_to": "Dar Quraan Halaqa Analytics",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 1,
-   "label": "Dar Quraan Branch Analytics",
-   "link_count": 0,
-   "link_to": "Dar Quraan Branch Analytics",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  }
- ],
- "modified": "2026-08-18 12:00:00.000000",
- "modified_by": "Administrator",
- "module": "Dar Quraan",
- "name": "Dar Quraan",
- "number_cards": [],
- "owner": "ibrahim.m.merhy@gmail.com",
- "public": 1,
- "quick_lists": [],
- "roles": [
-  {
-   "role": "System Manager"
-  },
-  {
-   "role": "Dar Quraan Manager"
-  },
-  {
-   "role": "Dar Quraan Supervisor"
-  },
-  {
-   "role": "Dar Quraan Teacher"
-  },
-  {
-   "role": "Dar Quraan Data Entry"
-  },
-  {
-   "role": "Dar Quraan Viewer"
-  }
- ],
- "sequence_id": 4.0,
- "shortcuts": [
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Dar Quraan Session",
-   "link_to": "Dar Quraan Session",
-   "type": "DocType"
-  },
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Dar Quraan Attendance",
-   "link_to": "Dar Quraan Attendance",
-   "type": "DocType"
-  },
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Dar Quraan Student Progress",
-   "link_to": "Dar Quraan Student Progress",
-   "type": "DocType"
-  },
-  {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Dar Quraan Evaluation",
-   "link_to": "Dar Quraan Evaluation",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Dar Quraan Student",
-   "link_to": "Dar Quraan Student",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Dar Quraan Exception",
-   "link_to": "Dar Quraan Exception",
-   "type": "DocType"
-  }
- ],
- "title": "Dar Quraan"
+  "charts": [],
+  "content": "[{\"id\":\"dq-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dar Quraan Operations</b></span>\",\"col\":12}},{\"id\":\"dq-shortcut-0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Session\",\"col\":4}},{\"id\":\"dq-shortcut-1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Attendance\",\"col\":4}},{\"id\":\"dq-shortcut-2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Student Progress\",\"col\":4}},{\"id\":\"dq-shortcut-3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Evaluation\",\"col\":4}},{\"id\":\"dq-shortcut-4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Student\",\"col\":4}},{\"id\":\"dq-shortcut-5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dar Quraan Exception\",\"col\":4}},{\"id\":\"dq-spacer\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dq-links-header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Modules and Reports</b></span>\",\"col\":12}},{\"id\":\"dq-card-0\",\"type\":\"card\",\"data\":{\"card_name\":\"Daily Operations\",\"col\":4}},{\"id\":\"dq-card-1\",\"type\":\"card\",\"data\":{\"card_name\":\"Students and Teaching\",\"col\":4}},{\"id\":\"dq-card-2\",\"type\":\"card\",\"data\":{\"card_name\":\"Structure and Setup\",\"col\":4}},{\"id\":\"dq-card-3\",\"type\":\"card\",\"data\":{\"card_name\":\"Quality and Reports\",\"col\":4}}]",
+  "creation": "2026-07-26 13:51:28.433216",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "hide_custom": 0,
+  "icon": "education",
+  "idx": 0,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Dar Quraan",
+  "links": [
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Daily Operations",
+      "link_count": 4,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Session",
+      "link_count": 0,
+      "link_to": "Dar Quraan Session",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Attendance",
+      "link_count": 0,
+      "link_to": "Dar Quraan Attendance",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Student Progress",
+      "link_count": 0,
+      "link_to": "Dar Quraan Student Progress",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Evaluation",
+      "link_count": 0,
+      "link_to": "Dar Quraan Evaluation",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Students and Teaching",
+      "link_count": 5,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Student",
+      "link_count": 0,
+      "link_to": "Dar Quraan Student",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Student Assignment",
+      "link_count": 0,
+      "link_to": "Dar Quraan Student Assignment",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Teacher",
+      "link_count": 0,
+      "link_to": "Dar Quraan Teacher",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Halaqa",
+      "link_count": 0,
+      "link_to": "Dar Quraan Halaqa",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Teacher Follow Up",
+      "link_count": 0,
+      "link_to": "Dar Quraan Teacher Follow Up",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Structure and Setup",
+      "link_count": 7,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Branch",
+      "link_count": 0,
+      "link_to": "Dar Quraan Branch",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Teaching Location",
+      "link_count": 0,
+      "link_to": "Dar Quraan Teaching Location",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Academic Year",
+      "link_count": 0,
+      "link_to": "Dar Quraan Academic Year",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Academic Term",
+      "link_count": 0,
+      "link_to": "Dar Quraan Academic Term",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Surah",
+      "link_count": 0,
+      "link_to": "Dar Quraan Surah",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Juz Level",
+      "link_count": 0,
+      "link_to": "Dar Quraan Juz Level",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Settings",
+      "link_count": 0,
+      "link_to": "Dar Quraan Settings",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Quality and Reports",
+      "link_count": 6,
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Exception",
+      "link_count": 0,
+      "link_to": "Dar Quraan Exception",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Dar Quraan Supervision Visit",
+      "link_count": 0,
+      "link_to": "Dar Quraan Supervision Visit",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Dar Quraan Student Analytics",
+      "link_count": 0,
+      "link_to": "Dar Quraan Student Analytics",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Dar Quraan Teacher Analytics",
+      "link_count": 0,
+      "link_to": "Dar Quraan Teacher Analytics",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Dar Quraan Halaqa Analytics",
+      "link_count": 0,
+      "link_to": "Dar Quraan Halaqa Analytics",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Dar Quraan Branch Analytics",
+      "link_count": 0,
+      "link_to": "Dar Quraan Branch Analytics",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "label": "Student Lifecycle",
+      "type": "Card Break",
+      "link_count": 9
+    },
+    {
+      "label": "Dar Quraan Admission Application",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Admission Application",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Program",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Program",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Student Weekly Slot",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Student Weekly Slot",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Text Progress",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Text Progress",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Exam",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Exam",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Error Rule",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Error Rule",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Ijazah",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Ijazah",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Discipline Rule",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Discipline Rule",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    },
+    {
+      "label": "Dar Quraan Discipline Incident",
+      "type": "Link",
+      "link_type": "DocType",
+      "link_to": "Dar Quraan Discipline Incident",
+      "link_count": 0,
+      "hidden": 0,
+      "is_query_report": 0,
+      "onboard": 0
+    }
+  ],
+  "modified": "2026-08-18 12:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Dar Quraan",
+  "name": "Dar Quraan",
+  "number_cards": [],
+  "owner": "ibrahim.m.merhy@gmail.com",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "Dar Quraan Manager"
+    },
+    {
+      "role": "Dar Quraan Supervisor"
+    },
+    {
+      "role": "Dar Quraan Teacher"
+    },
+    {
+      "role": "Dar Quraan Data Entry"
+    },
+    {
+      "role": "Dar Quraan Viewer"
+    }
+  ],
+  "sequence_id": 4.0,
+  "shortcuts": [
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Dar Quraan Session",
+      "link_to": "Dar Quraan Session",
+      "type": "DocType"
+    },
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Dar Quraan Attendance",
+      "link_to": "Dar Quraan Attendance",
+      "type": "DocType"
+    },
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Dar Quraan Student Progress",
+      "link_to": "Dar Quraan Student Progress",
+      "type": "DocType"
+    },
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Dar Quraan Evaluation",
+      "link_to": "Dar Quraan Evaluation",
+      "type": "DocType"
+    },
+    {
+      "color": "Grey",
+      "doc_view": "List",
+      "label": "Dar Quraan Student",
+      "link_to": "Dar Quraan Student",
+      "type": "DocType"
+    },
+    {
+      "color": "Grey",
+      "doc_view": "List",
+      "label": "Dar Quraan Exception",
+      "link_to": "Dar Quraan Exception",
+      "type": "DocType"
+    },
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Dar Quraan Admission Application",
+      "link_to": "Dar Quraan Admission Application",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Dar Quraan Exam",
+      "link_to": "Dar Quraan Exam",
+      "type": "DocType"
+    },
+    {
+      "color": "Green",
+      "doc_view": "List",
+      "label": "Dar Quraan Ijazah",
+      "link_to": "Dar Quraan Ijazah",
+      "type": "DocType"
+    }
+  ],
+  "title": "Dar Quraan"
 }
