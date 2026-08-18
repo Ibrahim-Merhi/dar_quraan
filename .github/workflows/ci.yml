@@ -41,4 +41,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "18"
+      - name: Install Redis
+        run: sudo apt-get update && sudo apt-get install --yes redis-server
       - run: bash .github/helper/install-and-test.sh
