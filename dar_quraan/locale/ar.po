@@ -319,7 +319,7 @@ msgstr "ملاحظات إضافية"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_teaching_location/dar_quraan_teaching_location.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Address"
-msgstr "العنوان"
+msgstr "عنوان السكن"
 
 #. Label of a Small Text field in DocType 'Dar Quraan Branch'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_branch/dar_quraan_branch.json
@@ -355,7 +355,7 @@ msgstr "طلب القبول"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_program/dar_quraan_program.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Admission Goal"
-msgstr "هدف القبول"
+msgstr "الهدف من الالتحاق"
 
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.py:62
 msgid "Admission status cannot change from {0} to {1}."
@@ -633,7 +633,7 @@ msgstr "الحضور لا يمكن أن يكون مسجلة لـ ملغى الج
 #. Label of a Section Break field in DocType 'Dar Quraan Admission Application'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Availability and Preferences"
-msgstr "التوفر والتفضيلات"
+msgstr "الأوقات والتفضيلات"
 
 #. Label of a Int field in DocType 'Dar Quraan Quran Range'
 #. Label of a Int field in DocType 'Dar Quraan Surah'
@@ -1026,7 +1026,7 @@ msgstr "نص السند المتصل هو مطلوب قبل الإصدار."
 #: dar_quraan/dar_quraan/doctype/dar_quraan_branch/dar_quraan_branch.json
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 msgid "Contact Information"
-msgstr "معلومات الاتصال"
+msgstr "بيانات التواصل"
 
 #. Label of a Data field in DocType 'Dar Quraan Teaching Location'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_teaching_location/dar_quraan_teaching_location.json
@@ -1130,7 +1130,7 @@ msgstr "الصفحة الحالية هو مطلوب."
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Current Quran Status"
-msgstr "حالة القرآن الحالية"
+msgstr "مستوى المتقدم في القرآن الكريم"
 
 #. Label of a Data field in DocType 'Dar Quraan Admission Application'
 #. Label of a Data field in DocType 'Dar Quraan Student'
@@ -1139,7 +1139,7 @@ msgstr "حالة القرآن الحالية"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Current Riwayah"
-msgstr "الرواية الحالية"
+msgstr "الرواية التي يقرأ بها المتقدم"
 
 #. Label of a Int field in DocType 'Dar Quraan Halaqa'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_halaqa/dar_quraan_halaqa.json
@@ -1168,7 +1168,7 @@ msgstr "السورة الحالية هو مطلوب."
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Current and Previous Quran Level"
-msgstr "المستوى القرآني الحالي والسابق"
+msgstr "وصف المستوى القرآني الحالي والخبرات السابقة"
 
 #. Label of a Card Break in the Dar Quraan Workspace
 #: dar_quraan/dar_quraan/workspace/dar_quraan/dar_quraan.json
@@ -1838,14 +1838,14 @@ msgstr "الدرجة المحصّلة"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Education Level"
-msgstr "المستوى التعليمي"
+msgstr "التحصيل العلمي"
 
 #. Label of a Section Break field in DocType 'Dar Quraan Admission Application'
 #. Label of a Section Break field in DocType 'Dar Quraan Student'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 msgid "Education and Employment"
-msgstr "التعليم والعمل"
+msgstr "المؤهلات العلمية والمهنية"
 
 #. Label of a Datetime field in DocType 'Dar Quraan Student Assignment'
 #. Label of a Date field in DocType 'Dar Quraan Student Weekly Slot'
@@ -2672,7 +2672,7 @@ msgstr "الحلقات"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Has Previous Ijazah"
-msgstr "لديه إجازة سابقة"
+msgstr "حاصل على إجازة سابقة"
 
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.py:372
 msgid "Has Previous Ijazah must be enabled when Quran Status is Mujaz."
@@ -2735,7 +2735,7 @@ msgstr "قسم الهوية"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Identity Document"
-msgstr "وثيقة الهوية"
+msgstr "صورة وثيقة الهوية"
 
 #. Label of a Section Break field in DocType 'Dar Quraan Admission Application'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
@@ -2970,7 +2970,7 @@ msgstr "الجزرية"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Jazariyyah Level"
-msgstr "الجزرية المستوى"
+msgstr "مستوى المتقدم في متن الجزرية"
 
 #. Label of a Int field in DocType 'Dar Quraan Juz Level'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_juz_level/dar_quraan_juz_level.json
@@ -3365,7 +3365,7 @@ msgstr "محفوظ"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Memorized Juz"
-msgstr "الأجزاء المحفوظة"
+msgstr "عدد الأجزاء المحفوظة"
 
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.py:45
 msgid "Memorized Juz must be between 0 and 30."
@@ -3488,7 +3488,7 @@ msgstr "التليفون المحمول"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Mobile Number"
-msgstr "رقم الهاتف المحمول"
+msgstr "رقم الهاتف"
 
 #. Option for the 'Day of Week' (Select) field in DocType 'Dar Quraan Student
 #. Weekly Slot'
@@ -3559,7 +3559,7 @@ msgstr "سلسلة التسمية"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "National ID"
-msgstr "الهوية الوطنية"
+msgstr "رقم الهوية"
 
 #. Label of a Link field in DocType 'Dar Quraan Admission Application'
 #. Label of a Link field in DocType 'Dar Quraan Student'
@@ -3932,7 +3932,7 @@ msgstr "دوري"
 #. Label of a Section Break field in DocType 'Dar Quraan Student'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 msgid "Personal Information"
-msgstr "المعلومات الشخصية"
+msgstr "البيانات الشخصية"
 
 #. Label of a Data field in DocType 'Dar Quraan Branch'
 #. Label of a Data field in DocType 'Dar Quraan Teacher'
@@ -3987,7 +3987,7 @@ msgstr "نص السياسة"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Preferred Branch"
-msgstr "الفرع المفضل"
+msgstr "الفرع المرغوب"
 
 #. Label of a Data field in DocType 'Dar Quraan Student'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
@@ -3999,21 +3999,21 @@ msgstr "رقم الاتصال المفضل"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Preferred Days"
-msgstr "الأيام المفضلة"
+msgstr "أيام الدراسة المناسبة"
 
 #. Label of a Time field in DocType 'Dar Quraan Admission Application'
 #. Label of a field in the dar-quraan-admission-application Web Form
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Preferred Time From"
-msgstr "الوقت المفضل من"
+msgstr "الوقت المناسب من"
 
 #. Label of a Time field in DocType 'Dar Quraan Admission Application'
 #. Label of a field in the dar-quraan-admission-application Web Form
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Preferred Time To"
-msgstr "الوقت المفضل إلى"
+msgstr "الوقت المناسب إلى"
 
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.py:53
 msgid "Preferred end time must be after start time."
@@ -4039,7 +4039,7 @@ msgstr "عدد الحاضرين"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Previous Ijazah Details"
-msgstr "تفاصيل الإجازة السابقة"
+msgstr "بيانات الإجازات السابقة"
 
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.py:369
 msgid "Previous Ijazah Details are required when Has Previous Ijazah is enabled."
@@ -4056,7 +4056,7 @@ msgstr "تفاصيل الإجازة السابقة هي مطلوب."
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Previous Sheikhs"
-msgstr "المشايخ السابقون"
+msgstr "المشايخ الذين سبق له القراءة عليهم"
 
 #. Option for the 'Assignment Type' (Select) field in DocType 'Dar Quraan
 #. Student Assignment'
@@ -4727,7 +4727,7 @@ msgstr "مدرسة"
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "School or University"
-msgstr "المدرسة أو الجامعة"
+msgstr "المؤسسة التعليمية"
 
 #. Label of a Table field in DocType 'Dar Quraan Exam'
 #: dar_quraan/dar_quraan/doctype/dar_quraan_exam/dar_quraan_exam.json
@@ -5418,7 +5418,7 @@ msgstr "الطلاب والتعليم"
 #: dar_quraan/dar_quraan/report/dar_quraan_student_analytics/dar_quraan_student_analytics.py:282
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Study Track"
-msgstr "مسار الدراسة"
+msgstr "المسار القرآني المطلوب"
 
 #. Button label of the dar-quraan-admission-application Web Form
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
@@ -5499,7 +5499,7 @@ msgstr "المشرف هو مطلوب."
 #: dar_quraan/dar_quraan/doctype/dar_quraan_admission_application/dar_quraan_admission_application.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "Supporting Document"
-msgstr "داعم المستند"
+msgstr "مستندات داعمة"
 
 #. Label of a Link field in DocType 'Dar Quraan Evaluation Item'
 #. Label of a Link field in DocType 'Dar Quraan Exam Question'
@@ -6167,7 +6167,7 @@ msgstr "أسبوعياً الفردي الوقت يجب أن يكون على ا�
 #: dar_quraan/dar_quraan/doctype/dar_quraan_student/dar_quraan_student.json
 #: dar_quraan/dar_quraan/web_form/dar_quraan_admission_application/dar_quraan_admission_application.json
 msgid "WhatsApp Number"
-msgstr "رقم واتساب"
+msgstr "رقم الواتساب"
 
 #. Option for the 'Marital Status' (Select) field in DocType 'Dar Quraan
 #. Admission Application'

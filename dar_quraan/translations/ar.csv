@@ -48,13 +48,13 @@ Active Student {0} does not have an active current assignment.,نشط الطال
 Add the Qiraat method details in Notes when Qiraat Method is Other.,أضف الـ القراءات الطريقة التفاصيل في الملاحظات عندما طريقة القراءات هو أخرى.
 Additional Information,معلومات إضافية
 Additional Notes,ملاحظات إضافية
-Address,العنوان
+Address,عنوان السكن
 Address Line,سطر العنوان
 Address and contact,العنوان وبيانات الاتصال
 Administration,الإدارة
 Administrative Review,المراجعة الإدارية
 Admission Application,طلب القبول
-Admission Goal,هدف القبول
+Admission Goal,الهدف من الالتحاق
 Admission status cannot change from {0} to {1}.,القبول الحالة لا يمكن تتغير من {0} إلى {1}.
 Adults,بالغون
 Al-Jazariyyah Introduction,الجزرية المقدمة
@@ -106,7 +106,7 @@ Attendance Status,حالة الحضور
 "Attendance Status must be Present, Absent, Late, or Excused.",حالة الحضور يجب أن يكون حاضر، غائب، متأخر، أو بعذر.
 Attendance already exists for Session {0}.,يوجد سجل حضور مسبق للجلسة {0}.
 Attendance cannot be recorded for a Cancelled Session.,الحضور لا يمكن أن يكون مسجلة لـ ملغى الجلسة.
-Availability and Preferences,التوفر والتفضيلات
+Availability and Preferences,الأوقات والتفضيلات
 Ayah Count,عدد الآيات
 Ayah Count must be greater than zero.,عدد الآيات يجب أن يكون أكبر من الصفر.
 Ayah range cannot exceed the Surah Ayah Count of {0}.,الآية النطاق لا يمكن يتجاوز الـ السورة عدد الآيات لـ {0}.
@@ -165,7 +165,7 @@ Configuration,الإعدادات
 Configuration section,قسم الإعدادات
 Connected Sanad Text,نص السند المتصل
 Connected Sanad Text is required before issuance.,نص السند المتصل هو مطلوب قبل الإصدار.
-Contact Information,معلومات الاتصال
+Contact Information,بيانات التواصل
 Contact Number,رقم الاتصال
 Contact Person,الشخص الذي يمكن الاتصال به
 Contact and Family,الاتصال والأسرة
@@ -185,14 +185,14 @@ Current Page,الصفحة الحالية
 Current Page cannot be before page {0} for the selected Surah.,الصفحة الحالية لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
 Current Page cannot exceed page {0} for the selected Surah.,الصفحة الحالية لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
 Current Page is required.,الصفحة الحالية هو مطلوب.
-Current Quran Status,حالة القرآن الحالية
-Current Riwayah,الرواية الحالية
+Current Quran Status,مستوى المتقدم في القرآن الكريم
+Current Riwayah,الرواية التي يقرأ بها المتقدم
 Current Students,عدد الطلاب الحالي
 Current Students cannot be negative.,الطلاب الحاليون لا يمكن أن يكون سالبة.
 Current Students cannot exceed Maximum Students.,لا يمكن أن يتجاوز عدد الطلاب الحالي الطاقة الاستيعابية القصوى.
 Current Surah,السورة الحالية
 Current Surah is required.,السورة الحالية هو مطلوب.
-Current and Previous Quran Level,المستوى القرآني الحالي والسابق
+Current and Previous Quran Level,وصف المستوى القرآني الحالي والخبرات السابقة
 Daily Operations,العمليات اليومية
 Dar Quraan,دار القرآن
 Dar Quraan Academic Term,الفصل الدراسي
@@ -278,8 +278,8 @@ Duplicate Key,مكرر المفتاح
 Duration Minutes,المدة بالدقائق
 Each student must receive at least 30 minutes per week.,كل الطالب يجب يحصل على الأقل 30 دقيقة لكل أسبوع.
 Earned Score,الدرجة المحصّلة
-Education Level,المستوى التعليمي
-Education and Employment,التعليم والعمل
+Education Level,التحصيل العلمي
+Education and Employment,المؤهلات العلمية والمهنية
 Effective From,ساري من
 Effective From cannot be earlier than the assignment Start Date.,ساري من لا يمكن أن يكون أسبق من الـ الإسناد تاريخ البدء.
 Effective To,ساري إلى
@@ -427,14 +427,14 @@ Halaqa {0} has {1} active assignments for a capacity of {2}.,الحلقة {0} ل
 Halaqa {0} must be Active. Current status: {1}.,الحلقة {0} يجب أن يكون نشط. الحالة الحالية: {1}.
 "Halaqa {0} uses Teaching Location {1}, not the selected Teaching Location {2}.",الحلقة {0} يستخدم موقع التدريس {1}، لا الـ المحدد موقع التدريس {2}.
 Halaqas,الحلقات
-Has Previous Ijazah,لديه إجازة سابقة
+Has Previous Ijazah,حاصل على إجازة سابقة
 Has Previous Ijazah must be enabled when Quran Status is Mujaz.,لديه إجازة سابقة يجب أن يكون مفعلاً عندما حالة القرآن هو مجاز.
 Hifz,الحفظ
 High,مستوى عالي
 Home Number,رقم المنزل
 Identification,الهوية
 Identification section,قسم الهوية
-Identity Document,وثيقة الهوية
+Identity Document,صورة وثيقة الهوية
 Identity and Personal Information,الهوية والمعلومات الشخصية
 Ifraad,الإفراد
 Ijazah,الإجازة
@@ -475,7 +475,7 @@ Issue Description is required.,وصف المشكلة هو مطلوب.
 Issued,نشر
 Jam,الجمع
 Jazariyyah,الجزرية
-Jazariyyah Level,الجزرية المستوى
+Jazariyyah Level,مستوى المتقدم في متن الجزرية
 Juz Count,عدد الأجزاء
 Juz Count must be between Minimum Juz {0} and Maximum Juz {1}.,عدد الأجزاء يجب أن يكون بين الحد الأدنى للأجزاء {0} و الحد الأقصى للأجزاء {1}.
 Juz Level {0} already exists.,مستوى الجزء {0} بالفعل موجود.
@@ -541,7 +541,7 @@ Memorization State,حالة الحفظ
 Memorization and Performance,الحفظ والأداء
 "Memorization, Performance, Waqf and Ibtida Score",درجة الحفظ والأداء والوقف والابتداء
 Memorized,محفوظ
-Memorized Juz,الأجزاء المحفوظة
+Memorized Juz,عدد الأجزاء المحفوظة
 Memorized Juz must be between 0 and 30.,الأجزاء المحفوظة يجب أن يكون بين 0 و 30.
 Memorized and Explained,محفوظ و مشروح
 Memorizing,قيد الحفظ
@@ -559,7 +559,7 @@ Mistakes Count,عدد الأخطاء
 Mistakes Count cannot be negative.,عدد الأخطاء لا يمكن أن يكون سالبة.
 Mixed,مختلط
 Mobile,التليفون المحمول
-Mobile Number,رقم الهاتف المحمول
+Mobile Number,رقم الهاتف
 Monday,يوم الاثنين
 Monthly,شهريا
 Mosque,مسجد
@@ -568,7 +568,7 @@ Mother Number,رقم الأم
 Mother Occupation,مهنة الأم
 Mujaz,مجاز
 Naming Series,سلسلة التسمية
-National ID,الهوية الوطنية
+National ID,رقم الهوية
 Nationality,الجنسية
 Needs Revision,يحتاج المراجعة
 New Memorization,الحفظ الجديد
@@ -617,7 +617,7 @@ Paused,متوقف مؤقتاً
 Pending,قيد الانتظار
 Performance,أداء
 Periodic,دوري
-Personal Information,المعلومات الشخصية
+Personal Information,البيانات الشخصية
 Phone,هاتف
 Photo,الصورة
 Place of Birth,مكان الميلاد
@@ -627,18 +627,18 @@ Planned,مخطط
 Planning,التخطيط
 Please enter a valid email address.,يرجى إدخال عنوان بريد إلكتروني صالح.
 Policy Text,نص السياسة
-Preferred Branch,الفرع المفضل
+Preferred Branch,الفرع المرغوب
 Preferred Contact Number,رقم الاتصال المفضل
-Preferred Days,الأيام المفضلة
-Preferred Time From,الوقت المفضل من
-Preferred Time To,الوقت المفضل إلى
+Preferred Days,أيام الدراسة المناسبة
+Preferred Time From,الوقت المناسب من
+Preferred Time To,الوقت المناسب إلى
 Preferred end time must be after start time.,المفضل النهاية الوقت يجب أن يكون بعد البداية الوقت.
 Present,حاضر
 Present Count,عدد الحاضرين
-Previous Ijazah Details,تفاصيل الإجازة السابقة
+Previous Ijazah Details,بيانات الإجازات السابقة
 Previous Ijazah Details are required when Has Previous Ijazah is enabled.,تفاصيل الإجازة السابقة هي مطلوب عندما لديه إجازة سابقة هو مفعلاً.
 Previous Ijazah Details are required.,تفاصيل الإجازة السابقة هي مطلوب.
-Previous Sheikhs,المشايخ السابقون
+Previous Sheikhs,المشايخ الذين سبق له القراءة عليهم
 Primary,أساسي
 Prior 20 Juz Verified by Sheikh,السابقة 20 الجزء متحقق منها بواسطة الشيخ
 Priority,أفضلية
@@ -758,7 +758,7 @@ Schedule,جدول
 Schedule Description,وصف الجدول
 Scheduled,من المقرر
 School,مدرسة
-School or University,المدرسة أو الجامعة
+School or University,المؤسسة التعليمية
 Scientific Committee,اللجنة العلمية
 Selected Academic Term does not exist.,المحدد الفصل الدراسي لا موجوداً.
 Selected Attendance does not contain Student Assignment {0}.,المحدد الحضور لا يحتوي إسناد الطالب {0}.
@@ -867,7 +867,7 @@ Student {0} does not exist.,الطالب {0} لا موجوداً.
 Student {0} must be Active before an assignment can be activated. Current status: {1}.,الطالب {0} يجب أن يكون نشط قبل الإسناد يمكن أن يكون تفعيله. الحالة الحالية: {1}.
 Students,الطلاب
 Students and Teaching,الطلاب والتعليم
-Study Track,مسار الدراسة
+Study Track,المسار القرآني المطلوب
 Submit Application,إرسال الطلب
 Substitute,بديل
 Sughra,الصغرى
@@ -881,7 +881,7 @@ Supervisor,مشرف
 Supervisor Summary,ملخص المشرف
 Supervisor Summary is required for a Completed visit.,المشرف الملخص هو مطلوب لـ مكتمل الزيارة.
 Supervisor is required.,المشرف هو مطلوب.
-Supporting Document,داعم المستند
+Supporting Document,مستندات داعمة
 Surah,السورة
 Surah Number,السورة الرقم
 Surah Number must be between 1 and 114.,السورة الرقم يجب أن يكون بين 1 و 114.
@@ -990,7 +990,7 @@ Website,الموقع
 Wednesday,الأربعاء
 Weekly Individual Minutes,الدقائق الفردية الأسبوعية
 Weekly individual time must be at least 30 minutes.,أسبوعياً الفردي الوقت يجب أن يكون على الأقل 30 دقيقة.
-WhatsApp Number,رقم واتساب
+WhatsApp Number,رقم الواتساب
 Widowed,ارمل
 Withdrawn,مسحوب
 Women,نساء
@@ -1053,3 +1053,6 @@ Teaching and Quran Journey,التعليم والمسار القرآني
 Text Progress,تقدم المتون
 Viewer,مستخدم للعرض فقط
 Weekly Slots,المواعيد الأسبوعية
+Begin typing for results.,ابدأ الكتابة لعرض النتائج.
+Quran Profile and Study Goal,المستوى القرآني والهدف من الالتحاق
+Documents and Additional Notes,الوثائق والملاحظات الإضافية

@@ -459,7 +459,11 @@ class DarQuraanStudentAssignment(Document):
 		if not academic_year:
 			frappe.throw(_("Academic Year {0} does not exist.").format(frappe.bold(self.academic_year)))
 
-		if academic_year.status not in {"Active", "Planned"}:
+		allowed_year_statuses = {"Active", "Planned", "Open"}
+		if self.status != "Active":
+			allowed_year_statuses.update({"Closed", "Archived"})
+
+		if academic_year.status not in allowed_year_statuses:
 			frappe.throw(
 				_("Academic Year {0} cannot be used because its " "status is {1}.").format(
 					frappe.bold(self.academic_year),

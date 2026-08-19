@@ -1,0 +1,289 @@
+:root {
+	--dq-primary: #176b55;
+	--dq-primary-dark: #10513f;
+	--dq-primary-soft: #eaf5f1;
+	--dq-border: #dce7e3;
+	--dq-muted: #5f6f69;
+}
+
+body {
+	background: linear-gradient(180deg, #f3f8f6 0, #fbfcfc 22rem);
+}
+
+.web-form-container {
+	max-width: 1180px;
+	padding-inline: 1.25rem;
+}
+
+.web-form-header,
+.web-form {
+	border: 1px solid var(--dq-border);
+	box-shadow: 0 18px 48px rgb(22 82 65 / 8%);
+}
+
+.web-form-header {
+	margin-top: 2rem;
+	border-radius: 18px 18px 0 0;
+	background: linear-gradient(135deg, #fff 25%, var(--dq-primary-soft));
+}
+
+.web-form-head {
+	padding: 1.75rem 2rem 1.25rem;
+}
+
+.web-form-title h1 {
+	color: #163d32;
+	font-size: clamp(1.65rem, 3vw, 2.25rem);
+	font-weight: 700;
+	letter-spacing: -0.025em;
+}
+
+.web-form-introduction {
+	max-width: 820px;
+	color: var(--dq-muted);
+	font-size: 0.95rem;
+	line-height: 1.7;
+}
+
+.dq-admission-intro p {
+	margin-bottom: 0.35rem;
+}
+
+.dq-form-note {
+	font-size: 0.85rem;
+}
+
+.web-form {
+	border-top: 0;
+	border-radius: 0 0 18px 18px;
+	background: #fff;
+}
+
+.web-form-body {
+	padding: 0.5rem 1rem 1.5rem;
+}
+
+.web-form-wrapper .form-layout {
+	background: transparent;
+}
+
+.web-form-wrapper .form-section {
+	margin: 1rem 0;
+	padding: 1.4rem;
+	border: 1px solid var(--dq-border);
+	border-radius: 14px;
+	background: #fff;
+}
+
+.web-form-wrapper .section-head {
+	margin-bottom: 1.2rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid var(--dq-border);
+	color: var(--dq-primary-dark);
+	font-size: 1.05rem;
+	font-weight: 700;
+}
+
+.web-form-wrapper .form-column {
+	width: 100%;
+}
+
+.web-form-wrapper .form-column > form {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1rem 1.25rem;
+	width: 100%;
+	max-width: none;
+	padding: 0;
+}
+
+.web-form-wrapper .frappe-control {
+	min-width: 0;
+	margin: 0;
+}
+
+.web-form-wrapper .frappe-control[data-fieldname="address"],
+.web-form-wrapper .frappe-control[data-fieldname="current_level_description"],
+.web-form-wrapper .frappe-control[data-fieldname="previous_sheikhs"],
+.web-form-wrapper .frappe-control[data-fieldname="previous_ijazah_details"],
+.web-form-wrapper .frappe-control[data-fieldname="notes"] {
+	grid-column: 1 / -1;
+}
+
+.web-form-wrapper .control-label {
+	margin-bottom: 0.45rem;
+	color: #29463e;
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+
+.web-form-wrapper .form-control,
+.web-form-wrapper .input-with-feedback,
+.web-form-wrapper .awesomplete > input {
+	min-height: 42px;
+	border-color: #ccdcd6;
+	border-radius: 9px;
+	background-color: #fbfdfc;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.web-form-wrapper textarea.form-control {
+	min-height: 96px;
+	resize: vertical;
+}
+
+.web-form-wrapper .form-control:focus,
+.web-form-wrapper .input-with-feedback:focus {
+	border-color: var(--dq-primary);
+	background: #fff;
+	box-shadow: 0 0 0 3px rgb(23 107 85 / 12%);
+}
+
+.web-form-wrapper .attach-file,
+.web-form-wrapper .btn-attach {
+	min-height: 42px;
+	border: 1px dashed #9bbdb2;
+	border-radius: 9px;
+	background: var(--dq-primary-soft);
+	color: var(--dq-primary-dark);
+}
+
+.web-form-footer {
+	padding: 1.25rem 2rem 1.75rem;
+	border-top: 1px solid var(--dq-border);
+	background: #fbfdfc;
+}
+
+.web-form-actions .btn-primary {
+	min-height: 44px;
+	padding-inline: 1.75rem;
+	border-color: var(--dq-primary);
+	border-radius: 9px;
+	background: var(--dq-primary);
+	font-weight: 600;
+}
+
+.web-form-actions .btn-primary:hover,
+.web-form-actions .btn-primary:focus {
+	border-color: var(--dq-primary-dark);
+	background: var(--dq-primary-dark);
+}
+
+[dir="rtl"] .web-form-title,
+[dir="rtl"] .web-form-introduction,
+[dir="rtl"] .web-form-wrapper .section-head,
+[dir="rtl"] .web-form-wrapper .control-label {
+	text-align: right;
+}
+
+@media (max-width: 991px) {
+	.web-form-wrapper .form-column > form {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 575px) {
+	.web-form-container {
+		padding-inline: 0.75rem;
+	}
+
+	.web-form-header {
+		margin-top: 0.75rem;
+	}
+
+	.web-form-head,
+	.web-form-footer {
+		padding: 1.25rem;
+	}
+
+	.web-form-body {
+		padding: 0.25rem 0.75rem 1rem;
+	}
+
+	.web-form-wrapper .form-section {
+		padding: 1rem;
+	}
+
+	.web-form-wrapper .form-column > form {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.web-form-wrapper .frappe-control {
+		grid-column: 1;
+	}
+
+	.web-form-actions .btn-primary {
+		width: 100%;
+	}
+}
+
+/* Frappe can set the page language without adding dir="rtl". */
+.web-form-container:lang(ar),
+html[lang^="ar"] .web-form-container,
+[dir="rtl"] .web-form-container {
+	direction: rtl;
+}
+
+.web-form-container:lang(ar) .web-form-title,
+.web-form-container:lang(ar) .web-form-introduction,
+.web-form-container:lang(ar) .section-head,
+.web-form-container:lang(ar) .control-label,
+.web-form-container:lang(ar) .help-box,
+html[lang^="ar"] .web-form-title,
+html[lang^="ar"] .web-form-introduction,
+html[lang^="ar"] .section-head,
+html[lang^="ar"] .control-label,
+html[lang^="ar"] .help-box,
+[dir="rtl"] .web-form-title,
+[dir="rtl"] .web-form-introduction,
+[dir="rtl"] .section-head,
+[dir="rtl"] .control-label,
+[dir="rtl"] .help-box {
+	text-align: right;
+}
+
+.web-form-container:lang(ar) .form-column > form,
+html[lang^="ar"] .form-column > form,
+[dir="rtl"] .form-column > form {
+	direction: rtl;
+}
+
+.web-form-container:lang(ar) input,
+.web-form-container:lang(ar) textarea,
+.web-form-container:lang(ar) select,
+html[lang^="ar"] .web-form-wrapper input,
+html[lang^="ar"] .web-form-wrapper textarea,
+html[lang^="ar"] .web-form-wrapper select,
+[dir="rtl"] .web-form-wrapper input,
+[dir="rtl"] .web-form-wrapper textarea,
+[dir="rtl"] .web-form-wrapper select {
+	direction: rtl;
+	text-align: right;
+}
+
+.web-form-container:lang(ar) .frappe-control[data-fieldname="email"] input,
+.web-form-container:lang(ar) .frappe-control[data-fieldname="mobile_number"] input,
+.web-form-container:lang(ar) .frappe-control[data-fieldname="whatsapp_number"] input,
+.web-form-container:lang(ar) .frappe-control[data-fieldname="national_id"] input,
+.web-form-container:lang(ar) .frappe-control[data-fieldname^="preferred_time_"] input,
+html[lang^="ar"] .frappe-control[data-fieldname="email"] input,
+html[lang^="ar"] .frappe-control[data-fieldname="mobile_number"] input,
+html[lang^="ar"] .frappe-control[data-fieldname="whatsapp_number"] input,
+html[lang^="ar"] .frappe-control[data-fieldname="national_id"] input,
+html[lang^="ar"] .frappe-control[data-fieldname^="preferred_time_"] input,
+[dir="rtl"] .frappe-control[data-fieldname="email"] input,
+[dir="rtl"] .frappe-control[data-fieldname="mobile_number"] input,
+[dir="rtl"] .frappe-control[data-fieldname="whatsapp_number"] input,
+[dir="rtl"] .frappe-control[data-fieldname="national_id"] input,
+[dir="rtl"] .frappe-control[data-fieldname^="preferred_time_"] input {
+	direction: ltr;
+	text-align: left;
+}
+
+.web-form-container:lang(ar) .awesomplete > ul,
+html[lang^="ar"] .web-form-wrapper .awesomplete > ul,
+[dir="rtl"] .web-form-wrapper .awesomplete > ul {
+	right: 0;
+	left: auto;
+	text-align: right;
+}
