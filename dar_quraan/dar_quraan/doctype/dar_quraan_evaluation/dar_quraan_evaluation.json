@@ -56,7 +56,7 @@
   {
    "default": "Today",
    "fieldname": "evaluation_date",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "Evaluation Date"
   },
   {

@@ -1,9 +1,9 @@
 app_name = "dar_quraan"
 app_title = "Dar Quraan"
 app_publisher = "Ibrahim Merhi"
-app_description = "Quraan Institute Managment System"
+app_description = "Quran institute management system"
 app_email = "ibrahim.m.merhy@gmail.com"
-app_license = "mit"
+app_license = "MIT"
 
 fixtures = [
 	{
@@ -21,7 +21,25 @@ fixtures = [
 				],
 			]
 		],
-	}
+	},
+	{
+		# Keep Role Permission Manager overrides for Dar Quraan roles in the app.
+		# Standard DocType permissions remain versioned in each DocType JSON file.
+		"dt": "Custom DocPerm",
+		"filters": [
+			[
+				"role",
+				"in",
+				[
+					"Dar Quraan Manager",
+					"Dar Quraan Supervisor",
+					"Dar Quraan Teacher",
+					"Dar Quraan Data Entry",
+					"Dar Quraan Viewer",
+				],
+			]
+		],
+	},
 ]
 
 # Apps

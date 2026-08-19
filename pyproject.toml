@@ -3,8 +3,8 @@ name = "dar_quraan"
 authors = [
     { name = "Ibrahim Merhi", email = "ibrahim.m.merhy@gmail.com"}
 ]
-description = "Quraan Institute Managment System"
-requires-python = ">=3.10"
+description = "Quran institute management system"
+requires-python = ">=3.10,<3.13"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [

@@ -13,6 +13,13 @@ class TestDarQuraanStudentAnalytics(FrappeTestCase):
 		with self.assertRaises(frappe.ValidationError):
 			report.execute({"from_date": "2026-02-01", "to_date": "2026-01-01"})
 
+	def test_evaluation_date_range_uses_valid_database_filter(self):
+		metrics = report.get_evaluation_metrics(
+			["DQ-NONEXISTENT-ASSIGNMENT"],
+			frappe._dict(from_date="2026-07-18", to_date="2026-08-18"),
+		)
+		self.assertEqual(metrics, {})
+
 	def test_assignment_filters_use_authoritative_context(self):
 		filters = frappe._dict(
 			{

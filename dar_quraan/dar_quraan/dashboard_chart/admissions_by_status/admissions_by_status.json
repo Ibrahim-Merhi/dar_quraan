@@ -1,0 +1,22 @@
+{
+ "chart_name": "Admissions by Status",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "module": "Dar Quraan",
+ "name": "Admissions by Status",
+ "number_of_groups": 0,
+ "use_report_chart": 0,
+ "y_axis": [],
+ "document_type": "Dar Quraan Admission Application",
+ "chart_type": "Group By",
+ "group_by_based_on": "status",
+ "group_by_type": "Count",
+ "type": "Donut",
+ "filters_json": "[]",
+ "custom_options": "{\"height\":280}",
+ "modified": "2026-08-19 13:00:00.000000",
+ "modified_by": "Administrator"
+}

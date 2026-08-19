@@ -1,0 +1,15 @@
+{
+ "doctype": "Number Card",
+ "document_type": "Dar Quraan Student",
+ "filters_json": "[[\"Dar Quraan Student\",\"status\",\"=\",\"Active\"]]",
+ "function": "Count",
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Active Students",
+ "module": "Dar Quraan",
+ "name": "Active Students",
+ "show_full_number": 1,
+ "show_percentage_stats": 0,
+ "type": "Document Type",
+ "color": "#2490ef"
+}

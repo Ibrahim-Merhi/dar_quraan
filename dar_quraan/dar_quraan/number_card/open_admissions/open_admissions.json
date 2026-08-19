@@ -1,0 +1,15 @@
+{
+ "doctype": "Number Card",
+ "document_type": "Dar Quraan Admission Application",
+ "filters_json": "[[\"Dar Quraan Admission Application\",\"status\",\"in\",[\"Pending\",\"In Process\",\"Provisionally Approved\"]]]",
+ "function": "Count",
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Open Admissions",
+ "module": "Dar Quraan",
+ "name": "Open Admissions",
+ "show_full_number": 1,
+ "show_percentage_stats": 0,
+ "type": "Document Type",
+ "color": "#f39c12"
+}

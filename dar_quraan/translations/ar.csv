@@ -1,0 +1,1055 @@
+"<p>Complete this application accurately. The Dar Quraan administration will review your Quran background, preferred program, and availability.</p>",<p>أكمل هذا الطلب بدقة. ستراجع إدارة دار القرآن خلفيتك القرآنية والبرنامج المفضل ومدى توفرك.</p>
+"<span class=""h4""><b>Dar Quraan Operations</b></span>","<span class=""h4""><b>عمليات دار القرآن</b></span>"
+"<span class=""h4""><b>Modules and Reports</b></span>","<span class=""h4""><b>الوحدات والتقارير</b></span>"
+A Cancelled assignment cannot be current.,لا يمكن اعتماد إسناد ملغى بوصفه الإسناد الحالي.
+A Graduated student must have Quran Status Hafiz or Mujaz.,يشترط لتخريج الطالب أن تكون حالته القرآنية حافظاً أو مجازاً.
+"A Halaqa named {0} already exists in this Branch, Academic Year and Academic Term.",الحلقة المسماة {0} بالفعل موجود في هذا الفرع، العام الدراسي و الفصل الدراسي.
+A Quran State already exists for Student Assignment {0}.,حالة القرآن بالفعل موجود لـ إسناد الطالب {0}.
+A disabled Academic Term cannot be current.,معطّل الفصل الدراسي لا يمكن أن يكون حالياً.
+A disabled Academic Year cannot be marked as current.,معطّل العام الدراسي لا يمكن أن يكون محدد كـ حالياً.
+A student with the same name and Date of Birth already exists: {0}.,الطالب مع الـ نفس الاسم و تاريخ الميلاد بالفعل موجود: {0}.
+A term cannot be linked to a disabled Academic Year.,الفصل لا يمكن أن يكون مرتبط إلى معطّل العام الدراسي.
+A term cannot be linked to an archived Academic Year.,الفصل لا يمكن أن يكون مرتبط إلى مؤرشف العام الدراسي.
+A+,A+
+A-,A-
+AB+,AB+
+AB-,AB-
+Absent,غائب
+Absent Count,عدد الغائبين
+Academic Context,السياق الدراسي
+Academic Period,الفترة الدراسية
+Academic Term,الفصل الدراسي
+Academic Term does not exist.,الفصل الدراسي المحدد غير موجود.
+Academic Term must be Open.,الفصل الدراسي يجب أن يكون مفتوح.
+Academic Term must belong to the selected Academic Year.,الفصل الدراسي يجب يتبع إلى الـ المحدد العام الدراسي.
+"Academic Term {0} belongs to Academic Year {1}, not the selected Academic Year {2}.",الفصل الدراسي {0} يتبع إلى العام الدراسي {1}، لا الـ المحدد العام الدراسي {2}.
+Academic Term {0} cannot be used because its status is {1}.,الفصل الدراسي {0} لا يمكن أن يكون مستخدم لأن الخاصة به الحالة هو {1}.
+Academic Term {0} does not exist.,الفصل الدراسي {0} لا موجوداً.
+Academic Term {0} is already marked as current.,الفصل الدراسي {0} هو بالفعل محدد كـ حالياً.
+Academic Year,العام الدراسي
+Academic Year Name,اسم العام الدراسي
+Academic Year does not exist.,العام الدراسي المحدد غير موجود.
+Academic Year is required.,العام الدراسي حقل إلزامي.
+Academic Year must be Open.,العام الدراسي يجب أن يكون مفتوح.
+Academic Year {0} already exists.,العام الدراسي {0} بالفعل موجود.
+Academic Year {0} cannot be used because its status is {1}.,العام الدراسي {0} لا يمكن أن يكون مستخدم لأن الخاصة به الحالة هو {1}.
+Academic Year {0} does not exist.,العام الدراسي {0} لا موجوداً.
+Academic Year {0} is already marked as current. Unset it before selecting another current year.,العام الدراسي {0} هو بالفعل محدد كـ حالياً. ألغِ تعيينه إياه قبل اختيار آخر حالياً العام.
+Acknowledged,قيد المعالجة
+Acknowledged by Student,أقرّ بها الطالب
+Action Required,الإجراء المطلوب
+Action Taken,الإجراء المتخذ
+Actions,الإجراءات
+Active,نشط
+Active Assignments,الإسنادات النشطة
+Active Halaqas,الحلقات النشطة
+Active Student Assignment {0} does not have a teacher.,نشط إسناد الطالب {0} لا لديه المعلم.
+Active Student {0} does not have an active current assignment.,نشط الطالب {0} لا لديه نشط حالياً الإسناد.
+Add the Qiraat method details in Notes when Qiraat Method is Other.,أضف الـ القراءات الطريقة التفاصيل في الملاحظات عندما طريقة القراءات هو أخرى.
+Additional Information,معلومات إضافية
+Additional Notes,ملاحظات إضافية
+Address,العنوان
+Address Line,سطر العنوان
+Address and contact,العنوان وبيانات الاتصال
+Administration,الإدارة
+Administrative Review,المراجعة الإدارية
+Admission Application,طلب القبول
+Admission Goal,هدف القبول
+Admission status cannot change from {0} to {1}.,القبول الحالة لا يمكن تتغير من {0} إلى {1}.
+Adults,بالغون
+Al-Jazariyyah Introduction,الجزرية المقدمة
+Allow Attendance Entry,السماح بإدخال الحضور
+Allow Halaqas,السماح بالحلقات
+Allow New Enrollment,السماح بتسجيل جديد
+Allow New Enrollments,السماح بالتسجيلات الجديدة
+Allow Progress Entry,السماح بإدخال التقدم
+An active Teacher must belong to an active Branch.,نشط المعلم يجب يتبع إلى نشط الفرع.
+Applicant,مقدم الطلب
+Applicant Name,اسم مقدم الطلب
+Application,الطلب
+Application Date,تاريخ التقديم
+Arabic Name,الاسم بالعربية
+Archived,أرشفة
+Area,منطقة
+Assigned,مُسنَد
+Assigned Reviewer,المراجع المكلّف
+Assignment Context,سياق الإسناد
+Assignment Date,تاريخ الإسناد
+Assignment Date is required.,تاريخ الإسناد حقل إلزامي.
+Assignment Details,تفاصيل الإسناد
+Assignment End Date cannot be earlier than Academic Term start date {0}.,الإسناد تاريخ الانتهاء لا يمكن أن يكون أسبق من الفصل الدراسي البداية التاريخ {0}.
+Assignment End Date cannot be earlier than Academic Year start date {0}.,الإسناد تاريخ الانتهاء لا يمكن أن يكون أسبق من العام الدراسي البداية التاريخ {0}.
+Assignment End Date cannot be later than Academic Term end date {0}.,الإسناد تاريخ الانتهاء لا يمكن أن يكون أبعد من الفصل الدراسي النهاية التاريخ {0}.
+Assignment End Date cannot be later than Academic Year end date {0}.,الإسناد تاريخ الانتهاء لا يمكن أن يكون أبعد من العام الدراسي النهاية التاريخ {0}.
+Assignment Notes,ملاحظات الإسناد
+Assignment Start Date cannot be earlier than Academic Term start date {0}.,الإسناد تاريخ البدء لا يمكن أن يكون أسبق من الفصل الدراسي البداية التاريخ {0}.
+Assignment Start Date cannot be earlier than Academic Year start date {0}.,الإسناد تاريخ البدء لا يمكن أن يكون أسبق من العام الدراسي البداية التاريخ {0}.
+Assignment Start Date cannot be later than Academic Term end date {0}.,الإسناد تاريخ البدء لا يمكن أن يكون أبعد من الفصل الدراسي النهاية التاريخ {0}.
+Assignment Start Date cannot be later than Academic Year end date {0}.,الإسناد تاريخ البدء لا يمكن أن يكون أبعد من العام الدراسي النهاية التاريخ {0}.
+Assignment Status,حالة الإسناد
+Assignment Type,نوع الإسناد
+Assignment Type must be one of: {0}.,نوع الإسناد يجب أن يكون واحد لـ: {0}.
+Assignment Without Teacher,إسناد دون معلم
+Assignments,الإسنادات
+Assistant Mentor,المعلم المساعد
+At least one Evaluation Item is required.,يجب إضافة بند تقييم واحد على الأقل.
+At least one New Memorization or Revision range is required.,يجب إضافة نطاق واحد على الأقل للحفظ الجديد أو المراجعة.
+At least one Supervision Item is required.,على الأقل واحد بند الإشراف هو مطلوب.
+Attendance,الحضور
+Attendance Date,تاريخ الحضور
+Attendance Grace Days,أيام مهلة الحضور
+"Attendance Item, row {0}: {1}",بند الحضور، الصف {0}: {1}
+Attendance Items,سجلات حضور الطلاب
+Attendance Rate,نسبة الحضور
+Attendance Records,سجلات الحضور
+Attendance Status,حالة الحضور
+"Attendance Status must be Present, Absent, Late, or Excused.",حالة الحضور يجب أن يكون حاضر، غائب، متأخر، أو بعذر.
+Attendance already exists for Session {0}.,يوجد سجل حضور مسبق للجلسة {0}.
+Attendance cannot be recorded for a Cancelled Session.,الحضور لا يمكن أن يكون مسجلة لـ ملغى الجلسة.
+Availability and Preferences,التوفر والتفضيلات
+Ayah Count,عدد الآيات
+Ayah Count must be greater than zero.,عدد الآيات يجب أن يكون أكبر من الصفر.
+Ayah range cannot exceed the Surah Ayah Count of {0}.,الآية النطاق لا يمكن يتجاوز الـ السورة عدد الآيات لـ {0}.
+B+,B+
+B-,B-
+Basic Information,المعلومات الأساسية
+Beginner,مبتدئ
+Behavior,السلوك
+Blood Group,فصيلة الدم
+Branch,الفرع
+Branch Code,رمز الفرع
+Branch Code cannot contain spaces.,رمز الفرع لا يمكن يحتوي مسافات.
+"Branch Code may contain only letters, numbers, hyphens, and underscores.",رمز الفرع قد يحتوي فقط حروف، أرقام، شرطات، و شرطات سفلية.
+Branch Code {0} is already used by branch {1}.,رمز الفرع {0} هو بالفعل مستخدم بواسطة الفرع {1}.
+Branch Manager,مدير الفرع
+Branch Name,اسم الفرع
+Branch Name {0} already exists.,اسم الفرع {0} بالفعل موجود.
+Branch Status,حالة الفرع
+Branch does not exist.,الفرع المحدد غير موجود.
+Branch is required.,الفرع حقل إلزامي.
+Branch relationship,الفرع العلاقة
+Branch {0} does not exist.,الفرع {0} لا موجوداً.
+Branch {0} must be Active. Current status: {1}.,الفرع {0} يجب أن يكون نشط. الحالة الحالية: {1}.
+Branches,الفروع
+Can Attend Weekly,يمكنه الحضور أسبوعياً
+Cancelled,ملغى
+Capacity,الطاقة الاستيعابية
+Capacity Utilization,نسبة إشغال الطاقة الاستيعابية
+Capacity and Level,السعة والمستوى
+Capacity and operation,السعة والتشغيل
+Capacity cannot be negative.,لا يجوز أن تكون الطاقة الاستيعابية قيمة سالبة.
+Category,فئة
+Certificate File,ملف الشهادة
+Certificate Number,رقم الشهادة
+Chair,الرئيس
+City,مدينة
+Classroom,فصل دراسي
+Closed,مغلق
+Closed On,مغلق في
+Closed On is required when the Halaqa is Closed.,مغلق في هو مطلوب عندما الـ الحلقة هو مغلق.
+Closing Date cannot be before Opening Date.,تاريخ الإغلاق لا يمكن أن يكون قبل تاريخ الافتتاح.
+Closure Reason,سبب الإغلاق
+Committee Chair,رئيس اللجنة
+Committee Member,عضو اللجنة
+Committee Notes,ملاحظات اللجنة
+Committee members must be unique.,اللجنة الأعضاء يجب أن يكون فريدين.
+Community Center,مجتمعي مركز
+Completed,مكتمل
+Completed Ayahs,الآيات المكتملة
+Completed Pages,الصفحات المكتملة
+Completed Progress,التقدم المكتمل
+Completed Session {0} is missing attendance.,مكتمل الجلسة {0} هو يفتقد الحضور.
+Completed Sessions,الجلسات المكتملة
+Condition cleared automatically by exception detection.,الشرط أزيل تلقائياً بواسطة الاستثناء الاكتشاف.
+Configuration,الإعدادات
+Configuration section,قسم الإعدادات
+Connected Sanad Text,نص السند المتصل
+Connected Sanad Text is required before issuance.,نص السند المتصل هو مطلوب قبل الإصدار.
+Contact Information,معلومات الاتصال
+Contact Number,رقم الاتصال
+Contact Person,الشخص الذي يمكن الاتصال به
+Contact and Family,الاتصال والأسرة
+Contact and Qualifications,الاتصال والمؤهلات
+Corrective Action,اجراء تصحيحي
+Corrective Action is required when follow-up is required.,الإجراء التصحيحي هو مطلوب عندما المتابعة هو مطلوب.
+Count,العدد
+Country,الدولة
+Critical,حرجة
+Current Ayah,الآية الحالية
+Current Ayah cannot exceed {0} for the selected Surah.,الآية الحالية لا يمكن يتجاوز {0} لـ الـ المحدد السورة.
+Current Ayah is required.,الآية الحالية هو مطلوب.
+Current Ayah must be greater than zero.,الآية الحالية يجب أن يكون أكبر من الصفر.
+Current Juz Level,مستوى الجزء الحالي
+Current Occupation,المهنة الحالية
+Current Page,الصفحة الحالية
+Current Page cannot be before page {0} for the selected Surah.,الصفحة الحالية لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
+Current Page cannot exceed page {0} for the selected Surah.,الصفحة الحالية لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
+Current Page is required.,الصفحة الحالية هو مطلوب.
+Current Quran Status,حالة القرآن الحالية
+Current Riwayah,الرواية الحالية
+Current Students,عدد الطلاب الحالي
+Current Students cannot be negative.,الطلاب الحاليون لا يمكن أن يكون سالبة.
+Current Students cannot exceed Maximum Students.,لا يمكن أن يتجاوز عدد الطلاب الحالي الطاقة الاستيعابية القصوى.
+Current Surah,السورة الحالية
+Current Surah is required.,السورة الحالية هو مطلوب.
+Current and Previous Quran Level,المستوى القرآني الحالي والسابق
+Daily Operations,العمليات اليومية
+Dar Quraan,دار القرآن
+Dar Quraan Academic Term,الفصل الدراسي
+Dar Quraan Academic Year,العام الدراسي
+Dar Quraan Admission Application,طلب القبول
+Dar Quraan Admission Update,تحديث القبول
+Dar Quraan Attendance,الحضور
+Dar Quraan Attendance Item,بند الحضور
+Dar Quraan Branch,الفرع
+Dar Quraan Branch Analytics,تحليلات الفروع
+Dar Quraan Data Entry,مدخل البيانات
+Dar Quraan Discipline Incident,مخالفة سلوكية
+Dar Quraan Discipline Rule,قاعدة انضباط
+Dar Quraan Error Rule,قاعدة الأخطاء
+Dar Quraan Evaluation,التقييم
+Dar Quraan Evaluation Item,بند التقييم
+Dar Quraan Exam,الاختبار
+Dar Quraan Exam Committee Member,عضو لجنة الاختبار
+Dar Quraan Exam Error,خطأ الاختبار
+Dar Quraan Exam Question,سؤال الاختبار
+Dar Quraan Exception,الاستثناء
+Dar Quraan Halaqa,الحلقة
+Dar Quraan Halaqa Analytics,تحليلات الحلقات
+Dar Quraan Ijazah,الإجازة
+Dar Quraan Juz Level,مستوى الجزء
+Dar Quraan Manager,المدير
+Dar Quraan Next Assignment,الإسناد التالي
+Dar Quraan Program,البرنامج
+Dar Quraan Program Milestone,مرحلة البرنامج
+Dar Quraan Progress Item,بند التقدم
+Dar Quraan Quran Range,نطاق القرآن
+Dar Quraan Session,الجلسة
+Dar Quraan Settings,الإعدادات
+Dar Quraan Student,الطالب
+Dar Quraan Student Analytics,تحليلات الطلاب
+Dar Quraan Student Assignment,إسناد الطالب
+Dar Quraan Student Progress,تقدم الطالب
+Dar Quraan Student Quran State,حالة الطالب القرآنية
+Dar Quraan Student Weekly Slot,موعد الطالب الأسبوعي
+Dar Quraan Supervision Item,بند الإشراف
+Dar Quraan Supervision Visit,زيارة الإشراف
+Dar Quraan Supervisor,المشرف
+Dar Quraan Surah,السورة
+Dar Quraan Teacher,المعلم
+Dar Quraan Teacher Analytics,تحليلات المعلمين
+Dar Quraan Teacher Follow Up,متابعة المعلم
+Dar Quraan Teaching Location,موقع التدريس
+Dar Quraan Text Progress,تقدم المتن
+Dar Quraan Viewer,مستخدم دار القرآن للعرض فقط
+Dar Quraan exceptions detected,دار القرآن الاستثناءات مكتشفة
+Date of Birth,تاريخ الميلاد
+Date of Birth cannot be in the future.,لا يمكن أن يكون تاريخ الميلاد في المستقبل.
+Date of Birth must be before today.,تاريخ الميلاد يجب أن يكون قبل اليوم.
+Dates section,قسم التواريخ
+Day of Week,يوم من الأسبوع
+Deceased,متوفى
+Decision Date,تاريخ القرار
+Deduction Each,الخصم كل
+Deduction must be greater than zero.,الخصم يجب أن يكون أكبر من الصفر.
+Deduction per Occurrence,الخصم لكل تكرار
+Default Action,الإجراء الافتراضي
+Default Branch,الفرع الافتراضي
+Default Halaqa,الحلقة الافتراضية
+"Default Halaqa belongs to Branch {0}, not the selected Default Branch {1}.",الحلقة الافتراضية يتبع إلى الفرع {0}، لا الـ المحدد الفرع الافتراضي {1}.
+"Default Halaqa mentor is {0}, not the selected Default Teacher {1}.",الحلقة الافتراضية المعلم هو {0}، لا الـ المحدد المعلم الافتراضي {1}.
+Default Teacher,المعلم الافتراضي
+Description,وصف
+Description section,قسم الوصف
+Detected On,تاريخ الرصد
+Disabled,معطل
+Disabled students cannot be assigned.,معطّل الطلاب لا يمكن أن يكون مسند.
+Discipline Rule,قاعدة الانضباط
+Dismissal,فصل
+Display Order,ترتيب العرض
+Display Order must be greater than zero.,العرض الترتيب يجب أن يكون أكبر من الصفر.
+Display Order {0} is already assigned to Juz Level {1}.,العرض الترتيب {0} هو بالفعل مسند إلى مستوى الجزء {1}.
+Divorced,مطلق
+Documents,وثائق
+Draft,مسودة
+Due Date,تاريخ الاستحقاق
+Due Date is required when follow-up is required.,تاريخ الاستحقاق هو مطلوب عندما المتابعة هو مطلوب.
+Duplicate Key,مكرر المفتاح
+Duration Minutes,المدة بالدقائق
+Each student must receive at least 30 minutes per week.,كل الطالب يجب يحصل على الأقل 30 دقيقة لكل أسبوع.
+Earned Score,الدرجة المحصّلة
+Education Level,المستوى التعليمي
+Education and Employment,التعليم والعمل
+Effective From,ساري من
+Effective From cannot be earlier than the assignment Start Date.,ساري من لا يمكن أن يكون أسبق من الـ الإسناد تاريخ البدء.
+Effective To,ساري إلى
+Effective To cannot be before Effective From.,ساري إلى لا يمكن أن يكون قبل ساري من.
+Effective To cannot be earlier than Effective From.,ساري إلى لا يمكن أن يكون أسبق من ساري من.
+Effective To cannot be later than the assignment End Date.,ساري إلى لا يمكن أن يكون أبعد من الـ الإسناد تاريخ الانتهاء.
+Email,البريد الإلكتروني
+Emergency Contact Name,الطوارئ اسم الاتصال
+Emergency Contact Number,رقم اتصال الطوارئ
+Employer,جهة العمل
+Enable Email Notifications,تمكين إشعارات البريد الإلكتروني
+Enable Exception Detection,تفعيل اكتشاف الاستثناءات
+End Date,تاريخ الانتهاء
+End Date cannot be after the Academic Term ends.,تاريخ الانتهاء لا يمكن أن يكون بعد الـ الفصل الدراسي ينتهي.
+End Date cannot be earlier than Start Date.,تاريخ الانتهاء لا يمكن أن يكون أسبق من تاريخ البدء.
+End Date is required for a Completed assignment.,تاريخ الانتهاء هو مطلوب لـ مكتمل الإسناد.
+End Date must be later than Start Date.,تاريخ الانتهاء يجب أن يكون أبعد من تاريخ البدء.
+End Juz,جزء النهاية
+End Juz cannot be before Start Juz.,جزء النهاية لا يمكن أن يكون قبل جزء البداية.
+End Juz must be between 1 and 30.,جزء النهاية يجب أن يكون بين 1 و 30.
+End Page,صفحة النهاية
+End Page cannot be before Start Page.,صفحة النهاية لا يمكن أن يكون قبل صفحة البداية.
+End Page must be between 1 and 604.,صفحة النهاية يجب أن يكون بين 1 و 604.
+End Time,وقت الانتهاء
+End Time is required when Start Time is set.,وقت الانتهاء هو مطلوب عندما وقت البدء هو تعيين.
+Ended,منتهٍ
+English Name,الاسم بالإنجليزية
+Enter at least a City or Address for a physical teaching location.,أدخل على الأقل المدينة أو العنوان لـ فعلي التدريس الموقع.
+Error Count must be greater than zero.,عدد الأخطاء يجب أن يكون أكبر من الصفر.
+Error Rule,قاعدة الأخطاء
+Error Rule {0} is missing or inactive.,قاعدة الأخطاء {0} هو يفتقد أو غير نشط.
+Error count exceeds the rule maximum.,الخطأ العدد يتجاوز الـ القاعدة الحد الأقصى.
+Evaluation,التقييم
+Evaluation Date,تاريخ التقييم
+Evaluation Date is required.,تاريخ التقييم حقل إلزامي.
+"Evaluation Item, row {0}: {1}",بند التقييم، الصف {0}: {1}
+Evaluation Items,بنود التقييم
+Evaluation Overdue Days,أيام تأخر التقييم
+Evaluation Type,نوع التقييم
+Evaluation Type is required.,نوع التقييم هو مطلوب.
+Evaluation does not have a Student Assignment.,التقييم لا لديه إسناد الطالب.
+Evaluations,التقييمات التعليمية
+Evaluator Notes,ملاحظات المقيّم
+Exam Date,الاختبار التاريخ
+Exam Questions,أسئلة الاختبار
+Exam Required,الاختبار مطلوب
+Exam Type,الاختبار النوع
+Examiner,ممتحن
+Examiner Teacher,المعلم الممتحن
+Excellent,ممتاز
+Exception Message is required.,الاستثناء الرسالة هو مطلوب.
+Exception Type,نوع الاستثناء
+Excuse Reason,سبب العذر
+Excuse Reason is required when Attendance Status is Excused.,سبب العذر هو مطلوب عندما حالة الحضور هو بعذر.
+Excused,بعذر
+Excused Count,عدد المعذورين
+Expected Start Date,تاريخ البدأ المتوقع
+Explanation Status,الشرح الحالة
+Extra,إضافي
+Facility Use,المرفق استخدم
+Failed,باءت بالفشل
+Father Number,رقم الأب
+Father Occupation,مهنة الأب
+Female,أنثى
+Fifteen Juz Committee,لجنة خمسة عشر جزءاً
+Fifteen Juz Committee Exam,لجنة خمسة عشر جزءاً الاختبار
+Final,النهائي
+Final 10 Juz,النهائي 10 الجزء
+Final 30 Juz,النهائي 30 الجزء
+Final Admission,النهائي القبول
+Final Approval Date,النهائي الموافقة التاريخ
+Final Approved,النهائي معتمد
+Final Exam belongs to another Student Assignment.,الاختبار النهائي يتبع إلى آخر إسناد الطالب.
+Final Exam does not exist.,الاختبار النهائي لا موجوداً.
+Final Ijazah Exam,النهائي الإجازة الاختبار
+Final Ijazah exams must allocate 90 marks to memorization/performance and 10 marks to Tajweed theory.,النهائي الإجازة الاختبارات يجب تخصص 90 درجة إلى الحفظ/الأداء و 10 درجة إلى التجويد النظري.
+Final Score,الدرجة النهائية
+Finalize Admission,إنهاء القبول
+Finding,الملاحظة
+Finding is required.,الملاحظة هو مطلوب.
+First Name,الاسم الأول
+Five Juz,خمسة الجزء
+Five Juz Exam,خمسة الجزء الاختبار
+Five Juz exams are allowed only at completed five-juz milestones.,خمسة الجزء الاختبارات هي مسموحاً فقط على مكتمل الخمسة أجزاء المراحل.
+Fluency,الطلاقة
+Follow-up,المتابعة
+Follow-up Date,تاريخ المتابعة
+Follow-up Date is required.,تاريخ المتابعة هو مطلوب.
+Follow-up Details,تفاصيل المتابعة
+Follow-up Item Count,عدد بنود المتابعة
+Follow-up Reminder Days,أيام تذكير المتابعة
+Follow-up Reminder Days cannot be negative.,أيام تذكير المتابعة لا يمكن أن يكون سالبة.
+Follow-up Required,المتابعة مطلوبة
+Follow-up Type,نوع المتابعة
+Follow-up Type is required.,نوع المتابعة هو مطلوب.
+Friday,الجمعة
+From Ayah,من الآية
+From Ayah cannot be greater than To Ayah.,من الآية لا يمكن أن يكون أكبر من إلى الآية.
+From Ayah cannot exceed {0} for the selected Surah.,من الآية لا يمكن يتجاوز {0} لـ الـ المحدد السورة.
+From Ayah must be greater than zero.,من الآية يجب أن يكون أكبر من الصفر.
+From Date,من تاريخ
+From Date cannot be after To Date.,من تاريخ لا يمكن أن يكون بعد إلى تاريخ.
+From Page,من الصفحة
+From Page cannot be before page {0} for the selected Surah.,من الصفحة لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
+From Page cannot be before the Surah starting page {0}.,من الصفحة لا يمكن أن يكون قبل الـ السورة بداية صفحة {0}.
+From Page cannot be greater than To Page.,من الصفحة لا يمكن أن يكون أكبر من إلى الصفحة.
+From Page cannot exceed page {0} for the selected Surah.,من الصفحة لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
+From Page must be greater than zero.,من الصفحة يجب أن يكون أكبر من الصفر.
+Gender,الجنس
+General Academic,عام دراسي
+Good,جيد
+Google Maps Link,رابط خرائط جوجل
+Graduated,متخرج
+Grant Date,تاريخ المنح
+Granting Sheikh,الشيخ المجيز
+Guardian Meeting,اجتماع ولي الأمر
+Guardian Notification Date,تاريخ إشعار ولي الأمر
+Guardian Notification Date is required.,تاريخ إشعار ولي الأمر هو مطلوب.
+Guardian Notified,تم إشعار ولي الأمر
+Hafiz,حافظ
+Halaqa,الحلقة
+Halaqa Capacity,سعة الحلقة
+Halaqa Category,الحلقة الفئة
+Halaqa Code,رمز الحلقة
+"Halaqa Code may contain only uppercase letters, numbers, hyphens and underscores.",رمز الحلقة قد يحتوي فقط كبيرة حروف، أرقام، شرطات و شرطات سفلية.
+Halaqa Code {0} already exists.,رمز الحلقة {0} بالفعل موجود.
+Halaqa Context,الحلقة السياق
+Halaqa Name,اسم الحلقة
+Halaqa Over Capacity,الحلقة تجاوز السعة
+Halaqa Status,الحلقة الحالة
+Halaqa is required.,الحلقة هو مطلوب.
+"Halaqa {0} belongs to Academic Term {1}, not {2}.",الحلقة {0} يتبع إلى الفصل الدراسي {1}، لا {2}.
+"Halaqa {0} belongs to Academic Year {1}, not {2}.",الحلقة {0} يتبع إلى العام الدراسي {1}، لا {2}.
+"Halaqa {0} belongs to Branch {1}, not the selected Branch {2}.",الحلقة {0} يتبع إلى الفرع {1}، لا الـ المحدد الفرع {2}.
+Halaqa {0} does not currently allow new student assignments.,الحلقة {0} لا حالياً يسمح الجديد الطالب الإسنادات.
+Halaqa {0} does not exist.,الحلقة {0} لا موجوداً.
+Halaqa {0} does not have a Branch.,الحلقة {0} لا لديه الفرع.
+Halaqa {0} does not have a Mentor.,الحلقة {0} لا لديه المعلم.
+Halaqa {0} does not have a Teaching Location.,الحلقة {0} لا لديه موقع التدريس.
+Halaqa {0} does not have a {1}.,الحلقة {0} لا لديه {1}.
+Halaqa {0} does not have an Academic Term.,الحلقة {0} لا لديه الفصل الدراسي.
+Halaqa {0} does not have an Academic Year.,الحلقة {0} لا لديه العام الدراسي.
+Halaqa {0} has {1} active assignments for a capacity of {2}.,الحلقة {0} لديه {1} نشط الإسنادات لـ السعة لـ {2}.
+"Halaqa {0} is assigned to Teacher {1}, not the selected Teacher {2}.",الحلقة {0} هو مسند إلى المعلم {1}، لا الـ المحدد المعلم {2}.
+Halaqa {0} must be Active. Current status: {1}.,الحلقة {0} يجب أن يكون نشط. الحالة الحالية: {1}.
+"Halaqa {0} uses Teaching Location {1}, not the selected Teaching Location {2}.",الحلقة {0} يستخدم موقع التدريس {1}، لا الـ المحدد موقع التدريس {2}.
+Halaqas,الحلقات
+Has Previous Ijazah,لديه إجازة سابقة
+Has Previous Ijazah must be enabled when Quran Status is Mujaz.,لديه إجازة سابقة يجب أن يكون مفعلاً عندما حالة القرآن هو مجاز.
+Hifz,الحفظ
+High,مستوى عالي
+Home Number,رقم المنزل
+Identification,الهوية
+Identification section,قسم الهوية
+Identity Document,وثيقة الهوية
+Identity and Personal Information,الهوية والمعلومات الشخصية
+Ifraad,الإفراد
+Ijazah,الإجازة
+Ijazah Retest,الإجازة إعادة الاختبار
+Ijazah requires a completed passing final exam with at least 80%.,الإجازة يتطلب مكتمل ناجح النهائي الاختبار مع على الأقل 80%.
+In Process,قيد المراجعة
+In Progress,في تَقَدم
+Inactive,غير نشط
+Incident Date,المخالفة التاريخ
+Incident Description,وصف المخالفة
+Initial Memorization Description,وصف الحفظ الأولي
+Inside Branch Premises,داخل مقر الفرع
+Inside Branch Premises must be enabled for Branch and Classroom locations.,داخل مقر الفرع يجب أن يكون مفعلاً لـ الفرع و فصل دراسي المواقع.
+Intervention,التدخل
+Invalid Evaluation Type.,غير صالح نوع التقييم.
+Invalid Exception Status.,غير صالح الاستثناء الحالة.
+Invalid Exception Type.,غير صالح نوع الاستثناء.
+Invalid Follow-up Type.,غير صالح نوع المتابعة.
+Invalid Priority.,غير صالح الأولوية.
+Invalid Progress Result.,غير صالح التقدم النتيجة.
+Invalid Progress Type in Progress Item row {0}.,غير صالح نوع التقدم في بند التقدم الصف {0}.
+Invalid Review Area.,غير صالح المراجعة المنطقة.
+Invalid Severity.,غير صالح الخطورة.
+Invalid Status.,غير صالح الحالة.
+Invalid Supervision Item Status.,غير صالح بند الإشراف الحالة.
+Invalid Supervision Visit Status.,غير صالح زيارة الإشراف الحالة.
+Invalid Teacher Status.,غير صالح المعلم الحالة.
+Invalid Visit Type.,غير صالح نوع الزيارة.
+Invalid admission status.,غير صالح القبول الحالة.
+Invalid assignment status: {0}.,غير صالح الإسناد الحالة: {0}.
+Invalid notification email address: {0},غير صالح الإشعار البريد الإلكتروني العنوان: {0}
+Invalid teacher email address.,غير صالح المعلم البريد الإلكتروني العنوان.
+Is Current Academic Year,هو العام الدراسي الحالي
+Is Current Assignment,هو الإسناد الحالي
+Is Current Term,هو الفصل الحالي
+Issue Description,وصف المشكلة
+Issue Description is required.,وصف المشكلة هو مطلوب.
+Issued,نشر
+Jam,الجمع
+Jazariyyah,الجزرية
+Jazariyyah Level,الجزرية المستوى
+Juz Count,عدد الأجزاء
+Juz Count must be between Minimum Juz {0} and Maximum Juz {1}.,عدد الأجزاء يجب أن يكون بين الحد الأدنى للأجزاء {0} و الحد الأقصى للأجزاء {1}.
+Juz Level {0} already exists.,مستوى الجزء {0} بالفعل موجود.
+Kids,أطفال
+Kubra,الكبرى
+Last Evaluation,الأخير التقييم
+Last Name,اسم العائلة
+Last Next Assignment,الأخير الإسناد التالي
+Last Notification Status,الأخير الإشعار الحالة
+Last Progress,الأخير التقدم
+Last Progress Date,الأخير التقدم التاريخ
+Last Updated,الأخير التحديث
+Late,متأخر
+Late Count,عدد المتأخرين
+Late Minutes,دقائق التأخر
+Late Minutes cannot be negative.,دقائق التأخر لا يمكن أن يكون سالبة.
+Late Minutes must be greater than zero when Attendance Status is Late.,دقائق التأخر يجب أن يكون أكبر من الصفر عندما حالة الحضور هو متأخر.
+Latest References,أحدث المراجع
+Latest Result,الأحدث النتيجة
+Latest Score,الأحدث الدرجة
+Learning,التعلم
+Learning Commitment,الالتزام بالتعلم
+Learning Environment,بيئة التعلم
+Legacy Assignment ID,معرّف الإسناد القديم
+Legacy Assignment ID {0} is already used by Student Assignment {1}.,معرّف الإسناد القديم {0} هو بالفعل مستخدم بواسطة إسناد الطالب {1}.
+Legacy Center ID,معرّف المركز القديم
+Legacy Created At,تاريخ الإنشاء القديم
+Legacy Data,البيانات القديمة
+Legacy File Path,مسار الملف القديم
+Legacy Student ID,معرّف الطالب القديم
+Legacy Student ID must be greater than zero.,معرّف الطالب القديم يجب أن يكون أكبر من الصفر.
+Legacy Student ID {0} is already linked to student {1}.,معرّف الطالب القديم {0} هو بالفعل مرتبط إلى الطالب {1}.
+Legacy Teacher ID,معرّف المعلم القديم
+Legacy Updated At,تاريخ التحديث القديم
+Legacy Updated At cannot be earlier than Legacy Created At.,تاريخ التحديث القديم لا يمكن أن يكون أسبق من تاريخ الإنشاء القديم.
+Level Name,اسم المستوى
+Location,الموقع
+Location Code,رمز الموقع
+"Location Code may contain only uppercase letters, numbers, hyphens, and underscores.",رمز الموقع قد يحتوي فقط كبيرة حروف، أرقام، شرطات، و شرطات سفلية.
+Location Code {0} is already used by location {1}.,رمز الموقع {0} هو بالفعل مستخدم بواسطة الموقع {1}.
+Location Name,اسم الموقع
+Location Name {0} already exists in branch {1}.,اسم الموقع {0} بالفعل موجود في الفرع {1}.
+Location Type,نوع الموقع
+Low,منخفض
+Madinah,المدينة
+Major or Grade,التخصص أو الصف
+Makeup,تعويضي
+Makkah,مكة
+Male,ذكر
+Marital Status,الحالة الإجتماعية
+Married,متزوج
+Maximum Juz,الحد الأقصى للأجزاء
+Maximum Occurrences,الحد الأقصى للتكرارات
+Maximum Score,الدرجة القصوى
+Maximum Students,الحد الأقصى للطلاب
+Maximum Students must be greater than zero.,الحد الأقصى للطلاب يجب أن يكون أكبر من الصفر.
+Medium,متوسط
+Memorization,الحفظ
+Memorization Percentage,نسبة الحفظ
+Memorization Percentage must be between 0 and 100.,نسبة الحفظ يجب أن يكون بين 0 و 100.
+Memorization Quality,جودة الحفظ
+Memorization State,حالة الحفظ
+Memorization and Performance,الحفظ والأداء
+"Memorization, Performance, Waqf and Ibtida Score",درجة الحفظ والأداء والوقف والابتداء
+Memorized,محفوظ
+Memorized Juz,الأجزاء المحفوظة
+Memorized Juz must be between 0 and 30.,الأجزاء المحفوظة يجب أن يكون بين 0 و 30.
+Memorized and Explained,محفوظ و مشروح
+Memorizing,قيد الحفظ
+Men,رجال
+Mentor,المعلم
+Mentor and Assistant Mentor cannot be the same person.,المعلم و المعلم المساعد لا يمكن أن يكون الـ نفس الشخص.
+Message,رسالة
+Middle Name,الاسم الأوسط
+Milestone Type,نوع المرحلة
+Milestone sequences must be positive and unique.,المرحلة التسلسلات يجب أن يكون موجبة و فريدين.
+Minimum Juz,الحد الأدنى للأجزاء
+Minimum Juz cannot be greater than Maximum Juz.,الحد الأدنى للأجزاء لا يمكن أن يكون أكبر من الحد الأقصى للأجزاء.
+Missing Attendance,حضور غير مسجل
+Mistakes Count,عدد الأخطاء
+Mistakes Count cannot be negative.,عدد الأخطاء لا يمكن أن يكون سالبة.
+Mixed,مختلط
+Mobile,التليفون المحمول
+Mobile Number,رقم الهاتف المحمول
+Monday,يوم الاثنين
+Monthly,شهريا
+Mosque,مسجد
+Mother Name,اسم الأم
+Mother Number,رقم الأم
+Mother Occupation,مهنة الأم
+Mujaz,مجاز
+Naming Series,سلسلة التسمية
+National ID,الهوية الوطنية
+Nationality,الجنسية
+Needs Revision,يحتاج المراجعة
+New Memorization,الحفظ الجديد
+Next Assignment does not have a Student Assignment.,الإسناد التالي لا لديه إسناد الطالب.
+Next Follow-up Date,تاريخ المتابعة التالية
+Next Follow-up Date cannot be before Follow-up Date.,تاريخ المتابعة التالية لا يمكن أن يكون قبل تاريخ المتابعة.
+Next Follow-up Date is required when follow-up is required.,تاريخ المتابعة التالية هو مطلوب عندما المتابعة هو مطلوب.
+Next Quran Work,العمل القرآني التالي
+No Progress Days,أيام دون تقدم
+No Recent Progress,لا يوجد تقدم حديث
+No Repeat or Needs Revision items were found. A forward assignment should be entered manually for now.,لا إعادة أو يحتاج المراجعة البنود كانت العثور. لاحق الإسناد ينبغي أن يكون إدخاله يدوياً لـ الآن.
+No students are available for attendance in this Halaqa.,لا الطلاب هي متاحين لـ الحضور في هذا الحلقة.
+Not Applicable,لا ينطبق
+Not Set,غير محدد
+Not Started,لم تبدأ
+Notes,ملاحظات
+Notification Recipients,مستلمو الإشعارات
+Notify by Email,الإخطار عن طريق البريد الإلكتروني
+Notify by SMS,الإشعار برسالة نصية
+O+,O+
+O-,O-
+Observer,المراقب
+Occurrence Count,عدد التكرارات
+Online,عن بُعد
+Online Meeting Details,تفاصيل الاجتماع عبر الإنترنت
+Only Draft or Cancelled Student Assignments can be deleted. Use Completed to preserve history.,فقط مسودة أو ملغى الطالب الإسنادات يمكن أن يكون حذفها. استخدم مكتمل إلى حفظ السجل.
+Only a provisionally approved application can be finalized.,فقط مبدئياً معتمد الطلب يمكن أن يكون إنهاؤه.
+Open,فتح
+Open Exceptions,التنبيهات المفتوحة
+Open-ended,مفتوح النهاية
+Opening Date,تاريخ الفتح
+Organization,منظمة
+Other,آخر
+Overall Rating,التقييم العام
+Overall Result,النتيجة الإجمالية
+Overall Score,الدرجة الإجمالية
+Overdue Evaluation,تقييم متأخر
+Overdue Follow-up,متابعة متأخرة
+Page Count,عدد الصفحات
+Parent Contact,التواصل مع ولي الأمر
+Parent Contact Required,التواصل مع ولي الأمر مطلوب
+Passed,تم الاجتياز بنجاح
+Passing Final Exam,ناجح الاختبار النهائي
+Passing Score,درجة النجاح
+Paused,متوقف مؤقتاً
+Pending,قيد الانتظار
+Performance,أداء
+Periodic,دوري
+Personal Information,المعلومات الشخصية
+Phone,هاتف
+Photo,الصورة
+Place of Birth,مكان الميلاد
+Placement,تحديد المستوى
+Placement Evaluation,تحديد المستوى التقييم
+Planned,مخطط
+Planning,التخطيط
+Please enter a valid email address.,يرجى إدخال عنوان بريد إلكتروني صالح.
+Policy Text,نص السياسة
+Preferred Branch,الفرع المفضل
+Preferred Contact Number,رقم الاتصال المفضل
+Preferred Days,الأيام المفضلة
+Preferred Time From,الوقت المفضل من
+Preferred Time To,الوقت المفضل إلى
+Preferred end time must be after start time.,المفضل النهاية الوقت يجب أن يكون بعد البداية الوقت.
+Present,حاضر
+Present Count,عدد الحاضرين
+Previous Ijazah Details,تفاصيل الإجازة السابقة
+Previous Ijazah Details are required when Has Previous Ijazah is enabled.,تفاصيل الإجازة السابقة هي مطلوب عندما لديه إجازة سابقة هو مفعلاً.
+Previous Ijazah Details are required.,تفاصيل الإجازة السابقة هي مطلوب.
+Previous Sheikhs,المشايخ السابقون
+Primary,أساسي
+Prior 20 Juz Verified by Sheikh,السابقة 20 الجزء متحقق منها بواسطة الشيخ
+Priority,أفضلية
+Priority is required.,الأولوية هو مطلوب.
+Private Location,خاص الموقع
+Profile Image,الملف الصورة
+Program Milestones,مراحل البرنامج
+Program Name,إسم البرنامج
+Progress Date,التقدم التاريخ
+Progress Date is required.,التقدم التاريخ هو مطلوب.
+Progress Entries,سجلات التقدم
+Progress Item row {0} does not fall inside any assigned {1} Quran range.,بند التقدم الصف {0} لا يقع داخل أي مسند {1} القرآن النطاق.
+"Progress Item row {0} is marked as {1}, but no {1} range exists in this progress record.",بند التقدم الصف {0} هو محدد كـ {1}، لكن لا {1} النطاق موجود في هذا التقدم سجل.
+"Progress Item, row {0}: {1}",بند التقدم، الصف {0}: {1}
+Progress Items,التقدم البنود
+Progress Summary,ملخص التقدم
+Progress Type,نوع التقدم
+Progress Type must be New Memorization or Revision.,نوع التقدم يجب أن يكون الحفظ الجديد أو المراجعة.
+Prompt,تلقين
+Prompt Count,عدد التلقينات
+Prompt Count cannot be negative.,عدد التلقينات لا يمكن أن يكون سالبة.
+Proposed Halaqa,الحلقة المقترحة
+Proposed Level,المستوى المقترح
+Proposed Program,البرنامج المقترح
+Proposed Teacher,المعلم المقترح
+Provisional Approval Date,المبدئية الموافقة التاريخ
+Provisionally Approve,مبدئياً اعتماد
+Provisionally Approved,موافقة مبدئية
+Punctuality,الالتزام بالمواعيد
+Qiraat,القراءات
+Qiraat Method,طريقة القراءات
+Qiraat Method is required when Study Track is Qiraat.,طريقة القراءات هو مطلوب عندما مسار الدراسة هو القراءات.
+Qualification,المؤهل
+Quality and Reports,الجودة والتقارير
+Question,سؤال
+Question Row ID,معرّف صف السؤال
+Quran Performance,الأداء القرآني
+Quran Profile,الملف القرآني
+Quran Profile and Admission Goal,الملف القرآني وهدف القبول
+Quran Program,البرنامج القرآني
+Quran Progress,التقدم القرآني
+Quran Status,الحالة القرآنية
+Range Configuration,النطاق الإعداد
+Rating,تقييم
+Rating must be between 1 and 5.,التقييم يجب أن يكون بين 1 و 5.
+Reader,القارئ
+Ready,جاهز
+Recorded Errors,مسجلة الأخطاء
+Registration Date,تاريخ التسجيل
+Registration Date cannot be earlier than Date of Birth.,تاريخ التسجيل لا يمكن أن يكون أسبق من تاريخ الميلاد.
+Registration Date cannot be in the future.,تاريخ التسجيل لا يمكن أن يكون في الـ المستقبل.
+Regular,منتظم
+Reject,رفض
+Rejected,مرفوض
+Rejection Reason,سبب الرفض
+Rejection Reason is required.,سبب الرفض هو مطلوب.
+Relationship,صلة القرابة
+Remote,بعيد
+Repeat,كرر
+Repeated Absence,غياب متكرر
+Repeated Absence Threshold,حد الغياب المتكرر
+Repeated Lateness,تأخر متكرر
+Repeated Lateness Threshold,حد التأخر المتكرر
+Repeated Weak Result,نتائج ضعيفة متكررة
+Reported By,أبلغ عنها
+Required Juz,الأجزاء المطلوبة
+Required Juz must be between 0 and 30.,الأجزاء المطلوبة يجب أن يكون بين 0 و 30.
+Required Riwayah,مطلوب الرواية
+Required Text,مطلوب النص
+Requires Follow-up,يتطلب متابعة
+Requires Guardian Notification,يتطلب إشعار ولي الأمر
+Requires Jazariyyah,يتطلب الجزرية
+Resolution,قرار
+Resolution Notes,ملاحظات الحل
+Resolution Notes are required for a Resolved exception.,ملاحظات الحل هي مطلوب لـ محلول الاستثناء.
+Resolution Notes are required for a Resolved follow-up.,ملاحظات الحل هي مطلوب لـ محلول المتابعة.
+Resolution Notes are required for a Resolved supervision item.,ملاحظات الحل هي مطلوب لـ محلول الإشراف البند.
+Resolution Notes are required.,ملاحظات الحل هي مطلوب.
+Resolved,تم الحل
+Resolved On,محلول في
+Resolved or Cancelled follow-ups cannot require another follow-up.,محلول أو ملغى المتابعات لا يمكن يتطلب آخر المتابعة.
+Resolved or Not Applicable items cannot require follow-up.,محلول أو لا منطبق البنود لا يمكن يتطلب المتابعة.
+Respect,الاحترام
+Result,نتيجة
+Result is required.,النتيجة هو مطلوب.
+"Result must be Excellent, Very Good, Good, Needs Revision, or Repeat.",النتيجة يجب أن يكون ممتاز، جيد جيد، جيد، يحتاج المراجعة، أو إعادة.
+Revelation Place,مكان النزول
+Review Area,المراجعة المنطقة
+Review Findings,المراجعة الملاحظات
+Review Started On,المراجعة بدأ في
+Revision,المراجعة
+Revision From Ayah,المراجعة من الآية
+Revision From Ayah cannot exceed {0} for the selected Surah.,المراجعة من الآية لا يمكن يتجاوز {0} لـ الـ المحدد السورة.
+Revision From Ayah must be greater than zero.,المراجعة من الآية يجب أن يكون أكبر من الصفر.
+Revision From Page,المراجعة من الصفحة
+Revision From Page cannot be before page {0} for the selected Surah.,المراجعة من الصفحة لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
+Revision From Page cannot exceed page {0} for the selected Surah.,المراجعة من الصفحة لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
+Revision State,حالة المراجعة
+Revision Surah,المراجعة السورة
+Revision To Ayah,المراجعة إلى الآية
+Revision To Ayah cannot be before Revision From Ayah.,المراجعة إلى الآية لا يمكن أن يكون قبل المراجعة من الآية.
+Revision To Ayah cannot exceed {0} for the selected Surah.,المراجعة إلى الآية لا يمكن يتجاوز {0} لـ الـ المحدد السورة.
+Revision To Ayah must be greater than zero.,المراجعة إلى الآية يجب أن يكون أكبر من الصفر.
+Revision To Page,المراجعة إلى الصفحة
+Revision To Page cannot be before Revision From Page.,المراجعة إلى الصفحة لا يمكن أن يكون قبل المراجعة من الصفحة.
+Revision To Page cannot be before page {0} for the selected Surah.,المراجعة إلى الصفحة لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
+Revision To Page cannot exceed page {0} for the selected Surah.,المراجعة إلى الصفحة لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
+Revocation Reason,سبب السحب
+Revocation Reason is required.,سبب السحب هو مطلوب.
+Revoked,إلغاء
+Riwayah,الرواية
+Riwayah Completion,الرواية الإكمال
+Role,صلاحية
+Rule Name,اسم القاعدة
+Saturday,السبت
+Schedule,جدول
+Schedule Description,وصف الجدول
+Scheduled,من المقرر
+School,مدرسة
+School or University,المدرسة أو الجامعة
+Scientific Committee,اللجنة العلمية
+Selected Academic Term does not exist.,المحدد الفصل الدراسي لا موجوداً.
+Selected Attendance does not contain Student Assignment {0}.,المحدد الحضور لا يحتوي إسناد الطالب {0}.
+Selected Attendance does not exist.,المحدد الحضور لا موجوداً.
+Selected Branch does not exist.,المحدد الفرع لا موجوداً.
+Selected Halaqa does not exist.,المحدد الحلقة لا موجوداً.
+Selected Session does not exist.,المحدد الجلسة لا موجوداً.
+Selected Session does not have a Halaqa.,المحدد الجلسة لا لديه الحلقة.
+Selected Session does not have a Session Date.,المحدد الجلسة لا لديه تاريخ الجلسة.
+Selected Source Evaluation does not exist.,المحدد التقييم المصدر لا موجوداً.
+Selected Source Progress does not exist.,المحدد سجل التقدم المصدر لا موجوداً.
+Selected Source Session does not exist.,المحدد الجلسة المصدر لا موجوداً.
+Selected Student Assignment does not exist.,المحدد إسناد الطالب لا موجوداً.
+Selected Supervisor does not exist.,المحدد المشرف لا موجوداً.
+Selected Surah does not exist.,المحدد السورة لا موجوداً.
+Selected Surah is inactive.,المحدد السورة هو غير نشط.
+Selected Surah {0} does not exist.,المحدد السورة {0} لا موجوداً.
+Selected Surah {0} is inactive.,المحدد السورة {0} هو غير نشط.
+Selected source document does not belong to Student Assignment {0}.,المحدد المصدر المستند لا يتبع إلى إسناد الطالب {0}.
+Selected source document does not exist.,المحدد المصدر المستند لا موجوداً.
+Selected {0} does not belong to Student Assignment {1}.,المحدد {0} لا يتبع إلى إسناد الطالب {1}.
+Selected {0} does not exist.,المحدد {0} لا موجوداً.
+Sequence,التسلسل
+Session,الجلسة
+Session Context,الجلسة السياق
+Session Date,تاريخ الجلسة
+Session Date cannot be after the Academic Term ends.,تاريخ الجلسة لا يمكن أن يكون بعد الـ الفصل الدراسي ينتهي.
+Session Date cannot be after the Halaqa End Date.,تاريخ الجلسة لا يمكن أن يكون بعد الـ الحلقة تاريخ الانتهاء.
+Session Date cannot be before the Academic Term starts.,تاريخ الجلسة لا يمكن أن يكون قبل الـ الفصل الدراسي يبدأ.
+Session Date cannot be before the Halaqa Start Date.,تاريخ الجلسة لا يمكن أن يكون قبل الـ الحلقة تاريخ البدء.
+Session Date is required.,تاريخ الجلسة هو مطلوب.
+Session Management,إدارة الجلسات
+Session Type,نوع الجلسة
+"Session Type must be Regular, Makeup, Extra, or Evaluation.",نوع الجلسة يجب أن يكون عادي، تعويضي، إضافي، أو التقييم.
+Session is required.,الجلسة هو مطلوب.
+Sessions cannot be created for a Closed Halaqa.,الجلسات لا يمكن أن يكون إنشاء لـ مغلق الحلقة.
+Severity,الخطورة
+Signature,توقيع
+Single,أعزب
+Skills,المهارات
+Source,المصدر
+Source Attendance,الحضور المصدر
+Source DocType,المصدر نوع المستند
+Source DocType and Source Document must be provided together.,نوع المستند المصدر و المستند المصدر يجب أن يكون توفيرهما معاً.
+Source Document,المستند المصدر
+Source Evaluation,التقييم المصدر
+Source Evaluation must belong to the same Student Assignment.,التقييم المصدر يجب يتبع إلى الـ نفس إسناد الطالب.
+Source Progress,سجل التقدم المصدر
+Source Progress does not contain any Progress Items.,سجل التقدم المصدر لا يحتوي أي التقدم البنود.
+Source Progress is required.,سجل التقدم المصدر هو مطلوب.
+Source Progress must be Completed before generating the next assignment.,سجل التقدم المصدر يجب أن يكون مكتمل قبل إنشاء الـ التالي الإسناد.
+Source Progress must belong to the same Student Assignment.,سجل التقدم المصدر يجب يتبع إلى الـ نفس إسناد الطالب.
+Source Records,السجلات المصدرية
+Source Session,الجلسة المصدر
+Source Session must belong to the selected Halaqa.,الجلسة المصدر يجب يتبع إلى الـ المحدد الحلقة.
+Special,خاص
+Start Date,تاريخ البدء
+Start Date cannot be after End Date.,تاريخ البدء لا يمكن أن يكون بعد تاريخ الانتهاء.
+Start Date cannot be before the Academic Term starts.,تاريخ البدء لا يمكن أن يكون قبل الـ الفصل الدراسي يبدأ.
+Start Date is required.,تاريخ البدء هو مطلوب.
+Start Juz,جزء البداية
+Start Juz must be between 1 and 30.,جزء البداية يجب أن يكون بين 1 و 30.
+Start Page,صفحة البداية
+Start Page must be between 1 and 604.,صفحة البداية يجب أن يكون بين 1 و 604.
+Start Review,البدء المراجعة
+Start Time,بداية الوقت
+Start Time is required when End Time is set.,وقت البدء هو مطلوب عندما وقت الانتهاء هو تعيين.
+Start Time must be before End Time.,وقت البدء يجب أن يكون قبل وقت الانتهاء.
+State,حالة
+Status,الحالة
+"Status must be Active, Paused, Completed, or Inactive.",الحالة يجب أن يكون نشط، متوقف مؤقتاً، مكتمل، أو غير نشط.
+"Status must be Draft, Completed, or Cancelled.",الحالة يجب أن يكون مسودة، مكتمل، أو ملغى.
+"Status must be Draft, Ready, Assigned, Completed, or Cancelled.",الحالة يجب أن يكون مسودة، جاهز، مسند، مكتمل، أو ملغى.
+"Status must be Planned, In Progress, Completed, or Cancelled.",الحالة يجب أن يكون مخطط، في التقدم، مكتمل، أو ملغى.
+Structure and Setup,الهيكل والإعداد
+Student,الطالب
+Student Assignment,إسناد الطالب
+Student Assignment does not exist.,إسناد الطالب لا موجوداً.
+Student Assignment in row {0} does not belong to this Halaqa.,إسناد الطالب في الصف {0} لا يتبع إلى هذا الحلقة.
+Student Assignment is required.,إسناد الطالب هو مطلوب.
+Student Assignment or active Discipline Rule is invalid.,إسناد الطالب أو نشط قاعدة الانضباط هو غير صالح.
+Student Assignment {0} appears more than once in Attendance.,إسناد الطالب {0} يظهر أكثر من مرة في الحضور.
+Student Assignment {0} does not exist.,إسناد الطالب {0} لا موجوداً.
+Student Assignment {0} does not have a Halaqa.,إسناد الطالب {0} لا لديه الحلقة.
+Student Assignment {0} does not have a Student.,إسناد الطالب {0} لا لديه الطالب.
+Student Assignment {0} does not have a Teacher.,إسناد الطالب {0} لا لديه المعلم.
+Student Assignment {0} has no completed evaluation since {1}.,إسناد الطالب {0} لديه لا مكتمل التقييم منذ {1}.
+Student Assignment {0} has no completed progress since {1}.,إسناد الطالب {0} لديه لا مكتمل التقدم منذ {1}.
+Student Assignment {0} has {1} consecutive weak evaluation results.,إسناد الطالب {0} لديه {1} متتالية ضعيفة التقييم نتائج.
+Student Assignment {0} has {1} recorded {2} occurrences.,إسناد الطالب {0} لديه {1} مسجلة {2} تكرارات.
+Student Code,رمز الطالب
+Student Code is required.,رمز الطالب هو مطلوب.
+"Student Code may contain only uppercase letters, numbers, hyphens, and underscores.",رمز الطالب قد يحتوي فقط كبيرة حروف، أرقام، شرطات، و شرطات سفلية.
+Student Code must contain at least 3 characters.,رمز الطالب يجب يحتوي على الأقل 3 أحرف.
+Student Code must contain at least one letter or number.,رمز الطالب يجب يحتوي على الأقل واحد حرف أو الرقم.
+Student Code {0} is already used by student {1}.,رمز الطالب {0} هو بالفعل مستخدم بواسطة الطالب {1}.
+Student Lifecycle,الطالب دورة الحياة
+Student Name,أسم الطالب
+Student Progress,التقدم القرآني للطالب
+Student Progress does not have a Student Assignment.,تقدم الطالب لا لديه إسناد الطالب.
+Student Without Active Assignment,طالب دون إسناد نشط
+Student in row {0} does not match the Student Assignment.,الطالب في الصف {0} لا يطابق الـ إسناد الطالب.
+Student is required.,الطالب هو مطلوب.
+Student {0} already has an Active Primary Assignment: {1}.,الطالب {0} بالفعل لديه نشط أساسي الإسناد: {1}.
+Student {0} does not exist.,الطالب {0} لا موجوداً.
+Student {0} must be Active before an assignment can be activated. Current status: {1}.,الطالب {0} يجب أن يكون نشط قبل الإسناد يمكن أن يكون تفعيله. الحالة الحالية: {1}.
+Students,الطلاب
+Students and Teaching,الطلاب والتعليم
+Study Track,مسار الدراسة
+Submit Application,إرسال الطلب
+Substitute,بديل
+Sughra,الصغرى
+Summary,ملخص
+Sunday,الأحد
+"Supervision Item, row {0}: Due Date cannot be before Visit Date.",بند الإشراف، الصف {0}: تاريخ الاستحقاق لا يمكن أن يكون قبل الزيارة التاريخ.
+"Supervision Item, row {0}: {1}",بند الإشراف، الصف {0}: {1}
+Supervision Items,الإشراف البنود
+Supervision Visit,زيارة الإشراف
+Supervisor,مشرف
+Supervisor Summary,ملخص المشرف
+Supervisor Summary is required for a Completed visit.,المشرف الملخص هو مطلوب لـ مكتمل الزيارة.
+Supervisor is required.,المشرف هو مطلوب.
+Supporting Document,داعم المستند
+Surah,السورة
+Surah Number,السورة الرقم
+Surah Number must be between 1 and 114.,السورة الرقم يجب أن يكون بين 1 و 114.
+Surah is required.,السورة هو مطلوب.
+Suspended,معلق
+Suspension,إيقاف
+System Manager,مدير النظام
+Tajweed,التجويد
+Tajweed Practical,التجويد العملي
+Tajweed Rules,التجويد الأحكام
+Tajweed Theory,التجويد النظري
+Tajweed Theory Score,التجويد النظري الدرجة
+Target Juz Level,مستوى الجزء المستهدف
+Teacher,المعلم
+Teacher Adherence,التزام المعلم
+Teacher Assessment,تقييم المعلم
+Teacher Name,اسم المعلم
+Teacher Name is required.,اسم المعلم هو مطلوب.
+Teacher Notes,ملاحظات المعلم
+Teacher follow-up {0} is overdue.,المعلم المتابعة {0} هو متأخرة.
+Teacher is required.,المعلم هو مطلوب.
+"Teacher {0} belongs to Branch {1}, not the selected Branch {2}.",المعلم {0} يتبع إلى الفرع {1}، لا الـ المحدد الفرع {2}.
+Teacher {0} does not exist.,المعلم {0} لا موجوداً.
+Teacher {0} is disabled.,المعلم {0} هو معطّل.
+Teacher {0} must be Active.,المعلم {0} يجب أن يكون نشط.
+Teacher {0} must be Active. Current status: {1}.,المعلم {0} يجب أن يكون نشط. الحالة الحالية: {1}.
+Teacher {0} must be enabled.,المعلم {0} يجب أن يكون مفعلاً.
+Teachers,المعلمون
+Teaching Location,موقع التدريس
+Teaching Location does not allow Halaqas.,موقع التدريس لا يسمح الحلقات.
+Teaching Location does not exist.,موقع التدريس لا موجوداً.
+Teaching Location must be Active.,موقع التدريس يجب أن يكون نشط.
+Teaching Location must belong to the selected Branch.,موقع التدريس يجب يتبع إلى الـ المحدد الفرع.
+"Teaching Location {0} belongs to Branch {1}, not the selected Branch {2}.",موقع التدريس {0} يتبع إلى الفرع {1}، لا الـ المحدد الفرع {2}.
+Teaching Location {0} does not exist.,موقع التدريس {0} لا موجوداً.
+Teaching Location {0} must be Active. Current status: {1}.,موقع التدريس {0} يجب أن يكون نشط. الحالة الحالية: {1}.
+Teaching Locations,مواقع التعليم
+Teaching locations cannot be linked to an inactive branch.,التدريس المواقع لا يمكن أن يكون مرتبط إلى غير نشط الفرع.
+Temporary,مؤقت
+Term Name,اسم الشرط
+"Term dates must fall between {0} and {1}, the dates of Academic Year {2}.",الفصل التواريخ يجب يقع بين {0} و {1}، الـ التواريخ لـ العام الدراسي {2}.
+Term {0} already exists in Academic Year {1}.,الفصل {0} بالفعل موجود في العام الدراسي {1}.
+Text,نص
+"Text completion requires 100% memorization, completed explanation, and a passing teacher assessment.",النص الإكمال يتطلب 100% الحفظ، مكتمل الشرح، و ناجح المعلم التقييم.
+The Final 10 Juz exam requires 30 completed Juz and verification of the other 20 Juz by the Sheikh.,النهائي 10 الجزء الاختبار يتطلب 30 مكتمل الجزء و تحقق لـ الـ الأخرى 20 الجزء بواسطة الـ الشيخ.
+The Final 30 Juz exam requires all 30 Juz.,النهائي 30 الجزء الاختبار يتطلب جميع 30 الجزء.
+"The assignment period overlaps with Primary Assignment {0}, from {1} to {2}.",الإسناد الفترة يتداخل مع أساسي الإسناد {0}، من {1} إلى {2}.
+The guardian must be notified before resolving this incident.,ولي الأمر يجب أن يكون إشعاره قبل حل هذا المخالفة.
+The proposed Halaqa must have a Branch and Academic Year.,المقترحة الحلقة يجب لديه الفرع و العام الدراسي.
+"The range {0}-{1} overlaps with Juz Level {2}, which uses the range {3}-{4}.",النطاق {0}-{1} يتداخل مع مستوى الجزء {2}، الذي يستخدم الـ النطاق {3}-{4}.
+The scientific committee exam requires at least 15 completed Juz.,العلمية اللجنة الاختبار يتطلب على الأقل 15 مكتمل الجزء.
+The scientific committee requires exactly one Chair.,العلمية اللجنة يتطلب بالضبط واحد الرئيس.
+The selected Academic Year does not exist.,المحدد العام الدراسي لا موجوداً.
+The selected Branch must be Active.,المحدد الفرع يجب أن يكون نشط.
+The selected Dar Quraan Branch does not exist.,المحدد دار القرآن الفرع لا موجوداً.
+The selected Default Branch does not exist.,المحدد الفرع الافتراضي لا موجوداً.
+The selected Default Branch must be Active. Current status: {0}.,المحدد الفرع الافتراضي يجب أن يكون نشط. الحالة الحالية: {0}.
+The selected Default Halaqa does not allow new student assignments.,المحدد الحلقة الافتراضية لا يسمح الجديد الطالب الإسنادات.
+The selected Default Halaqa does not exist.,المحدد الحلقة الافتراضية لا موجوداً.
+The selected Default Halaqa must be Active. Current status: {0}.,المحدد الحلقة الافتراضية يجب أن يكون نشط. الحالة الحالية: {0}.
+The selected Default Teacher does not exist.,المحدد المعلم الافتراضي لا موجوداً.
+The selected Default Teacher must be Active. Current status: {0}.,المحدد المعلم الافتراضي يجب أن يكون نشط. الحالة الحالية: {0}.
+This application is already linked to a student.,هذا الطلب هو بالفعل مرتبط إلى الطالب.
+This exam requires at least three scientific committee members.,هذا الاختبار يتطلب على الأقل ثلاثة العلمية اللجنة الأعضاء.
+Thursday,الخميس
+Tilawah,التلاوة
+Timing,التوقيت
+Title,اللقب
+To Ayah,إلى الآية
+To Ayah cannot be before From Ayah.,إلى الآية لا يمكن أن يكون قبل من الآية.
+To Ayah cannot exceed {0} for the selected Surah.,إلى الآية لا يمكن يتجاوز {0} لـ الـ المحدد السورة.
+To Ayah must be greater than zero.,إلى الآية يجب أن يكون أكبر من الصفر.
+To Date,إلى تاريخ
+To Page,إلى الصفحة
+To Page cannot be before From Page.,إلى الصفحة لا يمكن أن يكون قبل من الصفحة.
+To Page cannot be before page {0} for the selected Surah.,إلى الصفحة لا يمكن أن يكون قبل صفحة {0} لـ الـ المحدد السورة.
+To Page cannot exceed page {0} for the selected Surah.,إلى الصفحة لا يمكن يتجاوز صفحة {0} لـ الـ المحدد السورة.
+To Page cannot exceed the Surah ending page {0}.,إلى الصفحة لا يمكن يتجاوز الـ السورة نهاية صفحة {0}.
+To Page must be greater than zero.,إلى الصفحة يجب أن يكون أكبر من الصفر.
+Total Deduction,إجمالي الخصم
+Total Students,مجموع الطلاب
+Track / Riwayah,المسار / الرواية
+Transfer,نقل
+Transfer Reason,سبب النقل
+Transfer Reason is required for a Transfer assignment.,سبب النقل هو مطلوب لـ نقل الإسناد.
+Transliterated Name,الاسم المنقول صوتياً
+Tuesday,الثلاثاء
+Tuhfat Al-Atfal,تحفة الأطفال
+Unannounced,مفاجئة
+Under Review,قيد المراجعة
+Unknown,غير معروف
+Urgent,عاجل
+Use Finalize Admission to create the linked student.,استخدم إنهاء القبول إلى إنشاء الـ مرتبط الطالب.
+User,المستعمل
+User Guide,دليل المستخدم
+Verbal Notice,شفهي إنذار
+Verified Completed Juz at Exam,الأجزاء المكتملة المتحقق منها على الاختبار
+Verified Completed Juz must be between 0 and 30.,الأجزاء المكتملة المتحقق منها يجب أن يكون بين 0 و 30.
+Very Good,جيد جيد
+Visit Date,الزيارة التاريخ
+Visit Date is required.,الزيارة التاريخ هو مطلوب.
+Visit Type,نوع الزيارة
+Waqf and Ibtida,الوقف و الابتداء
+Weak Result Threshold,حد النتيجة الضعيفة
+Website,الموقع
+Wednesday,الأربعاء
+Weekly Individual Minutes,الدقائق الفردية الأسبوعية
+Weekly individual time must be at least 30 minutes.,أسبوعياً الفردي الوقت يجب أن يكون على الأقل 30 دقيقة.
+WhatsApp Number,رقم واتساب
+Widowed,ارمل
+Withdrawn,مسحوب
+Women,نساء
+Work Number,رقم العمل
+Written Notice,كتابي إنذار
+Your Dar Quraan admission application {0} is now {1}.,الخاص بك دار القرآن القبول الطلب {0} هو الآن {1}.
+Your application was received. The administration will contact you regarding the next step.,تم استلام طلبك. ستتواصل معك الإدارة بشأن الخطوة التالية.
+Youth,شباب
+{0} cannot be negative.,{0} لا يمكن أن يكون سالبة.
+{0} is required for approval.,{0} هو مطلوب لـ الموافقة.
+{0} is required.,{0} مطلوب.
+{0} must be between 0 and 30.,{0} يجب أن يكون بين 0 و 30.
+{0} must be between 1 and 5.,{0} يجب أن يكون بين 1 و 5.
+{0} must be greater than zero.,{0} يجب أن يكون أكبر من الصفر.
+{0} requires {1} memorization questions and {2} Tajweed questions.,{0} يتطلب {1} الحفظ أسئلة و {2} التجويد أسئلة.
+"{0}, row {1}: {2}",{0}، الصف {1}: {2}
+Academic Terms,الفصول الدراسية
+Academic Years,الأعوام الدراسية
+Active Students,الطلاب المنتظمون
+Active Teachers,المعلمون النشطون
+Admission Applications,طلبات القبول
+Admissions and Enrollment,القبول والتسجيل
+Admissions by Status,طلبات القبول حسب الحالة
+Analytics,التحليلات والتقارير
+Analytics and Reports,التحليلات والتقارير
+Attendance Activity,حركة تسجيل الحضور
+Branch Analytics,تحليلات الفروع
+Configuration and Masters,الإعدادات والبيانات المرجعية
+Daily Actions,الإجراءات اليومية
+Daily Sessions,الجلسات اليومية
+Dar Quraan Command Center,مركز قيادة دار القرآن
+Discipline Incidents,المخالفات السلوكية
+Discipline Rules,قواعد الانضباط
+Error Rules,قواعد احتساب الأخطاء
+Exams and Certification,الاختبارات والإجازات
+Exceptions,التنبيهات التشغيلية
+Formal Exams,الاختبارات الرسمية
+Halaqa Analytics,تحليلات الحلقات
+Institute Capabilities,منظومة العمل المؤسسي
+Juz Levels,مستويات الأجزاء
+New Admission,طلب قبول جديد
+Next Assignments,التكليفات القادمة
+Open Admissions,طلبات القبول قيد الإجراء
+Open Exceptions by Severity,التنبيهات المفتوحة حسب الأولوية
+Operational Insights,مؤشرات الأداء والتشغيل
+Organization and Scheduling,الهيكل التنظيمي والجداول
+Programs,البرامج التعليمية
+Quality and Student Care,الجودة والرعاية الطلابية
+Quran State,الحالة القرآنية للطالب
+Sessions,الجلسات
+Settings,إعدادات دار القرآن
+Student Analytics,تحليلات الطلاب
+Student Assignments,إسنادات الطلاب
+Students by Status,الطلاب حسب الحالة
+Supervision Visits,الزيارات الإشرافية
+Surahs,السور القرآنية
+Teacher Analytics,تحليلات المعلمين
+Teacher Follow Ups,متابعات المعلمين
+Teaching and Quran Journey,التعليم والمسار القرآني
+Text Progress,تقدم المتون
+Viewer,مستخدم للعرض فقط
+Weekly Slots,المواعيد الأسبوعية

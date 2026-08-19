@@ -54,8 +54,7 @@ class TestProjectConfiguration(FrappeTestCase):
 
 	def test_workspace_has_operational_navigation(self):
 		workspace = frappe.get_doc("Workspace", "Dar Quraan")
-		content = frappe.parse_json(workspace.content)
-		shortcuts = {item.get("data", {}).get("shortcut_name") for item in content}
+		shortcut_targets = {shortcut.link_to for shortcut in workspace.shortcuts if shortcut.link_to}
 		for target in ("Dar Quraan Attendance", "Dar Quraan Student", "Dar Quraan Exception"):
 			with self.subTest(target=target):
-				self.assertIn(target, shortcuts)
+				self.assertIn(target, shortcut_targets)
