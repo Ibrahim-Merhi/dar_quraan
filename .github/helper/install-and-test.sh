@@ -6,6 +6,8 @@ BENCH_ROOT="${RUNNER_TEMP}/frappe-bench"
 python -m pip install frappe-bench
 bench init --skip-assets --frappe-branch v15.35.0 "${BENCH_ROOT}"
 cd "${BENCH_ROOT}"
+# Frappe 15.35 still imports pkg_resources, which newer setuptools releases removed.
+./env/bin/pip install --quiet "setuptools<81"
 bench get-app --branch v15.22.2 erpnext https://github.com/frappe/erpnext
 ln -s "${APP_ROOT}" apps/dar_quraan
 ./env/bin/pip install --quiet --editable apps/erpnext --editable apps/dar_quraan
