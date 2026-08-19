@@ -10,7 +10,7 @@ cd "${BENCH_ROOT}"
 ./env/bin/pip install --quiet "setuptools<81"
 bench get-app --branch v15.22.2 erpnext https://github.com/frappe/erpnext
 ln -s "${APP_ROOT}" apps/dar_quraan
-echo "dar_quraan" >> sites/apps.txt
+printf "\ndar_quraan\n" >> sites/apps.txt
 ./env/bin/pip install --quiet --editable apps/erpnext --editable apps/dar_quraan
 bench new-site test_site --db-root-password root --admin-password admin --no-mariadb-socket
 bench --site test_site install-app erpnext
