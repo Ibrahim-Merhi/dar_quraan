@@ -135,8 +135,8 @@ class TestDarQuraanAttendance(FrappeTestCase):
 
 		def fake_get_value(
 			doctype,
-			name,
-			fields,
+			name=None,
+			fields=None,
 			*args,
 			**kwargs,
 		):
@@ -156,6 +156,9 @@ class TestDarQuraanAttendance(FrappeTestCase):
 
 						if fields == "halaqa":
 							return assignment.halaqa
+
+			if "fieldname" in kwargs:
+				return original_get_value(doctype, name, *args, **kwargs)
 
 			return original_get_value(
 				doctype,
