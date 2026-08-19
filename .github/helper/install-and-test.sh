@@ -8,6 +8,8 @@ bench init --skip-assets --frappe-branch v15.35.0 "${BENCH_ROOT}"
 cd "${BENCH_ROOT}"
 # Frappe 15.35 still imports pkg_resources, which newer setuptools releases removed.
 ./env/bin/pip install --quiet "setuptools<81"
+redis-server config/redis_cache.conf --daemonize yes
+redis-server config/redis_queue.conf --daemonize yes
 bench get-app --branch v15.22.2 erpnext https://github.com/frappe/erpnext
 ln -s "${APP_ROOT}" apps/dar_quraan
 printf "\ndar_quraan\n" >> sites/apps.txt
